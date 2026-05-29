@@ -504,6 +504,12 @@ Paragraph breaks will be set regardless of blank lines where there are differenc
   <data name="FontFaceInfoModel_UseEdge2_Undo" xml:space="preserve">
     <value>Edge 2</value>
   </data>
+  <data name="FontFaceInfoModel_XScale_Undo" xml:space="preserve">
+    <value>X scale</value>
+  </data>
+  <data name="FontFaceSettingsWindow_Title" xml:space="preserve">
+    <value>Font face settings of "{0}"</value>
+  </data>
   <data name="FontSelectorPageViewModel_PageDescription" xml:space="preserve">
     <value>Automatically sets the font for all rows.</value>
   </data>
@@ -640,6 +646,9 @@ by dragging the top or bottom edge.</value>
   <data name="LyricsFontBrushControl_ToggleButtonSolid.ToolTipService.ToolTip" xml:space="preserve">
     <value>Solid color fill</value>
   </data>
+  <data name="LyricsFontControl_ButtonFontFaceSettings.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Font face settings...</value>
+  </data>
   <data name="LyricsFontControl_ButtonSwapWipe.ToolTipService.ToolTip" xml:space="preserve">
     <value>Swap the color scheme before and after the wipe</value>
   </data>
@@ -659,13 +668,13 @@ by dragging the top or bottom edge.</value>
     <value>Text decoration size:</value>
   </data>
   <data name="LyricsFontControl_TextBlockFontFaceInfo.Text" xml:space="preserve">
-    <value>Font</value>
+    <value>Font face: </value>
   </data>
   <data name="LyricsFontControl_TextBlockFontInfo.Text" xml:space="preserve">
     <value>Lyrics   Ruby</value>
   </data>
   <data name="LyricsFontControl_TextBlockSample.Text" xml:space="preserve">
-    <value>Sample:</value>
+    <value>Sample</value>
   </data>
   <data name="LyricsFontControl_ToggleButtonDecorAfter.Content" xml:space="preserve">
     <value>Decor</value>
@@ -758,7 +767,8 @@ by dragging the top or bottom edge.</value>
     <value>Font size:</value>
   </data>
   <data name="LyricsFontFaceControl_TextBlockCharSizeSizeNote_0.Text" xml:space="preserve">
-    <value>(If 0, set to </value>
+    <value>(If 0, set to: </value>
+    <comment>It seems that trailing spaces are not being recognized, so I'm putting a colon instead.</comment>
   </data>
   <data name="LyricsFontFaceControl_TextBlockCharSizeSizeNote_1.Text" xml:space="preserve">
     <value>)</value>
@@ -770,7 +780,7 @@ by dragging the top or bottom edge.</value>
     <value>Edge 2 width:</value>
   </data>
   <data name="LyricsFontFaceControl_TextBlockEdgeSize2SizeNote_0.Text" xml:space="preserve">
-    <value>(If 0, set to </value>
+    <value>(If 0, set to: </value>
   </data>
   <data name="LyricsFontFaceControl_TextBlockEdgeSize2SizeNote_1.Text" xml:space="preserve">
     <value>)</value>
@@ -779,7 +789,7 @@ by dragging the top or bottom edge.</value>
     <value>Edge width:</value>
   </data>
   <data name="LyricsFontFaceControl_TextBlockEdgeSizeSizeNote_0.Text" xml:space="preserve">
-    <value>(If 0, set to </value>
+    <value>(If 0, set to: </value>
   </data>
   <data name="LyricsFontFaceControl_TextBlockEdgeSizeSizeNote_1.Text" xml:space="preserve">
     <value>)</value>
@@ -788,15 +798,24 @@ by dragging the top or bottom edge.</value>
     <value>Font:</value>
   </data>
   <data name="LyricsFontFaceControl_TextBlockFontNameNote_0.Text" xml:space="preserve">
-    <value>(If left blank, set to </value>
+    <value>(If left blank, set to: </value>
   </data>
   <data name="LyricsFontFaceControl_TextBlockFontNameNote_1.Text" xml:space="preserve">
     <value>)</value>
   </data>
   <data name="LyricsFontFaceControl_TextBlockUseEdge2Note_0.Text" xml:space="preserve">
-    <value>(If -, set to </value>
+    <value>(If -, set to: </value>
   </data>
   <data name="LyricsFontFaceControl_TextBlockUseEdge2Note_1.Text" xml:space="preserve">
+    <value>)</value>
+  </data>
+  <data name="LyricsFontFaceControl_TextBlockXScale.Text" xml:space="preserve">
+    <value>X scale:</value>
+  </data>
+  <data name="LyricsFontFaceControl_TextBlockXScaleNote_0.Text" xml:space="preserve">
+    <value>(If 0, set to: </value>
+  </data>
+  <data name="LyricsFontFaceControl_TextBlockXScaleNote_1.Text" xml:space="preserve">
     <value>)</value>
   </data>
   <data name="LyricsFontModel_BrushInfoModel_SettingsName_0" xml:space="preserve">
@@ -827,19 +846,19 @@ by dragging the top or bottom edge.</value>
     <value>Lyrics / Kanji</value>
   </data>
   <data name="LyricsFontModel_FontFaceInfoModel_SettingsName_1" xml:space="preserve">
-    <value>Kana</value>
+    <value>Lyrics / Kana</value>
   </data>
   <data name="LyricsFontModel_FontFaceInfoModel_SettingsName_2" xml:space="preserve">
-    <value>Alnum</value>
+    <value>Lyrics / Alnum</value>
   </data>
   <data name="LyricsFontModel_FontFaceInfoModel_SettingsName_3" xml:space="preserve">
     <value>Ruby / Kanji</value>
   </data>
   <data name="LyricsFontModel_FontFaceInfoModel_SettingsName_4" xml:space="preserve">
-    <value>Kana</value>
+    <value>Ruby / Kana</value>
   </data>
   <data name="LyricsFontModel_FontFaceInfoModel_SettingsName_5" xml:space="preserve">
-    <value>Alnum</value>
+    <value>Ruby / Alnum</value>
   </data>
   <data name="LyricsFontModel_ModelName" xml:space="preserve">
     <value>Font</value>
@@ -1057,7 +1076,7 @@ by dragging the top or bottom edge.</value>
     <value>Settings...</value>
   </data>
   <data name="MainPage_MenuFlyoutItemSupport.Text" xml:space="preserve">
-    <value>Request for support and donations (Japanese)</value>
+    <value>Buy Me a Coffee</value>
   </data>
   <data name="MainPage_MenuFlyoutItemToastHistory.Text" xml:space="preserve">
     <value>Notification history...</value>
@@ -1150,6 +1169,9 @@ There is no need to re-register.</value>
   <data name="MainPageFontControl_ToggleButtonSynchronize.Content" xml:space="preserve">
     <value>Synchronization</value>
   </data>
+  <data name="MainPageFontControlViewModel_ButtonFontFaceSettingsClicked_Undo_FontFace" xml:space="preserve">
+    <value>Font face</value>
+  </data>
   <data name="MainPageFontControlViewModel_Caption" xml:space="preserve">
     <value>The font settings panel allows you to configure the detailed settings for the font specified in the lyrics settings panel.
 You can create subtitles by setting only "Font Setting 1," but you can also set multiple fonts as needed.</value>
@@ -1216,6 +1238,9 @@ Are you sure?</value>
   <data name="MainPageFrameRateControl_TextBlockFrameRate.Text" xml:space="preserve">
     <value>Frame rate:</value>
   </data>
+  <data name="MainPageLayoutControl_ButtonSearch.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Layout settings search</value>
+  </data>
   <data name="MainPageLayoutControl_ButtonTool.ToolTipService.ToolTip" xml:space="preserve">
     <value>Various</value>
   </data>
@@ -1234,6 +1259,9 @@ Are you sure?</value>
   <data name="MainPageLayoutControl_TextBlockSynchronize.Text" xml:space="preserve">
     <value>Template synchronization:</value>
   </data>
+  <data name="MainPageLayoutControl_TextBoxSearch.PlaceholderText" xml:space="preserve">
+    <value>Layout settings search</value>
+  </data>
   <data name="MainPageLayoutControl_ToggleButtonSynchronize.Content" xml:space="preserve">
     <value>Synchronization</value>
   </data>
@@ -1249,6 +1277,9 @@ Are you sure?</value>
     <value>Remove "{0}".
 Are you sure?</value>
   </data>
+  <data name="MainPageLayoutControlViewModel_Error_FindLyricsLayout" xml:space="preserve">
+    <value>Please enter your search keywords.</value>
+  </data>
   <data name="MainPageLayoutControlViewModel_Error_LoadTemplateDup" xml:space="preserve">
     <value>The template "{0}" is already in use.</value>
   </data>
@@ -1257,6 +1288,9 @@ Are you sure?</value>
   </data>
   <data name="MainPageLayoutControlViewModel_Error_LoadTemplateUnable" xml:space="preserve">
     <value>The template could not be loaded.</value>
+  </data>
+  <data name="MainPageLayoutControlViewModel_Error_NoSearch" xml:space="preserve">
+    <value>There are no layout settings that include "{0}" in the name.</value>
   </data>
   <data name="MainPageLayoutControlViewModel_Error_RemoveHorizontalLayoutLast" xml:space="preserve">
     <value>The last setting cannot be removed.</value>
@@ -1436,8 +1470,8 @@ Are you sure?</value>
   <data name="MainPageOutputControl_HyperlinkButtonCreatorSupport1C.Content" xml:space="preserve">
     <value>Creator support</value>
   </data>
-  <data name="MainPageOutputControl_HyperlinkButtonFantia1C2.Content" xml:space="preserve">
-    <value>fansite</value>
+  <data name="MainPageOutputControl_HyperlinkButtonFantia1C.Content" xml:space="preserve">
+    <value>Buy Me a Coffee</value>
   </data>
   <data name="MainPageOutputControl_TextBlockContentsTree1.Text" xml:space="preserve">
     <value>When uploading a created video to Niconico Douga, you need the original video (the video specified in the background material panel) and,</value>
@@ -1466,14 +1500,11 @@ Are you sure?</value>
   <data name="MainPageOutputControl_TextBlockDestPath.Text" xml:space="preserve">
     <value>Output file name:</value>
   </data>
-  <data name="MainPageOutputControl_TextBlockFantia1C1.Text" xml:space="preserve">
-    <value>'s "</value>
+  <data name="MainPageOutputControl_TextBlockFantia1L.Text" xml:space="preserve">
+    <value>If you enjoyed this app, "</value>
   </data>
   <data name="MainPageOutputControl_TextBlockFantia1R.Text" xml:space="preserve">
-    <value>" is opened.</value>
-  </data>
-  <data name="MainPageOutputControl_TextBlockFantia2.Text" xml:space="preserve">
-    <value>We look forward to you joining us.</value>
+    <value>"</value>
   </data>
   <data name="MainPageOutputControlViewModel_AddDestFile" xml:space="preserve">
     <value>_NicokaraOutput</value>
@@ -1731,6 +1762,9 @@ For details on the update, please refer to the [Help → Update history] menu.</
   </data>
   <data name="MainPageViewModel_Undo_SynchronizeTemplate" xml:space="preserve">
     <value>Reflecting template changes from other projects</value>
+  </data>
+  <data name="MainPageViewModel_UndoTo_Error_CannotUndo" xml:space="preserve">
+    <value>Unable to undo.</value>
   </data>
   <data name="MainPageViewModel_Warning_Beta" xml:space="preserve">
     <value>This version is a beta version under development.
@@ -2089,8 +2123,35 @@ Are you sure?</value>
   <data name="Nkm3SettingsPageGeneralControl_TextBlockFastTime.Text" xml:space="preserve">
     <value>Fast rewind/forward times during preview (approximate)</value>
   </data>
+  <data name="Nkm3SettingsPageGeneralControl_TextBlockFontFace.Text" xml:space="preserve">
+    <value>Display font face:</value>
+  </data>
+  <data name="Nkm3SettingsPageGeneralControl_TextBlockFontSample.Text" xml:space="preserve">
+    <value>Font sample character:</value>
+  </data>
+  <data name="Nkm3SettingsPageGeneralControl_TextBlockFontSampleAlnum.Text" xml:space="preserve">
+    <value>Alnum:</value>
+  </data>
+  <data name="Nkm3SettingsPageGeneralControl_TextBlockFontSampleKana.Text" xml:space="preserve">
+    <value>Kana:</value>
+  </data>
+  <data name="Nkm3SettingsPageGeneralControl_TextBlockFontSampleKanji.Text" xml:space="preserve">
+    <value>Kanji:</value>
+  </data>
   <data name="Nkm3SettingsPageGeneralControl_TextBlockSpaceWidth.Text" xml:space="preserve">
     <value>Width of a half-width space:</value>
+  </data>
+  <data name="Nkm3SettingsPageGeneralControlViewModel_CheckProperties_Error_Alnum" xml:space="preserve">
+    <value>Please enter alphanumeric characters in the "Alnum" field of the font sample text.</value>
+  </data>
+  <data name="Nkm3SettingsPageGeneralControlViewModel_CheckProperties_Error_Empty" xml:space="preserve">
+    <value>Enter some sample characters for the font.</value>
+  </data>
+  <data name="Nkm3SettingsPageGeneralControlViewModel_CheckProperties_Error_Kana" xml:space="preserve">
+    <value>Please enter kana characters in the "Kana" field of the font sample text.</value>
+  </data>
+  <data name="Nkm3SettingsPageGeneralControlViewModel_CheckProperties_Error_Length" xml:space="preserve">
+    <value>Use only one character for the font sample.</value>
   </data>
   <data name="Nkm3SettingsPageGeneralControlViewModel_ColorSpecifyTypeNames_0" xml:space="preserve">
     <value>RGBA decimal</value>
