@@ -74,5 +74,10 @@ We will list the translator's name here.
 
 ## Contributors
 
+Alphabetical order
+
 - en-US
   - SHINTA
+- zh-CN
+  - FMPeach
+  - luotaii

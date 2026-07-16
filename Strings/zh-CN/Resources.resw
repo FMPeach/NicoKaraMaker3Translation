@@ -1752,7 +1752,7 @@ If you do not want to insert a table of contents, do not use the Toc tag.</value
     <value>使用 {0} 制作的视频列表</value>
   </data>
   <data name="MainPageViewModel_MenuFlyoutItemLatestInfoHistoryText" xml:space="preserve">
-    <value>关于 {0} 的最新信息...</value>
+    <value>{0} 的最新消息...</value>
   </data>
   <data name="MainPageViewModel_SwitchToDefaultFontIfNeeded_Warning" xml:space="preserve">
     <value>该项目中使用的字体未安装，因此将使用替代字体。
