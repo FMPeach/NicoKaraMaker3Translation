@@ -2544,7 +2544,7 @@
     <value>设置方法：</value>
   </data>
   <data name="SettingsAddOnPage_TextBlockContinue.Text" xml:space="preserve">
-    <value>完成初始设置后，请按照以下步骤操作。</value>
+    <value>设置此项后，自动执行以下操作：</value>
   </data>
   <data name="SettingsAddOnPage_TextBlockSettings.Text" xml:space="preserve">
     <value>设置</value>
@@ -2554,7 +2554,7 @@
   </data>
   <data name="SettingsAddOnPageCharFadeInFadeOutControl_CheckBoxDelayInlineGraphics.ToolTipService.ToolTip" xml:space="preserve">
     <value>将内嵌图形用作分隔歌词部分的图标时，
-启用此选项可以让图标更清晰。</value>
+启用此选项可以延长内联图形的显示时间。</value>
   </data>
   <data name="SettingsAddOnPageCharFadeInFadeOutControl_CheckBoxWholeFadeOut.Content" xml:space="preserve">
     <value>显示画面将根据结束时间逐渐淡出（类似于淡入效果）</value>
@@ -2650,7 +2650,7 @@
     <value>请将走字前后的显示时间控制在保护时间以内。</value>
   </data>
   <data name="SettingsAddOnPageTopShortAdjusterControl_TextBoxPostTime2.ToolTipService.ToolTip" xml:space="preserve">
-    <value>如果动作是“逐字纷飞”，将走字后显示时间设为 1000 [ms] 以上，可让行末飞出效果更自然。</value>
+    <value>如果动作是“逐字纷飞”，将走字后显示时间设为 1000ms 以上，可让行末飞出效果更自然。</value>
   </data>
   <data name="SettingsAddOnPageUnificationFontSelectorControl_TextBlockFont.Text" xml:space="preserve">
     <value>使用字体：</value>
