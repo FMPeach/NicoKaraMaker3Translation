@@ -70,6 +70,8 @@ The project owner will review the pull request and, if there are no issues, will
 
 The next version of Nicokara Karaoke Video Maker 3 will include translations.
 
+Check [here](https://medium.com/@shinta0806) for information regarding the app release.
+
 We will list the translator's name here.
 
 ## Contributors
