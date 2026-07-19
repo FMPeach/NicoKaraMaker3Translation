@@ -1613,7 +1613,7 @@
     <value>图像：</value>
   </data>
   <data name="MainPageSourceControl_TextBlockImagePath2.Text" xml:space="preserve">
-    <value>图像序列中的第一张图片：</value>
+    <value>图像序列第一帧：</value>
   </data>
   <data name="MainPageSourceControl_TextBlockIsBackground.Text" xml:space="preserve">
     <value>背景将被填充为指定的颜色。</value>
@@ -1628,7 +1628,7 @@
     <value>使用图像序列作为背景。</value>
   </data>
   <data name="MainPageSourceControl_TextBlockMoviePath.Text" xml:space="preserve">
-    <value>用作背景的源视频：</value>
+    <value>背景视频：</value>
   </data>
   <data name="MainPageSourceControl_TextBlockSourceDuration.Text" xml:space="preserve">
     <value>时长：</value>
