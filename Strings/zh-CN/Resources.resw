@@ -493,7 +493,8 @@
     <value>描边 2 宽度</value>
   </data>
   <data name="FontFaceInfoModel_FallbackName_Default" xml:space="preserve">
-    <value>默认字体</value>
+    <value>默认值</value>
+    <comment>这里英文是Default Font，但是在程序上的表现是所有关于默认值回退的文本提醒都会提示这个，所以这里改成“默认值”</comment>
   </data>
   <data name="FontFaceInfoModel_FontFaceName_Undo" xml:space="preserve">
     <value>字体外观</value>
@@ -962,10 +963,10 @@
     <value>垂直对齐</value>
   </data>
   <data name="LyricsLayoutControl_TextBlockVerticalMarginBottomSize.Text" xml:space="preserve">
-    <value>底间距：</value>
+    <value>底边距：</value>
   </data>
   <data name="LyricsLayoutControl_TextBlockVerticalMarginTopSize.Text" xml:space="preserve">
-    <value>顶间距：</value>
+    <value>顶边距：</value>
   </data>
   <data name="LyricsLayoutControl_ToggleButtonBottom.Content" xml:space="preserve">
     <value>底部</value>
