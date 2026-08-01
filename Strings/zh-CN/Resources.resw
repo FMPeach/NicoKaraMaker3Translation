@@ -2115,7 +2115,7 @@
     <value>在每个标签页上显示关闭按钮</value>
   </data>
   <data name="Nkm3SettingsPageGeneralControl_CheckBoxIsolateLongRubyKanji.Content" xml:space="preserve">
-    <value>注音过长时被注音文字两侧留白</value>
+    <value>注音过长时，在被注音文字两侧留白。</value>
   </data>
   <data name="Nkm3SettingsPageGeneralControl_TextBlockAutoSaveInterval_1.Text" xml:space="preserve">
     <value>自动保存间隔：</value>
@@ -2544,7 +2544,7 @@
     <value>设置方法：</value>
   </data>
   <data name="SettingsAddOnPage_TextBlockContinue.Text" xml:space="preserve">
-    <value>完成上述设置后，可以继续执行以下设置：</value>
+    <value>完成这个设置后，将会执行下列自动设置：</value>
   </data>
   <data name="SettingsAddOnPage_TextBlockSettings.Text" xml:space="preserve">
     <value>设置</value>
