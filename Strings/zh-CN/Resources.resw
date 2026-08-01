@@ -493,8 +493,8 @@
     <value>描边 2 宽度</value>
   </data>
   <data name="FontFaceInfoModel_FallbackName_Default" xml:space="preserve">
-    <value>默认值</value>
-    <comment>这里英文是Default Font，但是在程序上的表现是所有关于默认值回退的文本提醒都会提示这个，所以这里改成“默认值”</comment>
+    <value>默认字体</value>
+    <comment>2026.08.01 注：这里确定是我理解错意思了，改回去才符合原意。</comment>
   </data>
   <data name="FontFaceInfoModel_FontFaceName_Undo" xml:space="preserve">
     <value>字体外观</value>
@@ -509,7 +509,7 @@
     <value>描边 2</value>
   </data>
   <data name="FontFaceInfoModel_XScale_Undo" xml:space="preserve">
-    <value>X 方向缩放</value>
+    <value>长宽比例</value>
   </data>
   <data name="FontFaceSettingsWindow_Title" xml:space="preserve">
     <value>“{0}”的字体外观设置</value>
@@ -2017,7 +2017,7 @@
     <value>PNG 图像序列</value>
   </data>
   <data name="Nkm3Common_DestFormatFilterName_3" xml:space="preserve">
-    <value>连续 PNG 图像（透明背景）</value>
+    <value>PNG 图像序列（透明背景）</value>
   </data>
   <data name="Nkm3Common_ExeFilterName" xml:space="preserve">
     <value>可执行文件</value>
@@ -2115,7 +2115,7 @@
     <value>在每个标签页上显示关闭按钮</value>
   </data>
   <data name="Nkm3SettingsPageGeneralControl_CheckBoxIsolateLongRubyKanji.Content" xml:space="preserve">
-    <value>如果注音文本超过基准字符宽度，则在基准字符两侧添加空白。</value>
+    <value>如果注音文本超过基准字符宽度，则在基准字符两侧添加空白</value>
   </data>
   <data name="Nkm3SettingsPageGeneralControl_TextBlockAutoSaveInterval_1.Text" xml:space="preserve">
     <value>自动保存间隔：</value>
