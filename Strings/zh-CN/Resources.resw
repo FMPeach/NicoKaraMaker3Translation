@@ -2115,7 +2115,7 @@
     <value>在每个标签页上显示关闭按钮</value>
   </data>
   <data name="Nkm3SettingsPageGeneralControl_CheckBoxIsolateLongRubyKanji.Content" xml:space="preserve">
-    <value>注音过长时，在被注音文字两侧留白。</value>
+    <value>注音过长时，在对应文字的两侧留白。</value>
   </data>
   <data name="Nkm3SettingsPageGeneralControl_TextBlockAutoSaveInterval_1.Text" xml:space="preserve">
     <value>自动保存间隔：</value>
@@ -2342,7 +2342,7 @@
     <value>合唱</value>
   </data>
   <data name="PartFontSelector_Description" xml:space="preserve">
-    <value>为主歌和其他部分（如和声）设置不同字体。</value>
+    <value>为主歌和其他部分（如合唱）设置不同字体。</value>
   </data>
   <data name="PartFontSelector_Name" xml:space="preserve">
     <value>为每个部分设置字体</value>
@@ -2544,7 +2544,7 @@
     <value>设置方法：</value>
   </data>
   <data name="SettingsAddOnPage_TextBlockContinue.Text" xml:space="preserve">
-    <value>完成这个设置后，将会执行下列自动设置：</value>
+    <value>完成设置此项后，自动执行以下操作：</value>
   </data>
   <data name="SettingsAddOnPage_TextBlockSettings.Text" xml:space="preserve">
     <value>设置</value>
@@ -2816,7 +2816,7 @@
     <value>所有内容都使用同一动作</value>
   </data>
   <data name="Utopia_Description" xml:space="preserve">
-    <value>走字后的文字会旋转着消失</value>
+    <value>走字后的文字会缩放并飞出</value>
   </data>
   <data name="Utopia_Name" xml:space="preserve">
     <value>逐字纷飞</value>
