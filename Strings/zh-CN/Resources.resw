@@ -2816,7 +2816,7 @@
     <value>所有内容都使用同一动作</value>
   </data>
   <data name="Utopia_Description" xml:space="preserve">
-    <value>走字后的文字会缩放并飞出</value>
+    <value>走字后的文字会扭曲着缩小并飞出</value>
   </data>
   <data name="Utopia_Name" xml:space="preserve">
     <value>逐字纷飞</value>
