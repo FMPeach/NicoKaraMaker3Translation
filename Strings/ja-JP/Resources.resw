@@ -1,0 +1,2838 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutPage_ButtonCheckUpdate.Content" xml:space="preserve">
+    <value>更新プログラムの確認(U)</value>
+  </data>
+  <data name="AboutPage_ButtonHistory.Content" xml:space="preserve">
+    <value>更新履歴(H)</value>
+  </data>
+  <data name="AboutPage_TextBlockAppDistrib.Text" xml:space="preserve">
+    <value>配布ページ：</value>
+  </data>
+  <data name="AboutPage_TextBlockAppInfo.Text" xml:space="preserve">
+    <value>アプリケーション情報</value>
+  </data>
+  <data name="AboutPage_TextBlockAppSupport.Text" xml:space="preserve">
+    <value>サポートページ：</value>
+  </data>
+  <data name="AboutPage_TextBlockAppTranslationProject.Text" xml:space="preserve">
+    <value>翻訳プロジェクト：</value>
+  </data>
+  <data name="AboutPage_TextBlockAuthorCreatorSupport.Text" xml:space="preserve">
+    <value>クリエイターサポート：</value>
+  </data>
+  <data name="AboutPage_TextBlockAuthorEMail.Text" xml:space="preserve">
+    <value>E メール：</value>
+  </data>
+  <data name="AboutPage_TextBlockAuthorFanbox.Text" xml:space="preserve">
+    <value>ファンサイト：</value>
+  </data>
+  <data name="AboutPage_TextBlockAuthorInfo.Text" xml:space="preserve">
+    <value>作者情報</value>
+  </data>
+  <data name="AboutPage_TextBlockAuthorTwitter.Text" xml:space="preserve">
+    <value>X (Twitter)：</value>
+  </data>
+  <data name="AboutPage_TextBlockAuthorWeb.Text" xml:space="preserve">
+    <value>ホームページ：</value>
+  </data>
+  <data name="AboutWindow_Title" xml:space="preserve">
+    <value>{0} のバージョン情報</value>
+  </data>
+  <data name="App_Fatal_UnhandledException" xml:space="preserve">
+    <value>不明なエラーが発生しました。アプリケーションを終了します。</value>
+  </data>
+  <data name="AppInfo_AppName" xml:space="preserve">
+    <value>ニコカラメーカー 3</value>
+  </data>
+  <data name="AppInfo_AssociationName" xml:space="preserve">
+    <value>ニコカラメーカー 3 プロジェクトファイル</value>
+  </data>
+  <data name="AppInfo_Description" xml:space="preserve">
+    <value>カラオケ字幕動画ファイル（ニコカラ）を手軽に作ることができる字幕焼き付けツールです。</value>
+  </data>
+  <data name="AppInfo_Distribution_Store" xml:space="preserve">
+    <value>ストア版</value>
+  </data>
+  <data name="AppInfo_Distribution_Zip" xml:space="preserve">
+    <value>zip 版</value>
+  </data>
+  <data name="AudioPlayer_AudioPlayer_Error_BadAudio" xml:space="preserve">
+    <value>オーディオ再生環境に異常があります。</value>
+  </data>
+  <data name="BrushInfoModel_Description_Bitmap" xml:space="preserve">
+    <value>画像を貼り付けます。</value>
+  </data>
+  <data name="BrushInfoModel_Description_Gradient" xml:space="preserve">
+    <value>グラデーション（滑らかに変化する多色）で塗りつぶします。</value>
+  </data>
+  <data name="BrushInfoModel_Description_MilleFeuille" xml:space="preserve">
+    <value>ミルフィーユ（くっきりと変化する多色）で塗りつぶします。</value>
+  </data>
+  <data name="BrushInfoModel_Description_Solid" xml:space="preserve">
+    <value>指定の色で塗りつぶします。</value>
+  </data>
+  <data name="BrushInfoModel_Error_BitmapPathEmpty" xml:space="preserve">
+    <value>画像ファイルを指定してください。</value>
+  </data>
+  <data name="BrushInfoModel_Error_BitmapPathNotExist" xml:space="preserve">
+    <value>{0} は存在しません。</value>
+  </data>
+  <data name="BrushInfoModel_ModelName" xml:space="preserve">
+    <value>配色</value>
+  </data>
+  <data name="BrushInfoModel_Undo_BitmapPath" xml:space="preserve">
+    <value>画像ファイル</value>
+  </data>
+  <data name="BrushInfoModel_Undo_BitmapScale" xml:space="preserve">
+    <value>画像拡大率</value>
+  </data>
+  <data name="BrushInfoModel_Undo_SelectedBrushTypeIndex" xml:space="preserve">
+    <value>塗りつぶし</value>
+  </data>
+  <data name="BrushInfoModel_Undo_SolidColor" xml:space="preserve">
+    <value>色の変更</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="Cfm2SettingsNavigationMaintenancePage_ButtonBackup.Content" xml:space="preserve">
+    <value>設定のバックアップ(B)</value>
+  </data>
+  <data name="Cfm2SettingsNavigationMaintenancePage_ButtonCheckRss.Content" xml:space="preserve">
+    <value>今すぐ最新情報を確認(A)</value>
+  </data>
+  <data name="Cfm2SettingsNavigationMaintenancePage_ButtonRestore.Content" xml:space="preserve">
+    <value>設定の復元(R)</value>
+  </data>
+  <data name="Cfm2SettingsNavigationMaintenancePage_CheckBoxCheckRss_Content" xml:space="preserve">
+    <value>{0} の最新情報を自動的に確認する(L)</value>
+  </data>
+  <data name="Cfm2SettingsNavigationMaintenancePage_TextBlockBackup.Text" xml:space="preserve">
+    <value>設定のバックアップ（ファイルに保存）</value>
+  </data>
+  <data name="Cfm2SettingsNavigationMaintenancePageViewModel_Confirm_CheckRss" xml:space="preserve">
+    <value>最新情報の確認を無効にすると、{0} の新版がリリースされた際の更新内容などが表示されません。
+本当に無効にしてもよろしいですか？</value>
+  </data>
+  <data name="Cfm2SettingsNavigationMaintenancePageViewModel_Confirm_LoadSettingsArchiveAsync" xml:space="preserve">
+    <value>異なるバージョンの設定を復元しようとしています。
+正常に復元できない可能性がありますが、復元しますか？</value>
+  </data>
+  <data name="Cfm2SettingsNavigationMaintenancePageViewModel_Done_ButtonBackupClicked" xml:space="preserve">
+    <value>設定のバックアップが完了しました。</value>
+  </data>
+  <data name="Cfm2SettingsNavigationMaintenancePageViewModel_Done_ButtonRestoreClicked" xml:space="preserve">
+    <value>設定を復元しました。</value>
+  </data>
+  <data name="Cfm2SettingsNavigationMaintenancePageViewModel_Error_ButtonBackupClicked" xml:space="preserve">
+    <value>設定のバックアップボタンクリック時エラー：</value>
+  </data>
+  <data name="Cfm2SettingsNavigationMaintenancePageViewModel_Error_ButtonCheckRssClicked" xml:space="preserve">
+    <value>今すぐ最新情報を確認時エラー：</value>
+  </data>
+  <data name="Cfm2SettingsNavigationMaintenancePageViewModel_Error_ButtonRestoreClicked" xml:space="preserve">
+    <value>設定の復元ボタンクリック時エラー：</value>
+  </data>
+  <data name="Cfm2SettingsNavigationMaintenancePageViewModel_Error_LoadSettingsArchiveAsync_CannotLoad" xml:space="preserve">
+    <value>設定ファイルを読み込めません。</value>
+  </data>
+  <data name="Cfm2SettingsNavigationMaintenancePageViewModel_Error_LoadSettingsArchiveAsync_CannotLoad2" xml:space="preserve">
+    <value>設定ファイル内の設定を読み込めません。</value>
+  </data>
+  <data name="Cfm2SettingsNavigationSettingsPage_AnchorHint.Text" xml:space="preserve">
+    <value>※GenerateAnchorFiles タグでの指定が優先されます。</value>
+  </data>
+  <data name="Cfm2SettingsNavigationSettingsPage_CheckBoxOverwriteAnchorFiles.Content" xml:space="preserve">
+    <value>既存のアンカーファイルを上書きする(V)</value>
+  </data>
+  <data name="Cfm2SettingsNavigationSettingsPage_TextBlockAnchor_ToolTip.Content" xml:space="preserve">
+    <value>GenerateAnchorFiles タグが指定された際、どの見出しに対するアンカーファイルを作成するか、を設定します。</value>
+  </data>
+  <data name="Cfm2SettingsNavigationSettingsPage_TextBlockAnchor.Text" xml:space="preserve">
+    <value>アンカーファイル作成対象</value>
+  </data>
+  <data name="Cfm2SettingsNavigationSettingsPage_TextBlockToc_ToolTip.Content" xml:space="preserve">
+    <value>Toc タグが指定された際、どの見出しに対する目次を作成するか、を設定します。</value>
+  </data>
+  <data name="Cfm2SettingsNavigationSettingsPage_TextBlockToc.Text" xml:space="preserve">
+    <value>目次対象</value>
+  </data>
+  <data name="Cfm2SettingsNavigationSettingsPage_TextBlockTocHint.Text" xml:space="preserve">
+    <value>※Toc タグでの指定が優先されます。</value>
+  </data>
+  <data name="Cfm2SettingsNavigationSettingsPageViewModel_Error_CheckProperties_AnchorFile" xml:space="preserve">
+    <value>アンカーファイル作成対象を 1 つ以上選択してください。
+※アンカーファイルを作成したくない場合は、GenerateAnchorFiles タグを使わなければ作成されません。</value>
+  </data>
+  <data name="Cfm2SettingsNavigationSettingsPageViewModel_Error_CheckProperties_Toc" xml:space="preserve">
+    <value>目次対象を 1 つ以上選択してください。
+※目次を挿入したくない場合は、Toc タグを使わなければ挿入されません。</value>
+  </data>
+  <data name="Cfm2SettingsPage_ButtonDefault.Content" xml:space="preserve">
+    <value>初期化(I)</value>
+  </data>
+  <data name="Cfm2SettingsPage_NavigationViewItemMaintenance.Content" xml:space="preserve">
+    <value>メンテナンス</value>
+  </data>
+  <data name="Cfm2SettingsPage_NavigationViewItemSettings.Content" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="Cfm2SettingsPageViewModel_Confirm_Default" xml:space="preserve">
+    <value>環境設定をすべて初期設定に戻します。
+よろしいですか？</value>
+  </data>
+  <data name="Cfm2SettingsPageViewModel_Error_ButtonCancelClicked" xml:space="preserve">
+    <value>キャンセルボタンクリック時エラー：</value>
+  </data>
+  <data name="Cfm2SettingsPageViewModel_Error_ButtonDefaultClicked" xml:space="preserve">
+    <value>初期化ボタンクリック時エラー：</value>
+  </data>
+  <data name="Cfm2SettingsPageViewModel_Error_ButtonOkClicked" xml:space="preserve">
+    <value>OK ボタンクリック時エラー：</value>
+  </data>
+  <data name="Cfm2SettingsPageViewModel_Error_NavigationViewSelectionChanged" xml:space="preserve">
+    <value>ナビゲーション選択時エラー：</value>
+  </data>
+  <data name="Cfm2SettingsWindow_Title" xml:space="preserve">
+    <value>環境設定</value>
+  </data>
+  <data name="CharFadeInFadeOut_Description" xml:space="preserve">
+    <value>文字ごとにフェードインおよびフェードアウトのタイミングをずらす</value>
+  </data>
+  <data name="CharFadeInFadeOut_Name" xml:space="preserve">
+    <value>文字単位フェード</value>
+  </data>
+  <data name="ColorBindControl_ButtonEdit.ToolTipService.ToolTip" xml:space="preserve">
+    <value>色の編集(D)...</value>
+  </data>
+  <data name="ColorBindControl_ButtonSpuit.ToolTipService.ToolTip" xml:space="preserve">
+    <value>スポイト（クリック時のマウスカーソル位置の色を取得）
+※他のアプリケーションのウィンドウからも取得できます</value>
+  </data>
+  <data name="ColorBindControl_TextBlockSpuitDescription.Text" xml:space="preserve">
+    <value>左クリック＝スポイト、右クリック＝キャンセル</value>
+  </data>
+  <data name="ColorBindControl_TextBlockWeb16.Text" xml:space="preserve">
+    <value>16 進 RGB: #</value>
+  </data>
+  <data name="ColorBindModel_Undo_Color" xml:space="preserve">
+    <value>色の変更</value>
+  </data>
+  <data name="ColorPickerPage_TextBlockMediaColor.Text" xml:space="preserve">
+    <value>色：</value>
+  </data>
+  <data name="ColorPickerPage_TextBlockRecentColors.Text" xml:space="preserve">
+    <value>最近使用した色：</value>
+  </data>
+  <data name="ColorPickerWindow.Title" xml:space="preserve">
+    <value>色の編集</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>確認</value>
+  </data>
+  <data name="Detail" xml:space="preserve">
+    <value>詳細</value>
+  </data>
+  <data name="DirectXCommon_DefaultFontName_Serif" xml:space="preserve">
+    <value>ＭＳ Ｐ明朝</value>
+  </data>
+  <data name="EditShowTimePage_RadioButtonIsHead.Content" xml:space="preserve">
+    <value>曲の先頭からの時刻で指定(A)</value>
+  </data>
+  <data name="EditShowTimePage_RadioButtonIsHeadAndInterval.Content" xml:space="preserve">
+    <value>曲の先頭からの時刻と表示時間で指定(B)</value>
+  </data>
+  <data name="EditShowTimePage_RadioButtonIsHeadAndTail.Content" xml:space="preserve">
+    <value>曲の先頭と末尾からの時刻で指定(C)</value>
+  </data>
+  <data name="EditShowTimePage_RadioButtonIsTail.Content" xml:space="preserve">
+    <value>曲の末尾からの時間で指定(D)</value>
+  </data>
+  <data name="EditShowTimePage_TextBlockChangingShowTime.Text" xml:space="preserve">
+    <value>タイトル表示時刻：</value>
+  </data>
+  <data name="EditShowTimePage_TextBlockDuration.Text" xml:space="preserve">
+    <value>曲の長さ：</value>
+  </data>
+  <data name="EditShowTimePage_TextBlockIsHeadAndIntervalHeadOffset.Text" xml:space="preserve">
+    <value>表示開始時刻(3)：</value>
+  </data>
+  <data name="EditShowTimePage_TextBlockIsHeadAndIntervalInterval.Text" xml:space="preserve">
+    <value>表示時間(4)：</value>
+  </data>
+  <data name="EditShowTimePage_TextBlockIsHeadAndTailHeadOffset.Text" xml:space="preserve">
+    <value>表示開始時間(5)：</value>
+  </data>
+  <data name="EditShowTimePage_TextBlockIsHeadAndTailTailOffset.Text" xml:space="preserve">
+    <value>末尾の非表示時間(6)：</value>
+  </data>
+  <data name="EditShowTimePage_TextBlockIsHeadHeadEnd.Text" xml:space="preserve">
+    <value>表示終了時刻(2)：</value>
+  </data>
+  <data name="EditShowTimePage_TextBlockIsHeadHeadOffset.Text" xml:space="preserve">
+    <value>表示開始時刻(1)：</value>
+  </data>
+  <data name="EditShowTimePage_TextBlockIsTailInterval.Text" xml:space="preserve">
+    <value>表示時間(7)：</value>
+  </data>
+  <data name="EditShowTimePage_TextBlockIsTailTailOffset.Text" xml:space="preserve">
+    <value>末尾の非表示時間(8)：</value>
+  </data>
+  <data name="EditShowTimePageViewModel_Information_BadSource" xml:space="preserve">
+    <value>（背景素材が正しく指定されていません）</value>
+  </data>
+  <data name="EditShowTimeWindow.Title" xml:space="preserve">
+    <value>タイトル表示時刻の編集</value>
+  </data>
+  <data name="EditSoundListPage_ButtonAdd.ToolTipService.ToolTip" xml:space="preserve">
+    <value>追加(A)</value>
+  </data>
+  <data name="EditSoundListPage_TableViewColumnBrowse.ToolTip" xml:space="preserve">
+    <value>参照</value>
+  </data>
+  <data name="EditSoundListPage_TableViewColumnName.Header" xml:space="preserve">
+    <value>トラック名（オプション）</value>
+  </data>
+  <data name="EditSoundListPage_TableViewColumnPath.Header" xml:space="preserve">
+    <value>音声ファイル</value>
+  </data>
+  <data name="EditSoundListPage_TableViewColumnRemove.ToolTip" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="EditSoundListPage_TextBlockDescription.Text" xml:space="preserve">
+    <value>複数の音声ファイルを指定することができます。行の左側をドラッグ＆ドロップして順番を入れ替えられます。</value>
+  </data>
+  <data name="EditSoundListPageViewModel_Error_PathEmpty" xml:space="preserve">
+    <value>「{0}」の音声ファイルが指定されていません。</value>
+  </data>
+  <data name="EditSoundListWindow_Title" xml:space="preserve">
+    <value>音声リスト編集ウィンドウ</value>
+  </data>
+  <data name="EditSubtitleActionPageViewModel_PageDescription" xml:space="preserve">
+    <value>字幕アクションの詳細を設定します。</value>
+  </data>
+  <data name="EditSubtitleActionPageViewModel_Title" xml:space="preserve">
+    <value>字幕アクションの編集</value>
+  </data>
+  <data name="EditTitlePage_TextBlockAddPositionIndex.Text" xml:space="preserve">
+    <value>行を追加する位置：</value>
+  </data>
+  <data name="EditTitlePage_TextBlockNote.Text" xml:space="preserve">
+    <value>（補足）
+・複数行の入力も可能です。
+・@Title などの @ タグを入力すると、歌詞ファイル中の @ タグの内容が反映されます。</value>
+  </data>
+  <data name="EditTitlePageViewModel_AddTitlePositionName_0" xml:space="preserve">
+    <value>先頭</value>
+  </data>
+  <data name="EditTitlePageViewModel_AddTitlePositionName_1" xml:space="preserve">
+    <value>選択行の直前</value>
+  </data>
+  <data name="EditTitlePageViewModel_AddTitlePositionName_2" xml:space="preserve">
+    <value>選択行の直後</value>
+  </data>
+  <data name="EditTitlePageViewModel_AddTitlePositionName_3" xml:space="preserve">
+    <value>末尾</value>
+  </data>
+  <data name="EditTitleWindow_TitleAdd" xml:space="preserve">
+    <value>新規タイトル行の追加</value>
+  </data>
+  <data name="EditTitleWindow_TitleEdit" xml:space="preserve">
+    <value>タイトル行の編集</value>
+  </data>
+  <data name="EmptyLineBreaker_Description" xml:space="preserve">
+    <value>歌詞ファイルの空行位置にページ区切りを設定します。
+ワイプタイミングに差があるところは空行にかかわらず段落区切りを設定します。</value>
+  </data>
+  <data name="EmptyLineBreaker_Name" xml:space="preserve">
+    <value>空行位置にページ区切りを設定</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>エラー</value>
+  </data>
+  <data name="FadeSubtitleActionSelector_Description" xml:space="preserve">
+    <value>段落の始まりでフェードイン、段落の終わりでフェードアウトします。</value>
+  </data>
+  <data name="FadeSubtitleActionSelector_Name" xml:space="preserve">
+    <value>段落区切りでフェード</value>
+  </data>
+  <data name="Fatal" xml:space="preserve">
+    <value>致命的エラー</value>
+  </data>
+  <data name="File_HelpWithoutExtension" xml:space="preserve">
+    <value>CFileMerge2_ja-jp</value>
+  </data>
+  <data name="File_HistoryWithoutExtension" xml:space="preserve">
+    <value>CFileMerge2_History_ja-jp</value>
+  </data>
+  <data name="FontFaceInfoModel_CharSize_Undo" xml:space="preserve">
+    <value>フォントサイズ</value>
+  </data>
+  <data name="FontFaceInfoModel_EdgeSize_Undo" xml:space="preserve">
+    <value>縁の幅</value>
+  </data>
+  <data name="FontFaceInfoModel_EdgeSize2_Undo" xml:space="preserve">
+    <value>縁 2 の幅</value>
+  </data>
+  <data name="FontFaceInfoModel_FallbackName_Default" xml:space="preserve">
+    <value>デフォルトフォント</value>
+  </data>
+  <data name="FontFaceInfoModel_FontFaceName_Undo" xml:space="preserve">
+    <value>フォント詳細</value>
+  </data>
+  <data name="FontFaceInfoModel_FontName_Undo" xml:space="preserve">
+    <value>フォント</value>
+  </data>
+  <data name="FontFaceInfoModel_ModelName" xml:space="preserve">
+    <value>文字種別フォント</value>
+  </data>
+  <data name="FontFaceInfoModel_UseEdge2_Undo" xml:space="preserve">
+    <value>縁 2</value>
+  </data>
+  <data name="FontFaceInfoModel_XScale_Undo" xml:space="preserve">
+    <value>横方向拡大率</value>
+  </data>
+  <data name="FontFaceSettingsWindow_Title" xml:space="preserve">
+    <value>「{0}」のフォントフェース詳細設定</value>
+  </data>
+  <data name="FontSelectorPageViewModel_PageDescription" xml:space="preserve">
+    <value>すべての行のフォントを自動設定します。</value>
+  </data>
+  <data name="FontSelectorPageViewModel_Title" xml:space="preserve">
+    <value>自動でフォントを設定</value>
+  </data>
+  <data name="GeneralView_ButtonCancel.Content" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="GeneralView_ButtonClose.Content" xml:space="preserve">
+    <value>閉じる</value>
+  </data>
+  <data name="GeneralView_ButtonOk.Content" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="GeneralView_Error_CannotShowHelp" xml:space="preserve">
+    <value>ヘルプを表示できませんでした。</value>
+  </data>
+  <data name="GeneralView_Error_NoAnchor" xml:space="preserve">
+    <value>状況に応じたヘルプを表示できませんでした：</value>
+  </data>
+  <data name="GeneralView_FileTypeSta" xml:space="preserve">
+    <value>設定ファイル</value>
+  </data>
+  <data name="GeneralView_Information_ShowNormalHelp" xml:space="preserve">
+    <value>通常のヘルプを表示します。</value>
+  </data>
+  <data name="Information" xml:space="preserve">
+    <value>情報</value>
+  </data>
+  <data name="LatestInfoHistoryPage_ButtonCheckRss.Content" xml:space="preserve">
+    <value>今すぐ最新情報を確認(A)</value>
+  </data>
+  <data name="LatestInfoHistoryPage_ButtonClose.Content" xml:space="preserve">
+    <value>閉じる</value>
+  </data>
+  <data name="LatestInfoHistoryPage_ButtonDetail.Content" xml:space="preserve">
+    <value>詳細(D)</value>
+  </data>
+  <data name="LatestInfoHistoryPageViewModel_Error_OpenDetailNotSelect" xml:space="preserve">
+    <value>詳細を確認したい最新情報を選択してください。</value>
+  </data>
+  <data name="LatestInfoHistoryWindow_Title" xml:space="preserve">
+    <value>{0} の最新情報</value>
+  </data>
+  <data name="LatestInfoManager_Ask_AskDisplayLatestAsync" xml:space="preserve">
+    <value>最新情報が {0} 件見つかりました。
+表示しますか？</value>
+  </data>
+  <data name="LatestInfoManager_Cancel_AskDisplayLatestAsync" xml:space="preserve">
+    <value>最新情報の表示を中止しました。</value>
+  </data>
+  <data name="LatestInfoManager_Error_CheckAsync" xml:space="preserve">
+    <value>最新情報確認時エラー：</value>
+  </data>
+  <data name="LatestInfoManager_Error_DisplayLatest_Not" xml:space="preserve">
+    <value>最新情報を表示できませんでした。</value>
+  </data>
+  <data name="LatestInfoManager_Error_DisplayLatest_Part" xml:space="preserve">
+    <value>一部の最新情報を表示できませんでした。</value>
+  </data>
+  <data name="LatestInfoManager_NoInfo_CheckAsync" xml:space="preserve">
+    <value>最新情報はありませんでした。</value>
+  </data>
+  <data name="LayoutSelectorPageViewModel_PageDescription" xml:space="preserve">
+    <value>すべての行のレイアウトを自動設定します。</value>
+  </data>
+  <data name="LayoutSelectorPageViewModel_Title" xml:space="preserve">
+    <value>自動でレイアウトを設定</value>
+  </data>
+  <data name="LineBreakerPageViewModel_PageDescription" xml:space="preserve">
+    <value>すべての区切り（ページ区切り・段落区切り）を自動設定します。</value>
+  </data>
+  <data name="LineBreakerPageViewModel_Title" xml:space="preserve">
+    <value>自動で区切りを設定</value>
+  </data>
+  <data name="LineFadeIn_Description" xml:space="preserve">
+    <value>行全体をフェードイン</value>
+  </data>
+  <data name="LineFadeIn_Name" xml:space="preserve">
+    <value>フェードイン</value>
+  </data>
+  <data name="LineFadeInFadeOut_Description" xml:space="preserve">
+    <value>行全体をフェードインおよびフェードアウト</value>
+  </data>
+  <data name="LineFadeInFadeOut_Name" xml:space="preserve">
+    <value>フェードイン/アウト</value>
+  </data>
+  <data name="LineFadeOut_Description" xml:space="preserve">
+    <value>行全体をフェードアウト</value>
+  </data>
+  <data name="LineFadeOut_Name" xml:space="preserve">
+    <value>フェードアウト</value>
+  </data>
+  <data name="LinesLayoutSelector_Description" xml:space="preserve">
+    <value>ページ内の行数と同じ行数が指定されているレイアウトを適用します。
+例）3 行のページ→3 行のレイアウト</value>
+  </data>
+  <data name="LinesLayoutSelector_Name" xml:space="preserve">
+    <value>行数に応じてレイアウトを設定</value>
+  </data>
+  <data name="LyricsFontBrushControl_ButtonAddPosition.ToolTipService.ToolTip" xml:space="preserve">
+    <value>マーカーの追加(GA)</value>
+  </data>
+  <data name="LyricsFontBrushControl_ButtonBrowseBitmapPath.Content" xml:space="preserve">
+    <value>参照(GB)...</value>
+  </data>
+  <data name="LyricsFontBrushControl_ButtonRemovePosition.ToolTipService.ToolTip" xml:space="preserve">
+    <value>マーカーの削除(GR)</value>
+  </data>
+  <data name="LyricsFontBrushControl_TextBlockBitmapPath.Text" xml:space="preserve">
+    <value>画像ファイル(GF)：</value>
+  </data>
+  <data name="LyricsFontBrushControl_TextBlockBitmapScale.Text" xml:space="preserve">
+    <value>拡大率(GZ)：</value>
+  </data>
+  <data name="LyricsFontBrushControl_TextBlockMarkerInfo.Text" xml:space="preserve">
+    <value>マーカーを追加したい位置をクリックすると、
+マーカーを追加できます。
+上下端のマーカーをドラッグしても追加できます。</value>
+  </data>
+  <data name="LyricsFontBrushControl_TextBlockSelectedMultiPosition.Text" xml:space="preserve">
+    <value>マーカー位置(GM)：</value>
+  </data>
+  <data name="LyricsFontBrushControl_ToggleButtonBitmap.ToolTipService.ToolTip" xml:space="preserve">
+    <value>画像</value>
+  </data>
+  <data name="LyricsFontBrushControl_ToggleButtonGradient.ToolTipService.ToolTip" xml:space="preserve">
+    <value>グラデーション</value>
+  </data>
+  <data name="LyricsFontBrushControl_ToggleButtonMilleFeuille.ToolTipService.ToolTip" xml:space="preserve">
+    <value>ミルフィーユ</value>
+  </data>
+  <data name="LyricsFontBrushControl_ToggleButtonSolid.ToolTipService.ToolTip" xml:space="preserve">
+    <value>単色塗りつぶし</value>
+  </data>
+  <data name="LyricsFontControl_ButtonFontFaceSettings.ToolTipService.ToolTip" xml:space="preserve">
+    <value>フォントフェース詳細設定...</value>
+  </data>
+  <data name="LyricsFontControl_ButtonSwapWipe.ToolTipService.ToolTip" xml:space="preserve">
+    <value>ワイプ前後の配色(WS)</value>
+  </data>
+  <data name="LyricsFontControl_MenuFlyoutItemCopyAfterWipeToBefore.Text" xml:space="preserve">
+    <value>ワイプ後の配色をワイプ前にコピー(A)</value>
+  </data>
+  <data name="LyricsFontControl_MenuFlyoutItemCopyBeforeWipeToAfter.Text" xml:space="preserve">
+    <value>ワイプ前の配色をワイプ後にコピー(B)</value>
+  </data>
+  <data name="LyricsFontControl_MenuFlyoutItemSwapWipe.Text" xml:space="preserve">
+    <value>ワイプ前後の配色を交換(S)</value>
+  </data>
+  <data name="LyricsFontControl_TextBlockAfterBefore.Text" xml:space="preserve">
+    <value>後　　前</value>
+  </data>
+  <data name="LyricsFontControl_TextBlockBlurLevel.Text" xml:space="preserve">
+    <value>ブラーの濃さ(RB)：</value>
+  </data>
+  <data name="LyricsFontControl_TextBlockBrushInfo.Text" xml:space="preserve">
+    <value>配色</value>
+  </data>
+  <data name="LyricsFontControl_TextBlockDecorKind.Text" xml:space="preserve">
+    <value>文字飾りの種類(RK)：</value>
+  </data>
+  <data name="LyricsFontControl_TextBlockDecorSizeSize.Text" xml:space="preserve">
+    <value>文字飾りのサイズ(RS)：</value>
+  </data>
+  <data name="LyricsFontControl_TextBlockFontFaceInfo.Text" xml:space="preserve">
+    <value>フォントフェース：</value>
+  </data>
+  <data name="LyricsFontControl_TextBlockFontInfo.Text" xml:space="preserve">
+    <value>歌詞　　ルビ</value>
+  </data>
+  <data name="LyricsFontControl_TextBlockSample.Text" xml:space="preserve">
+    <value>サンプル</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonDecorAfter.Content" xml:space="preserve">
+    <value>飾り</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonDecorAfter.ToolTipService.ToolTip" xml:space="preserve">
+    <value>飾り色（ワイプ後）</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonDecorBefore.Content" xml:space="preserve">
+    <value>飾り</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonDecorBefore.ToolTipService.ToolTip" xml:space="preserve">
+    <value>飾り色（ワイプ前）</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonLyricAlnum.Content" xml:space="preserve">
+    <value>英数</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonLyricAlnum.ToolTipService.ToolTip" xml:space="preserve">
+    <value>英数（歌詞）</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonLyricKana.Content" xml:space="preserve">
+    <value>かな</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonLyricKana.ToolTipService.ToolTip" xml:space="preserve">
+    <value>かな（歌詞）</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonLyricKanji.Content" xml:space="preserve">
+    <value>漢字</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonLyricKanji.ToolTipService.ToolTip" xml:space="preserve">
+    <value>漢字（歌詞）</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonMainCharAfter.Content" xml:space="preserve">
+    <value>文字</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonMainCharAfter.ToolTipService.ToolTip" xml:space="preserve">
+    <value>文字色（ワイプ後）</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonMainCharBefore.Content" xml:space="preserve">
+    <value>文字</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonMainCharBefore.ToolTipService.ToolTip" xml:space="preserve">
+    <value>文字色（ワイプ前）</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonMainEdge2After.Content" xml:space="preserve">
+    <value>縁 2</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonMainEdge2After.ToolTipService.ToolTip" xml:space="preserve">
+    <value>縁取り 2 色（ワイプ後）</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonMainEdge2Before.Content" xml:space="preserve">
+    <value>縁 2</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonMainEdge2Before.ToolTipService.ToolTip" xml:space="preserve">
+    <value>縁取り 2 色（ワイプ前）</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonMainEdgeAfter.Content" xml:space="preserve">
+    <value>縁</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonMainEdgeAfter.ToolTipService.ToolTip" xml:space="preserve">
+    <value>縁取り色（ワイプ後）</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonMainEdgeBefore.Content" xml:space="preserve">
+    <value>縁</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonMainEdgeBefore.ToolTipService.ToolTip" xml:space="preserve">
+    <value>縁取り色（ワイプ前）</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonRubyAlnum.Content" xml:space="preserve">
+    <value>英数</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonRubyAlnum.ToolTipService.ToolTip" xml:space="preserve">
+    <value>英数（ルビ）</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonRubyKana.Content" xml:space="preserve">
+    <value>かな</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonRubyKana.ToolTipService.ToolTip" xml:space="preserve">
+    <value>かな（ルビ）</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonRubyKanji.Content" xml:space="preserve">
+    <value>漢字</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonRubyKanji.ToolTipService.ToolTip" xml:space="preserve">
+    <value>漢字（ルビ）</value>
+  </data>
+  <data name="LyricsFontFaceControl_CheckBoxUseEdge2.Content" xml:space="preserve">
+    <value>縁 2 を付ける(VE)</value>
+  </data>
+  <data name="LyricsFontFaceControl_TextBlockCharSizeSize.Text" xml:space="preserve">
+    <value>フォントサイズ(I)：</value>
+  </data>
+  <data name="LyricsFontFaceControl_TextBlockCharSizeSizeNote_0.Text" xml:space="preserve">
+    <value>（0 の場合は</value>
+  </data>
+  <data name="LyricsFontFaceControl_TextBlockCharSizeSizeNote_1.Text" xml:space="preserve">
+    <value>に合わせます）</value>
+  </data>
+  <data name="LyricsFontFaceControl_TextBlockDetail.Text" xml:space="preserve">
+    <value>詳細(A)：</value>
+  </data>
+  <data name="LyricsFontFaceControl_TextBlockEdgeSize2Size.Text" xml:space="preserve">
+    <value>縁 2 の幅(VW)：</value>
+  </data>
+  <data name="LyricsFontFaceControl_TextBlockEdgeSize2SizeNote_0.Text" xml:space="preserve">
+    <value>（0 の場合は</value>
+  </data>
+  <data name="LyricsFontFaceControl_TextBlockEdgeSize2SizeNote_1.Text" xml:space="preserve">
+    <value>に合わせます）</value>
+  </data>
+  <data name="LyricsFontFaceControl_TextBlockEdgeSizeSize.Text" xml:space="preserve">
+    <value>縁の幅(B)：</value>
+  </data>
+  <data name="LyricsFontFaceControl_TextBlockEdgeSizeSizeNote_0.Text" xml:space="preserve">
+    <value>（0 の場合は</value>
+  </data>
+  <data name="LyricsFontFaceControl_TextBlockEdgeSizeSizeNote_1.Text" xml:space="preserve">
+    <value>に合わせます）</value>
+  </data>
+  <data name="LyricsFontFaceControl_TextBlockFontName.Text" xml:space="preserve">
+    <value>フォント(O)：</value>
+  </data>
+  <data name="LyricsFontFaceControl_TextBlockFontNameNote_0.Text" xml:space="preserve">
+    <value>（空欄の場合は</value>
+  </data>
+  <data name="LyricsFontFaceControl_TextBlockFontNameNote_1.Text" xml:space="preserve">
+    <value>に合わせます）</value>
+  </data>
+  <data name="LyricsFontFaceControl_TextBlockUseEdge2Note_0.Text" xml:space="preserve">
+    <value>（- の場合は</value>
+  </data>
+  <data name="LyricsFontFaceControl_TextBlockUseEdge2Note_1.Text" xml:space="preserve">
+    <value>に合わせます）</value>
+  </data>
+  <data name="LyricsFontFaceControl_TextBlockXScale.Text" xml:space="preserve">
+    <value>横方向拡大率：</value>
+  </data>
+  <data name="LyricsFontFaceControl_TextBlockXScaleNote_0.Text" xml:space="preserve">
+    <value>（0 の場合は</value>
+  </data>
+  <data name="LyricsFontFaceControl_TextBlockXScaleNote_1.Text" xml:space="preserve">
+    <value>に合わせます）</value>
+  </data>
+  <data name="LyricsFontModel_BrushInfoModel_SettingsName_0" xml:space="preserve">
+    <value>ワイプ後／文字色</value>
+  </data>
+  <data name="LyricsFontModel_BrushInfoModel_SettingsName_1" xml:space="preserve">
+    <value>縁取り色</value>
+  </data>
+  <data name="LyricsFontModel_BrushInfoModel_SettingsName_2" xml:space="preserve">
+    <value>縁取り 2 色</value>
+  </data>
+  <data name="LyricsFontModel_BrushInfoModel_SettingsName_3" xml:space="preserve">
+    <value>飾り色</value>
+  </data>
+  <data name="LyricsFontModel_BrushInfoModel_SettingsName_4" xml:space="preserve">
+    <value>ワイプ前／文字色</value>
+  </data>
+  <data name="LyricsFontModel_BrushInfoModel_SettingsName_5" xml:space="preserve">
+    <value>縁取り色</value>
+  </data>
+  <data name="LyricsFontModel_BrushInfoModel_SettingsName_6" xml:space="preserve">
+    <value>縁取り 2 色</value>
+  </data>
+  <data name="LyricsFontModel_BrushInfoModel_SettingsName_7" xml:space="preserve">
+    <value>飾り色</value>
+  </data>
+  <data name="LyricsFontModel_FontFaceInfoModel_SettingsName_0" xml:space="preserve">
+    <value>歌詞／漢字</value>
+  </data>
+  <data name="LyricsFontModel_FontFaceInfoModel_SettingsName_1" xml:space="preserve">
+    <value>歌詞／かな</value>
+  </data>
+  <data name="LyricsFontModel_FontFaceInfoModel_SettingsName_2" xml:space="preserve">
+    <value>歌詞／英数</value>
+  </data>
+  <data name="LyricsFontModel_FontFaceInfoModel_SettingsName_3" xml:space="preserve">
+    <value>ルビ／漢字</value>
+  </data>
+  <data name="LyricsFontModel_FontFaceInfoModel_SettingsName_4" xml:space="preserve">
+    <value>ルビ／かな</value>
+  </data>
+  <data name="LyricsFontModel_FontFaceInfoModel_SettingsName_5" xml:space="preserve">
+    <value>ルビ／英数</value>
+  </data>
+  <data name="LyricsFontModel_ModelName" xml:space="preserve">
+    <value>フォント</value>
+  </data>
+  <data name="LyricsFontModel_Undo_BlurLevel" xml:space="preserve">
+    <value>ブラーの濃さ</value>
+  </data>
+  <data name="LyricsFontModel_Undo_DecorKind" xml:space="preserve">
+    <value>文字飾りの種類</value>
+  </data>
+  <data name="LyricsFontModel_Undo_DecorSize" xml:space="preserve">
+    <value>文字飾りのサイズ</value>
+  </data>
+  <data name="LyricsInfoControl_ButtonBrowseSourceLyricsPath.Content" xml:space="preserve">
+    <value>参照(B)...</value>
+  </data>
+  <data name="LyricsInfoControl_TableViewColumnFont.Header" xml:space="preserve">
+    <value>フォント</value>
+  </data>
+  <data name="LyricsInfoControl_TableViewColumnLayout.Header" xml:space="preserve">
+    <value>レイアウト</value>
+  </data>
+  <data name="LyricsInfoControl_TableViewColumnLyrics.Header" xml:space="preserve">
+    <value>歌詞</value>
+  </data>
+  <data name="LyricsInfoControl_TableViewColumnLyricsBeginTime.Header" xml:space="preserve">
+    <value>歌唱開始</value>
+  </data>
+  <data name="LyricsInfoControl_TableViewColumnLyricsEndTime.Header" xml:space="preserve">
+    <value>歌唱終了</value>
+  </data>
+  <data name="LyricsInfoControl_TableViewColumnShowBeginTime.Header" xml:space="preserve">
+    <value>表示開始</value>
+  </data>
+  <data name="LyricsInfoControl_TableViewColumnShowEndTime.Header" xml:space="preserve">
+    <value>表示終了</value>
+  </data>
+  <data name="LyricsInfoControl_TableViewColumnSubtitleAction.Header" xml:space="preserve">
+    <value>アクション</value>
+  </data>
+  <data name="LyricsInfoControl_TextBlockSourceLyricsPath.Text" xml:space="preserve">
+    <value>歌詞ファイル(L)：</value>
+  </data>
+  <data name="LyricsInfoModel_ModelName" xml:space="preserve">
+    <value>歌詞</value>
+  </data>
+  <data name="LyricsInfoModel_SettingsNameDefault_Chorus" xml:space="preserve">
+    <value>コーラス{0}</value>
+  </data>
+  <data name="LyricsInfoModel_SettingsNameDefault_Main" xml:space="preserve">
+    <value>メイン</value>
+  </data>
+  <data name="LyricsInfoModel_SourceLyricsPath_Undo" xml:space="preserve">
+    <value>歌詞ファイル名</value>
+  </data>
+  <data name="LyricsLayoutControl_AllowBiting.Content" xml:space="preserve">
+    <value>一部の文字の食い込みを許容する(W)</value>
+  </data>
+  <data name="LyricsLayoutControl_ButtonAddHorizontalLayout.ToolTipService.ToolTip" xml:space="preserve">
+    <value>左右レイアウトを追加(A)</value>
+  </data>
+  <data name="LyricsLayoutControl_ButtonRemoveHorizontalLayout.ToolTipService.ToolTip" xml:space="preserve">
+    <value>左右レイアウトを削除(R)</value>
+  </data>
+  <data name="LyricsLayoutControl_HorizontalAlignment.Text" xml:space="preserve">
+    <value>行ごとの左右レイアウト</value>
+  </data>
+  <data name="LyricsLayoutControl_HorizontalMarginSize.Text" xml:space="preserve">
+    <value>左右余白(F)</value>
+  </data>
+  <data name="LyricsLayoutControl_TextBlockLineSpaceSize.Text" xml:space="preserve">
+    <value>行間(L)</value>
+  </data>
+  <data name="LyricsLayoutControl_TextBlockLyricsAndRubyIntervalSize.Text" xml:space="preserve">
+    <value>歌詞とルビの間隔(C)：</value>
+  </data>
+  <data name="LyricsLayoutControl_TextBlockLyricsIntervalSize.Text" xml:space="preserve">
+    <value>歌詞間隔(I)：</value>
+  </data>
+  <data name="LyricsLayoutControl_TextBlockRubyAlignment.Text" xml:space="preserve">
+    <value>ルビ配置(Y)：</value>
+  </data>
+  <data name="LyricsLayoutControl_TextBlockRubyIntervalSize.Text" xml:space="preserve">
+    <value>ルビ間隔(U)：</value>
+  </data>
+  <data name="LyricsLayoutControl_TextBlockSmartHorizon.Text" xml:space="preserve">
+    <value>スマート水平配置(D)</value>
+  </data>
+  <data name="LyricsLayoutControl_TextBlockVerticalAlignment.Text" xml:space="preserve">
+    <value>上下配置</value>
+  </data>
+  <data name="LyricsLayoutControl_TextBlockVerticalMarginBottomSize.Text" xml:space="preserve">
+    <value>下余白(B)：</value>
+  </data>
+  <data name="LyricsLayoutControl_TextBlockVerticalMarginTopSize.Text" xml:space="preserve">
+    <value>上余白(O)：</value>
+  </data>
+  <data name="LyricsLayoutControl_ToggleButtonBottom.Content" xml:space="preserve">
+    <value>↓　下寄せ</value>
+  </data>
+  <data name="LyricsLayoutControl_ToggleButtonCenter.Content" xml:space="preserve">
+    <value>－　上下中央</value>
+  </data>
+  <data name="LyricsLayoutControl_ToggleButtonTop.Content" xml:space="preserve">
+    <value>↑　上寄せ</value>
+  </data>
+  <data name="LyricsLayoutModel_ModelName" xml:space="preserve">
+    <value>レイアウト</value>
+  </data>
+  <data name="LyricsLayoutModel_Undo_AllowBiting" xml:space="preserve">
+    <value>一部の文字の食い込みを許容する</value>
+  </data>
+  <data name="LyricsLayoutModel_Undo_HorizontalMargin" xml:space="preserve">
+    <value>左右余白</value>
+  </data>
+  <data name="LyricsLayoutModel_Undo_LineSpace" xml:space="preserve">
+    <value>行間</value>
+  </data>
+  <data name="LyricsLayoutModel_Undo_LyricsAndRubyInterval" xml:space="preserve">
+    <value>歌詞とルビの間隔</value>
+  </data>
+  <data name="LyricsLayoutModel_Undo_LyricsInterval" xml:space="preserve">
+    <value>歌詞間隔</value>
+  </data>
+  <data name="LyricsLayoutModel_Undo_RubyAlignment" xml:space="preserve">
+    <value>ルビ配置</value>
+  </data>
+  <data name="LyricsLayoutModel_Undo_RubyInterval" xml:space="preserve">
+    <value>ルビ間隔</value>
+  </data>
+  <data name="LyricsLayoutModel_Undo_SelectedVerticalAlignmentIndex" xml:space="preserve">
+    <value>上下配置</value>
+  </data>
+  <data name="LyricsLayoutModel_Undo_SmartHorizon" xml:space="preserve">
+    <value>スマート水平配置</value>
+  </data>
+  <data name="LyricsLayoutModel_Undo_VerticalMargin" xml:space="preserve">
+    <value>上下余白</value>
+  </data>
+  <data name="LyricsLoader_LoadAll_Error_NoTimeTags" xml:space="preserve">
+    <value>歌詞ファイルにタイムタグが存在しません：
+{0}</value>
+  </data>
+  <data name="LyricsLoader_LoadAll_Error_PathEmpty" xml:space="preserve">
+    <value>歌詞ファイルが指定されていません。</value>
+  </data>
+  <data name="LyricsLoader_LoadLines_Error_Encoding" xml:space="preserve">
+    <value>歌詞ファイルの文字コードを判定できませんでした：
+{0}</value>
+  </data>
+  <data name="MainPage_ButtonNavigationDown.ToolTipService.ToolTip" xml:space="preserve">
+    <value>パネル下へ</value>
+  </data>
+  <data name="MainPage_ButtonNavigationUp.ToolTipService.ToolTip" xml:space="preserve">
+    <value>パネル上へ</value>
+  </data>
+  <data name="MainPage_MenuBarItemEdit.Title" xml:space="preserve">
+    <value>編集(E)</value>
+  </data>
+  <data name="MainPage_MenuBarItemHelp.Title" xml:space="preserve">
+    <value>ヘルプ(H)</value>
+  </data>
+  <data name="MainPage_MenuBarItemProject.Title" xml:space="preserve">
+    <value>プロジェクト(P)</value>
+  </data>
+  <data name="MainPage_MenuBarItemTools.Title" xml:space="preserve">
+    <value>ツール(T)</value>
+  </data>
+  <data name="MainPage_MenuFlyoutItemAbout.Text" xml:space="preserve">
+    <value>バージョン情報(A)...</value>
+  </data>
+  <data name="MainPage_MenuFlyoutItemChat.Text" xml:space="preserve">
+    <value>お問い合わせチャット(R)</value>
+  </data>
+  <data name="MainPage_MenuFlyoutItemCheckUpdate.Text" xml:space="preserve">
+    <value>更新プログラムの確認(U)</value>
+  </data>
+  <data name="MainPage_MenuFlyoutItemCommercialUse.Text" xml:space="preserve">
+    <value>商用利用について(C)</value>
+  </data>
+  <data name="MainPage_MenuFlyoutItemFaq.Text" xml:space="preserve">
+    <value>よくある質問(Q)</value>
+  </data>
+  <data name="MainPage_MenuFlyoutItemHelp.Text" xml:space="preserve">
+    <value>ヘルプ(H)</value>
+  </data>
+  <data name="MainPage_MenuFlyoutItemHistory.Text" xml:space="preserve">
+    <value>更新履歴(Y)</value>
+  </data>
+  <data name="MainPage_MenuFlyoutItemNew.Text" xml:space="preserve">
+    <value>新規作成(N)...</value>
+  </data>
+  <data name="MainPage_MenuFlyoutItemNicoKaraList.Text" xml:space="preserve">
+    <value>ニコカラリスト作成(I)...</value>
+  </data>
+  <data name="MainPage_MenuFlyoutItemOpen.Text" xml:space="preserve">
+    <value>開く(O)...</value>
+  </data>
+  <data name="MainPage_MenuFlyoutItemQuit.Text" xml:space="preserve">
+    <value>終了(Q)</value>
+  </data>
+  <data name="MainPage_MenuFlyoutItemSampleFolder.Text" xml:space="preserve">
+    <value>サンプルフォルダー(S)</value>
+  </data>
+  <data name="MainPage_MenuFlyoutItemSave.Text" xml:space="preserve">
+    <value>上書き保存(S)</value>
+  </data>
+  <data name="MainPage_MenuFlyoutItemSaveAs.Text" xml:space="preserve">
+    <value>名前を付けて保存(A)...</value>
+  </data>
+  <data name="MainPage_MenuFlyoutItemSaveTemplate.Text" xml:space="preserve">
+    <value>テンプレートとして登録(T)...</value>
+  </data>
+  <data name="MainPage_MenuFlyoutItemSettings.Text" xml:space="preserve">
+    <value>環境設定(S)...</value>
+  </data>
+  <data name="MainPage_MenuFlyoutItemSupport.Text" xml:space="preserve">
+    <value>支援・寄付のお願い(P)</value>
+  </data>
+  <data name="MainPage_MenuFlyoutItemToastHistory.Text" xml:space="preserve">
+    <value>通知履歴(N)...</value>
+  </data>
+  <data name="MainPage_MenuFlyoutItemTranslationProject.Text" xml:space="preserve">
+    <value>翻訳プロジェクト (L)</value>
+  </data>
+  <data name="MainPage_MenuFlyoutItemTutorialMovie.Text" xml:space="preserve">
+    <value>チュートリアル（動画）(M)</value>
+  </data>
+  <data name="MainPage_MenuFlyoutItemTutorialText.Text" xml:space="preserve">
+    <value>チュートリアル（テキスト）(T)</value>
+  </data>
+  <data name="MainPage_MenuFlyoutItemWarnings.Text" xml:space="preserve">
+    <value>警告・情報一覧(W)...</value>
+  </data>
+  <data name="MainPage_MenuFlyoutSubItemRecent.Text" xml:space="preserve">
+    <value>最近使用したプロジェクト(R)</value>
+  </data>
+  <data name="MainPage_ToggleButtonFont.ToolTipService.ToolTip" xml:space="preserve">
+    <value>フォント設定(5)</value>
+  </data>
+  <data name="MainPage_ToggleButtonLayout.ToolTipService.ToolTip" xml:space="preserve">
+    <value>レイアウト設定(6)</value>
+  </data>
+  <data name="MainPage_ToggleButtonLyrics.ToolTipService.ToolTip" xml:space="preserve">
+    <value>歌詞設定(3)</value>
+  </data>
+  <data name="MainPage_ToggleButtonOutput.ToolTipService.ToolTip" xml:space="preserve">
+    <value>動画出力(8)</value>
+  </data>
+  <data name="MainPage_ToggleButtonPreview.ToolTipService.ToolTip" xml:space="preserve">
+    <value>プレビュー(7)</value>
+  </data>
+  <data name="MainPage_ToggleButtonSource.ToolTipService.ToolTip" xml:space="preserve">
+    <value>背景素材(2)</value>
+  </data>
+  <data name="MainPage_ToggleButtonTitle.ToolTipService.ToolTip" xml:space="preserve">
+    <value>タイトル設定(4)</value>
+  </data>
+  <data name="MainPage_ToggleButtonWelcome.ToolTipService.ToolTip" xml:space="preserve">
+    <value>ようこそ(1)</value>
+  </data>
+  <data name="MainPageControlViewModel_SynchronizeOff_Confirm" xml:space="preserve">
+    <value>連動をオフにすると、他のプロジェクトでの変更が反映されなくなります。
+また、再度オンにする際に競合が発生することがあります。
+
+本当にオフにしてもよろしいですか？</value>
+  </data>
+  <data name="MainPageControlViewModel_SynchronizeOn_Error_AlreadySynchronized" xml:space="preserve">
+    <value>すでにテンプレートに登録され、連動しています。
+再登録の必要はありません。</value>
+  </data>
+  <data name="MainPageControlViewModel_SynchronizeOn_Error_CannotLoadRegisteredTemplate" xml:space="preserve">
+    <value>登録済のテンプレートを読み込めません。</value>
+  </data>
+  <data name="MainPageControlViewModel_SynchronizeOn_Error_TemplateNotSupported" xml:space="preserve">
+    <value>テンプレートが対応していません。</value>
+  </data>
+  <data name="MainPageControlViewModel_SynchronizeOn_Information_Registered" xml:space="preserve">
+    <value>「{0}」をテンプレートとして登録しました。</value>
+  </data>
+  <data name="MainPageControlViewModel_SynchronizeOn_Information_Renamed" xml:space="preserve">
+    <value>すでに同じ名称のテンプレートが登録されていたため、設定の名称を「{0}」に変更して登録しました。</value>
+  </data>
+  <data name="MainPageFontControl_ButtonSearch.ToolTipService.ToolTip" xml:space="preserve">
+    <value>フォント設定検索</value>
+  </data>
+  <data name="MainPageFontControl_ButtonTool.ToolTipService.ToolTip" xml:space="preserve">
+    <value>各種(M)</value>
+  </data>
+  <data name="MainPageFontControl_MenuFlyoutItemAddLyricsFont.Text" xml:space="preserve">
+    <value>フォント設定を追加(L)</value>
+  </data>
+  <data name="MainPageFontControl_MenuFlyoutItemLoadTemplate.Text" xml:space="preserve">
+    <value>テンプレートを使用(T)...</value>
+  </data>
+  <data name="MainPageFontControl_MenuFlyoutItemRemoveLyricsFont.Text" xml:space="preserve">
+    <value>フォント設定を削除(R)</value>
+  </data>
+  <data name="MainPageFontControl_MenuFlyoutItemSaveTemplate.Text" xml:space="preserve">
+    <value>テンプレートとして登録(G)</value>
+  </data>
+  <data name="MainPageFontControl_TextBlockSynchronize.Text" xml:space="preserve">
+    <value>テンプレート連動：</value>
+  </data>
+  <data name="MainPageFontControl_TextBoxSearch.PlaceholderText" xml:space="preserve">
+    <value>フォント設定検索</value>
+  </data>
+  <data name="MainPageFontControl_ToggleButtonSynchronize.Content" xml:space="preserve">
+    <value>連動(S)</value>
+  </data>
+  <data name="MainPageFontControlViewModel_ButtonFontFaceSettingsClicked_Undo_FontFace" xml:space="preserve">
+    <value>フォントフェース</value>
+  </data>
+  <data name="MainPageFontControlViewModel_Caption" xml:space="preserve">
+    <value>フォント設定パネルでは、歌詞設定パネルで指定するフォントの詳細な内容を設定します。
+「フォント設定 1」のみ設定すれば字幕を作成できますが、必要に応じて複数のフォントを設定することもできます。</value>
+  </data>
+  <data name="MainPageFontControlViewModel_Confirm_AddLyricsFont" xml:space="preserve">
+    <value>「{0}」をコピーしてフォント設定を追加します。
+よろしいですか？</value>
+  </data>
+  <data name="MainPageFontControlViewModel_Confirm_RemoveLyricsFont" xml:space="preserve">
+    <value>「{0}」を削除します。
+よろしいですか？</value>
+  </data>
+  <data name="MainPageFontControlViewModel_DecorKindNames_0" xml:space="preserve">
+    <value>なし</value>
+  </data>
+  <data name="MainPageFontControlViewModel_DecorKindNames_1" xml:space="preserve">
+    <value>影</value>
+  </data>
+  <data name="MainPageFontControlViewModel_DecorKindNames_2" xml:space="preserve">
+    <value>ブラー</value>
+  </data>
+  <data name="MainPageFontControlViewModel_Error_FindLyricsFont" xml:space="preserve">
+    <value>検索キーワードを入力してください。</value>
+  </data>
+  <data name="MainPageFontControlViewModel_Error_LoadTemplateDup" xml:space="preserve">
+    <value>テンプレート「{0}」を既に使用しています。</value>
+  </data>
+  <data name="MainPageFontControlViewModel_Error_LoadTemplateDupChange" xml:space="preserve">
+    <value>（名称が「{0}」に変更されています）</value>
+  </data>
+  <data name="MainPageFontControlViewModel_Error_LoadTemplateUnable" xml:space="preserve">
+    <value>テンプレートを読み込めません。</value>
+  </data>
+  <data name="MainPageFontControlViewModel_Error_NoSearch" xml:space="preserve">
+    <value>名称に「{0}」を含むフォント設定はありません。</value>
+  </data>
+  <data name="MainPageFontControlViewModel_Error_RemoveLyricsFont" xml:space="preserve">
+    <value>フォント設定をなくすことはできません。</value>
+  </data>
+  <data name="MainPageFontControlViewModel_Error_RemovePositionFirst" xml:space="preserve">
+    <value>最上段のマーカーは削除できません。</value>
+  </data>
+  <data name="MainPageFontControlViewModel_Error_RemovePositionLast" xml:space="preserve">
+    <value>最下段のマーカーは削除できません。</value>
+  </data>
+  <data name="MainPageFontControlViewModel_Information_CheckMarkers0P" xml:space="preserve">
+    <value>フォント設定で 0% 位置のマーカーが複数存在しています。：{0} - {1}</value>
+  </data>
+  <data name="MainPageFontControlViewModel_Information_CheckMarkers100P" xml:space="preserve">
+    <value>フォント設定で 100% 位置のマーカーが複数存在しています。：{0} - {1}</value>
+  </data>
+  <data name="MainPageFontControlViewModel_Undo_AddLyricsFont" xml:space="preserve">
+    <value>フォント設定を追加</value>
+  </data>
+  <data name="MainPageFontControlViewModel_Undo_CopyAfterWipeToBefore" xml:space="preserve">
+    <value>ワイプ後の配色をワイプ前にコピー</value>
+  </data>
+  <data name="MainPageFontControlViewModel_Undo_CopyBeforeWipeToAfter" xml:space="preserve">
+    <value>ワイプ前の配色をワイプ後にコピー</value>
+  </data>
+  <data name="MainPageFontControlViewModel_Undo_LoadTemplate" xml:space="preserve">
+    <value>フォントテンプレートを使用</value>
+  </data>
+  <data name="MainPageFontControlViewModel_Undo_RemoveLyricsFont" xml:space="preserve">
+    <value>フォント設定「{0}」を削除</value>
+  </data>
+  <data name="MainPageFontControlViewModel_Undo_SwapWipe" xml:space="preserve">
+    <value>ワイプ後とワイプ前の配色を交換</value>
+  </data>
+  <data name="MainPageFrameRateControl_TextBlockFrameRate.Text" xml:space="preserve">
+    <value>フレームレート(F)：</value>
+  </data>
+  <data name="MainPageLayoutControl_ButtonSearch.ToolTipService.ToolTip" xml:space="preserve">
+    <value>レイアウト設定検索</value>
+  </data>
+  <data name="MainPageLayoutControl_ButtonTool.ToolTipService.ToolTip" xml:space="preserve">
+    <value>各種(M)</value>
+  </data>
+  <data name="MainPageLayoutControl_MenuFlyoutItemAddLyricsLayout.Text" xml:space="preserve">
+    <value>レイアウト設定を追加(L)</value>
+  </data>
+  <data name="MainPageLayoutControl_MenuFlyoutItemLoadTemplate.Text" xml:space="preserve">
+    <value>テンプレートを使用(T)...</value>
+  </data>
+  <data name="MainPageLayoutControl_MenuFlyoutItemRemoveLyricsLayout.Text" xml:space="preserve">
+    <value>レイアウト設定を削除(R)</value>
+  </data>
+  <data name="MainPageLayoutControl_MenuFlyoutItemSaveTemplate.Text" xml:space="preserve">
+    <value>テンプレートとして登録(G)</value>
+  </data>
+  <data name="MainPageLayoutControl_TextBlockSynchronize.Text" xml:space="preserve">
+    <value>テンプレート連動：</value>
+  </data>
+  <data name="MainPageLayoutControl_TextBoxSearch.PlaceholderText" xml:space="preserve">
+    <value>レイアウト設定検索</value>
+  </data>
+  <data name="MainPageLayoutControl_ToggleButtonSynchronize.Content" xml:space="preserve">
+    <value>連動(S)</value>
+  </data>
+  <data name="MainPageLayoutControlViewModel_Caption" xml:space="preserve">
+    <value>レイアウト設定パネルでは、歌詞設定パネルで指定するレイアウトの詳細な内容を設定します。
+「レイアウト設定 1」のみ設定すれば字幕を配置できますが、必要に応じて複数のレイアウトを設定することもできます。</value>
+  </data>
+  <data name="MainPageLayoutControlViewModel_Confirm_AddLyricsLayout" xml:space="preserve">
+    <value>「{0}」をコピーしてレイアウト設定を追加します。
+よろしいですか？</value>
+  </data>
+  <data name="MainPageLayoutControlViewModel_Confirm_RemoveLyricsLayout" xml:space="preserve">
+    <value>「{0}」を削除します。
+よろしいですか？</value>
+  </data>
+  <data name="MainPageLayoutControlViewModel_Error_FindLyricsLayout" xml:space="preserve">
+    <value>検索キーワードを入力してください。</value>
+  </data>
+  <data name="MainPageLayoutControlViewModel_Error_LoadTemplateDup" xml:space="preserve">
+    <value>テンプレート「{0}」を既に使用しています。</value>
+  </data>
+  <data name="MainPageLayoutControlViewModel_Error_LoadTemplateDupChange" xml:space="preserve">
+    <value>（名称が「{0}」に変更されています）</value>
+  </data>
+  <data name="MainPageLayoutControlViewModel_Error_LoadTemplateUnable" xml:space="preserve">
+    <value>テンプレートを読み込めません。</value>
+  </data>
+  <data name="MainPageLayoutControlViewModel_Error_NoSearch" xml:space="preserve">
+    <value>名称に「{0}」を含むレイアウト設定はありません。</value>
+  </data>
+  <data name="MainPageLayoutControlViewModel_Error_RemoveHorizontalLayoutLast" xml:space="preserve">
+    <value>最後の設定は削除できません。</value>
+  </data>
+  <data name="MainPageLayoutControlViewModel_Error_RemoveHorizontalLayoutSelect" xml:space="preserve">
+    <value>削除したい設定を選択してください。</value>
+  </data>
+  <data name="MainPageLayoutControlViewModel_Error_RemoveLyricsLayout" xml:space="preserve">
+    <value>レイアウト設定をなくすことはできません。</value>
+  </data>
+  <data name="MainPageLayoutControlViewModel_RubyAlignmentNames_0" xml:space="preserve">
+    <value>自動配置</value>
+  </data>
+  <data name="MainPageLayoutControlViewModel_RubyAlignmentNames_1" xml:space="preserve">
+    <value>センタリング</value>
+  </data>
+  <data name="MainPageLayoutControlViewModel_RubyAlignmentNames_2" xml:space="preserve">
+    <value>均等割り付け</value>
+  </data>
+  <data name="MainPageLayoutControlViewModel_SmartHorizonNames_0" xml:space="preserve">
+    <value>調整しない</value>
+  </data>
+  <data name="MainPageLayoutControlViewModel_SmartHorizonNames_1" xml:space="preserve">
+    <value>中心位置揃え</value>
+  </data>
+  <data name="MainPageLayoutControlViewModel_SmartHorizonNames_2" xml:space="preserve">
+    <value>左右余白揃え</value>
+  </data>
+  <data name="MainPageLayoutControlViewModel_Undo_AddHorizontalLayout" xml:space="preserve">
+    <value>行ごとの左右レイアウトを追加</value>
+  </data>
+  <data name="MainPageLayoutControlViewModel_Undo_AddLyricsLayout" xml:space="preserve">
+    <value>レイアウト設定を追加</value>
+  </data>
+  <data name="MainPageLayoutControlViewModel_Undo_LoadTemplate" xml:space="preserve">
+    <value>レイアウトテンプレートを使用</value>
+  </data>
+  <data name="MainPageLayoutControlViewModel_Undo_RemoveHorizontalLayout" xml:space="preserve">
+    <value>行ごとの左右レイアウトを削除</value>
+  </data>
+  <data name="MainPageLayoutControlViewModel_Undo_RemoveLyricsLayout" xml:space="preserve">
+    <value>レイアウト設定「{0}」を削除</value>
+  </data>
+  <data name="MainPageLyricsControl_ButtonFontSelector.ToolTipService.ToolTip" xml:space="preserve">
+    <value>自動でフォントを設定(F)...</value>
+  </data>
+  <data name="MainPageLyricsControl_ButtonLayoutSelector.ToolTipService.ToolTip" xml:space="preserve">
+    <value>自動でレイアウトを設定(Y)...</value>
+  </data>
+  <data name="MainPageLyricsControl_ButtonLineBreaker.ToolTipService.ToolTip" xml:space="preserve">
+    <value>自動で区切りを設定(R)...</value>
+  </data>
+  <data name="MainPageLyricsControl_ButtonShowTimeAdjuster.ToolTipService.ToolTip" xml:space="preserve">
+    <value>自動で表示開始時刻・表示終了時刻を設定(S)...</value>
+  </data>
+  <data name="MainPageLyricsControl_ButtonSubtitleActionSelector.ToolTipService.ToolTip" xml:space="preserve">
+    <value>自動でアクションを設定(A)...</value>
+  </data>
+  <data name="MainPageLyricsControl_ButtonTool.ToolTipService.ToolTip" xml:space="preserve">
+    <value>各種(M)</value>
+  </data>
+  <data name="MainPageLyricsControl_MenuFlyoutItemAddMultiTextInfo.Text" xml:space="preserve">
+    <value>歌詞設定を追加(L)</value>
+  </data>
+  <data name="MainPageLyricsControl_MenuFlyoutItemEditAction.Text" xml:space="preserve">
+    <value>字幕アクションの編集(J)...</value>
+  </data>
+  <data name="MainPageLyricsControl_MenuFlyoutItemRemoveMultiTextInfo.Text" xml:space="preserve">
+    <value>歌詞設定を削除(R)</value>
+  </data>
+  <data name="MainPageLyricsControlViewModel_Caption" xml:space="preserve">
+    <value>歌詞設定パネルでは、歌詞のフォントやレイアウトなどを指定します。
+「歌詞設定 1」のみ設定すれば字幕を作成できますが、必要に応じて複数の歌詞を設定することもできます。</value>
+  </data>
+  <data name="MainPageLyricsControlViewModel_Information_Reloaded" xml:space="preserve">
+    <value>歌詞ファイル「{0}」が更新されたため内容を反映しました。</value>
+  </data>
+  <data name="MainPageLyricsControlViewModel_Information_ReloadedAfterLoad" xml:space="preserve">
+    <value>歌詞ファイル「{0}」が前回のプロジェクト保存後に更新されたため内容を反映しました。</value>
+  </data>
+  <data name="MainPageLyricsControlViewModel_Information_RunMisc" xml:space="preserve">
+    <value>自動で{0}を設定しました。</value>
+  </data>
+  <data name="MainPageLyricsControlViewModel_Information_RunMisc_FontSelector" xml:space="preserve">
+    <value>、フォント</value>
+  </data>
+  <data name="MainPageLyricsControlViewModel_Information_RunMisc_LayoutSelector" xml:space="preserve">
+    <value>、レイアウト</value>
+  </data>
+  <data name="MainPageLyricsControlViewModel_Information_RunMisc_LineBreaker" xml:space="preserve">
+    <value>、区切り</value>
+  </data>
+  <data name="MainPageLyricsControlViewModel_Information_RunMisc_ShowTimeAdjuster" xml:space="preserve">
+    <value>、表示時刻</value>
+  </data>
+  <data name="MainPageLyricsControlViewModel_Information_RunMisc_SubtitleActionSelector" xml:space="preserve">
+    <value>、アクション</value>
+  </data>
+  <data name="MainPageLyricsControlViewModel_Undo_RunFontSelector" xml:space="preserve">
+    <value>自動でフォントを設定</value>
+  </data>
+  <data name="MainPageLyricsControlViewModel_Undo_RunLayoutSelector" xml:space="preserve">
+    <value>自動でレイアウトを設定</value>
+  </data>
+  <data name="MainPageLyricsControlViewModel_Undo_RunLineBreaker" xml:space="preserve">
+    <value>自動で区切りを設定</value>
+  </data>
+  <data name="MainPageLyricsControlViewModel_Undo_RunShowTimeAdjuster" xml:space="preserve">
+    <value>自動で表示開始時刻・表示終了時刻を設定</value>
+  </data>
+  <data name="MainPageLyricsControlViewModel_Undo_RunSubtitleActionSelector" xml:space="preserve">
+    <value>自動でアクションを設定</value>
+  </data>
+  <data name="MainPageLyricsControlViewModel_Warning_ShowBeginTimeGtLyricsActualBeginTime" xml:space="preserve">
+    <value>表示開始時刻が歌唱開始時刻より遅いです。</value>
+  </data>
+  <data name="MainPageLyricsControlViewModel_Warning_ShowEndTimeLtLyricsActualEndTime" xml:space="preserve">
+    <value>表示終了時刻が歌唱終了時刻より早いです。</value>
+  </data>
+  <data name="MainPageMultiTextViewModel_Confirm_AddMultiTextInfo" xml:space="preserve">
+    <value>{0}設定を追加します。
+よろしいですか？</value>
+  </data>
+  <data name="MainPageMultiTextViewModel_Confirm_RemoveMultiTextInfo" xml:space="preserve">
+    <value>「{0}」を削除します。
+よろしいですか？</value>
+  </data>
+  <data name="MainPageMultiTextViewModel_Error_EditActionSelect" xml:space="preserve">
+    <value>字幕アクションの編集をしたい行を選択してください。
+（複数行の選択も可能です）</value>
+  </data>
+  <data name="MainPageMultiTextViewModel_Error_EditActionValid" xml:space="preserve">
+    <value>有効な{0}行を選択してください。</value>
+  </data>
+  <data name="MainPageMultiTextViewModel_Error_NoLine" xml:space="preserve">
+    <value>{0}行がありません。</value>
+  </data>
+  <data name="MainPageMultiTextViewModel_Error_RemoveMultiTextInfo" xml:space="preserve">
+    <value>{0}設定をなくすことはできません。</value>
+  </data>
+  <data name="MainPageMultiTextViewModel_Undo_AddMultiTextInfo" xml:space="preserve">
+    <value>{0}設定を追加</value>
+  </data>
+  <data name="MainPageMultiTextViewModel_Undo_EditAction" xml:space="preserve">
+    <value>字幕アクションの編集</value>
+  </data>
+  <data name="MainPageMultiTextViewModel_Undo_FontIndexChanged" xml:space="preserve">
+    <value>フォントの変更</value>
+  </data>
+  <data name="MainPageMultiTextViewModel_Undo_LayoutIndexChanged" xml:space="preserve">
+    <value>レイアウトの変更</value>
+  </data>
+  <data name="MainPageMultiTextViewModel_Undo_RemoveMultiTextInfo" xml:space="preserve">
+    <value>{0}設定「{1}」を削除</value>
+  </data>
+  <data name="MainPageMultiTextViewModel_Undo_SubtitleActionChanged" xml:space="preserve">
+    <value>アクションの変更</value>
+  </data>
+  <data name="MainPageOutputControl_ButtonBrowseDestPath.Content" xml:space="preserve">
+    <value>参照(B)...</value>
+  </data>
+  <data name="MainPageOutputControl_ButtonMp4Settings.ToolTipService.ToolTip" xml:space="preserve">
+    <value>MP4 エンコード設定(M)...</value>
+  </data>
+  <data name="MainPageOutputControl_ButtonOpenDestFolder.ToolTipService.ToolTip" xml:space="preserve">
+    <value>出力先フォルダーを開く(N)</value>
+  </data>
+  <data name="MainPageOutputControl_ButtonOutput.Content" xml:space="preserve">
+    <value>動画出力(O)</value>
+  </data>
+  <data name="MainPageOutputControl_CheckBoxDoubleFrame.Content" xml:space="preserve">
+    <value>字幕ワイプを 2 倍滑らかにする（フレームレート倍増）(W)</value>
+  </data>
+  <data name="MainPageOutputControl_HyperlinkButtonContentsTree2C.Content" xml:space="preserve">
+    <value>ニコカラメーカー　簡易説明書動画</value>
+  </data>
+  <data name="MainPageOutputControl_HyperlinkButtonCreatorSupport1C.Content" xml:space="preserve">
+    <value>クリエイターサポート</value>
+  </data>
+  <data name="MainPageOutputControl_HyperlinkButtonFantia1C.Content" xml:space="preserve">
+    <value>ファンサイト</value>
+  </data>
+  <data name="MainPageOutputControl_TextBlockContentsTree1.Text" xml:space="preserve">
+    <value>作成した動画をニコニコ動画に投稿する場合は、元動画（背景素材パネルで指定した動画）および、</value>
+  </data>
+  <data name="MainPageOutputControl_TextBlockContentsTree2L.Text" xml:space="preserve">
+    <value>「</value>
+  </data>
+  <data name="MainPageOutputControl_TextBlockContentsTree2R.Text" xml:space="preserve">
+    <value>」（sm28311188）を、コンテンツツリーの親として登録お願いします。</value>
+  </data>
+  <data name="MainPageOutputControl_TextBlockContentsTree3.Text" xml:space="preserve">
+    <value>ニコニコ動画に投稿せずに YouTube 等の動画サイトに投稿する場合は、sm28311188 へのリンク記載をお願いします。</value>
+  </data>
+  <data name="MainPageOutputControl_TextBlockCreatorSupport1L.Text" xml:space="preserve">
+    <value>ニコニコ動画の「</value>
+  </data>
+  <data name="MainPageOutputControl_TextBlockCreatorSupport1R.Text" xml:space="preserve">
+    <value>」</value>
+  </data>
+  <data name="MainPageOutputControl_TextBlockCreatorSupport2.Text" xml:space="preserve">
+    <value>登録お待ちしております。</value>
+  </data>
+  <data name="MainPageOutputControl_TextBlockDestFormat.Text" xml:space="preserve">
+    <value>出力形式(F)：</value>
+  </data>
+  <data name="MainPageOutputControl_TextBlockDestPath.Text" xml:space="preserve">
+    <value>出力先ファイル名(D)：</value>
+  </data>
+  <data name="MainPageOutputControl_TextBlockFantia1L.Text" xml:space="preserve">
+    <value>本アプリの「</value>
+  </data>
+  <data name="MainPageOutputControl_TextBlockFantia1R.Text" xml:space="preserve">
+    <value>」を開設しました。</value>
+  </data>
+  <data name="MainPageOutputControlViewModel_AddDestFile" xml:space="preserve">
+    <value>_ニコカラメーカー3出力</value>
+  </data>
+  <data name="MainPageOutputControlViewModel_AddDestFolder" xml:space="preserve">
+    <value>出力</value>
+  </data>
+  <data name="MainPageOutputControlViewModel_Caption" xml:space="preserve">
+    <value>動画出力パネルでは、これまでの内容に基づいて、カラオケ字幕付き動画を出力します。SSD / HDD の空き容量にご注意ください。</value>
+  </data>
+  <data name="MainPageOutputControlViewModel_Error_BadFfmpeg" xml:space="preserve">
+    <value>FFmpeg が正しく設定されていないため、MP4 形式で出力できません。</value>
+  </data>
+  <data name="MainPageOutputControlViewModel_Error_DestPathNotSet" xml:space="preserve">
+    <value>出力先ファイル名が指定されていません。</value>
+  </data>
+  <data name="MainPageOutputControlViewModel_Error_SourceNotSet" xml:space="preserve">
+    <value>背景素材が指定されていません。</value>
+  </data>
+  <data name="MainPageOutputControlViewModel_Information_Avi" xml:space="preserve">
+    <value>出力した無圧縮 AVI 動画が正しく再生されない場合は、ヘルプの動画出力ページ節をご覧ください。</value>
+  </data>
+  <data name="MainPageOutputControlViewModel_Information_AviOverFhd" xml:space="preserve">
+    <value>フル HD を超える解像度を無圧縮 AVI 形式で出力すると相当の時間がかかると予想されます。</value>
+  </data>
+  <data name="MainPageOutputControlViewModel_Information_BadFfmpeg" xml:space="preserve">
+    <value>FFmpeg が正しく設定されていません。</value>
+  </data>
+  <data name="MainPagePreviewControl_ButtonFastForward.ToolTipService.ToolTip" xml:space="preserve">
+    <value>早送り(X)</value>
+  </data>
+  <data name="MainPagePreviewControl_ButtonFastRewind.ToolTipService.ToolTip" xml:space="preserve">
+    <value>早戻し(Z)</value>
+  </data>
+  <data name="MainPagePreviewControl_ButtonPlay.ToolTipService.ToolTip" xml:space="preserve">
+    <value>再生／一時停止(A)</value>
+  </data>
+  <data name="MainPagePreviewControl_ButtonStep.ToolTipService.ToolTip" xml:space="preserve">
+    <value>コマ送り(F)</value>
+  </data>
+  <data name="MainPagePreviewControl_ButtonStop.ToolTipService.ToolTip" xml:space="preserve">
+    <value>停止(S)</value>
+  </data>
+  <data name="MainPagePreviewControl_ButtonWarnings.ToolTipService.ToolTip" xml:space="preserve">
+    <value>警告・情報を一覧表示(W)</value>
+  </data>
+  <data name="MainPagePreviewControl_TextBlockQuality.Text" xml:space="preserve">
+    <value>描画品質(Q)</value>
+  </data>
+  <data name="MainPagePreviewControl_TextBlockTimeStamp.Text" xml:space="preserve">
+    <value>時刻描画(I)</value>
+  </data>
+  <data name="MainPagePreviewControlViewModel_ButtonMuteToolTipMute" xml:space="preserve">
+    <value>ミュート中(M)</value>
+  </data>
+  <data name="MainPagePreviewControlViewModel_ButtonMuteToolTipOutput" xml:space="preserve">
+    <value>音声出力可能(M)</value>
+  </data>
+  <data name="MainPagePreviewControlViewModel_Caption" xml:space="preserve">
+    <value>プレビューパネルでは、動画出力前に出来映えを確認できます。
+字幕量が多い場合・パソコンの性能が低い場合は、字幕が点滅したりタイミングがずれたりしますが、動画出力時は正しく出力されますのでご安心ください。</value>
+  </data>
+  <data name="MainPageSoundControl_ButtonBrowseSoundPath.Content" xml:space="preserve">
+    <value>編集(C)...</value>
+  </data>
+  <data name="MainPageSoundControl_TextBlockSoundPath.Text" xml:space="preserve">
+    <value>音声(A)：</value>
+  </data>
+  <data name="MainPageSourceControl_ButtonBrowseImagePath1.Content" xml:space="preserve">
+    <value>参照(B)...</value>
+  </data>
+  <data name="MainPageSourceControl_ButtonBrowseImagePath2.Content" xml:space="preserve">
+    <value>参照(B)...</value>
+  </data>
+  <data name="MainPageSourceControl_ButtonBrowseMoviePath.Content" xml:space="preserve">
+    <value>参照(B)...</value>
+  </data>
+  <data name="MainPageSourceControl_CheckBoxMoviePlusSound.Content" xml:space="preserve">
+    <value>別ファイルの音声を使用する(D)</value>
+  </data>
+  <data name="MainPageSourceControl_TextBlockBackgroundColor.Text" xml:space="preserve">
+    <value>背景色(D)：</value>
+  </data>
+  <data name="MainPageSourceControl_TextBlockBackgroundSize.Text" xml:space="preserve">
+    <value>解像度(R)：</value>
+  </data>
+  <data name="MainPageSourceControl_TextBlockImagePath1.Text" xml:space="preserve">
+    <value>画像(G)：</value>
+  </data>
+  <data name="MainPageSourceControl_TextBlockImagePath2.Text" xml:space="preserve">
+    <value>連番の先頭画像(G)：</value>
+  </data>
+  <data name="MainPageSourceControl_TextBlockIsBackground.Text" xml:space="preserve">
+    <value>背景を指定の色で塗りつぶします。</value>
+  </data>
+  <data name="MainPageSourceControl_TextBlockIsImage.Text" xml:space="preserve">
+    <value>背景に 1 枚の画像を使用します。</value>
+  </data>
+  <data name="MainPageSourceControl_TextBlockIsMovie.Text" xml:space="preserve">
+    <value>背景に動画を使用します。</value>
+  </data>
+  <data name="MainPageSourceControl_TextBlockIsSequenceImage.Text" xml:space="preserve">
+    <value>背景に連番画像を使用します。</value>
+  </data>
+  <data name="MainPageSourceControl_TextBlockMoviePath.Text" xml:space="preserve">
+    <value>背景として使用する元動画(M)：</value>
+  </data>
+  <data name="MainPageSourceControl_TextBlockSourceDuration.Text" xml:space="preserve">
+    <value>長さ：</value>
+  </data>
+  <data name="MainPageSourceControl_TextBlockSourceFrameRate.Text" xml:space="preserve">
+    <value>フレームレート：</value>
+  </data>
+  <data name="MainPageSourceControl_TextBlockSourceInfo.Text" xml:space="preserve">
+    <value>素材情報</value>
+  </data>
+  <data name="MainPageSourceControl_TextBlockSourceResolution.Text" xml:space="preserve">
+    <value>解像度：</value>
+  </data>
+  <data name="MainPageSourceControl_ToggleButtonIsBackground.ToolTipService.ToolTip" xml:space="preserve">
+    <value>背景色(S4)</value>
+  </data>
+  <data name="MainPageSourceControl_ToggleButtonIsImage.ToolTipService.ToolTip" xml:space="preserve">
+    <value>1 枚の画像(S2)</value>
+  </data>
+  <data name="MainPageSourceControl_ToggleButtonIsMovie.ToolTipService.ToolTip" xml:space="preserve">
+    <value>動画(S1)</value>
+  </data>
+  <data name="MainPageSourceControl_ToggleButtonIsSequenceImage.ToolTipService.ToolTip" xml:space="preserve">
+    <value>連番画像(S3)</value>
+  </data>
+  <data name="MainPageSourceControlViewModel_Caption" xml:space="preserve">
+    <value>背景素材パネルでは、背景となる動画や、画像・音声を指定します。</value>
+  </data>
+  <data name="MainPageSourceControlViewModel_Error_FileNotFound" xml:space="preserve">
+    <value>{0} は存在しません。</value>
+  </data>
+  <data name="MainPageSourceControlViewModel_Error_UnableGetMovieInfo" xml:space="preserve">
+    <value>動画情報を取得できませんでした。</value>
+  </data>
+  <data name="MainPageTitleControl_ButtonAddTitle.ToolTipService.ToolTip" xml:space="preserve">
+    <value>タイトル行の追加(A)...</value>
+  </data>
+  <data name="MainPageTitleControl_ButtonEditTitle.ToolTipService.ToolTip" xml:space="preserve">
+    <value>タイトル行の編集(D)...</value>
+  </data>
+  <data name="MainPageTitleControl_ButtonRemoveTitle.ToolTipService.ToolTip" xml:space="preserve">
+    <value>タイトル行の削除(R)</value>
+  </data>
+  <data name="MainPageTitleControl_ButtonTool.ToolTipService.ToolTip" xml:space="preserve">
+    <value>各種(M)</value>
+  </data>
+  <data name="MainPageTitleControl_MenuFlyoutItemAddMultiTextInfo.Text" xml:space="preserve">
+    <value>タイトル設定を追加(L)</value>
+  </data>
+  <data name="MainPageTitleControl_MenuFlyoutItemEditAction.Text" xml:space="preserve">
+    <value>字幕アクションの編集(J)...</value>
+  </data>
+  <data name="MainPageTitleControl_MenuFlyoutItemRemoveMultiTextInfo.Text" xml:space="preserve">
+    <value>タイトル設定を削除(R)</value>
+  </data>
+  <data name="MainPageTitleControlViewModel_Caption" xml:space="preserve">
+    <value>タイトル設定パネルでは、タイトルとそのフォントやレイアウトなどを指定します。
+タイトルが不要の場合は、設定を行わなくて構いません。</value>
+  </data>
+  <data name="MainPageTitleControlViewModel_Confirm_RemoveEmpty" xml:space="preserve">
+    <value>空行を削除します。よろしいですか？</value>
+  </data>
+  <data name="MainPageTitleControlViewModel_Confirm_RemoveMulti" xml:space="preserve">
+    <value>選択されている {0} 行を削除します。
+よろしいですか？</value>
+  </data>
+  <data name="MainPageTitleControlViewModel_Confirm_RemoveTitle" xml:space="preserve">
+    <value>以下のタイトル行を削除します。よろしいですか？
+{0}</value>
+  </data>
+  <data name="MainPageTitleControlViewModel_Error_AddOrReplaceTitle" xml:space="preserve">
+    <value>以下の行は無効だったため追加されませんでした：
+{0}</value>
+  </data>
+  <data name="MainPageTitleControlViewModel_Error_AddOrReplaceTitle_Part" xml:space="preserve">
+    <value>{0} 行目</value>
+  </data>
+  <data name="MainPageTitleControlViewModel_Error_SelectRemoveTitle" xml:space="preserve">
+    <value>削除したい行を選択してください。</value>
+  </data>
+  <data name="MainPageTitleControlViewModel_Undo_AddTitle" xml:space="preserve">
+    <value>タイトル行の追加</value>
+  </data>
+  <data name="MainPageTitleControlViewModel_Undo_EditTitle" xml:space="preserve">
+    <value>タイトル行の編集</value>
+  </data>
+  <data name="MainPageTitleControlViewModel_Undo_RemoveTitle" xml:space="preserve">
+    <value>タイトル行を削除</value>
+  </data>
+  <data name="MainPageViewModel_Confirm_LoadAutoSave" xml:space="preserve">
+    <value>以前に自動保存されたプロジェクトが残っています。
+
+プロジェクト：{0}
+自動保存日時：{1}
+
+回復しますか？
+
+（注意）
+「いいえ」を選ぶと自動保存は消去されます。
+続きから編集したい場合は「はい」を選んでください。</value>
+  </data>
+  <data name="MainPageViewModel_Confirm_Modify" xml:space="preserve">
+    <value>「{0}」は更新されています。
+保存しますか？</value>
+  </data>
+  <data name="MainPageViewModel_Confirm_Nkm2Project" xml:space="preserve">
+    <value>旧ニコカラメーカー 2 のプロジェクトを読み込む場合、一部の設定（字幕アクションなど）は読み込めません。
+また、読み込みに多少時間がかかる場合があります。</value>
+  </data>
+  <data name="MainPageViewModel_Error_EmptyContent" xml:space="preserve">
+    <value>内容が空です。</value>
+  </data>
+  <data name="MainPageViewModel_Error_LackInformation" xml:space="preserve">
+    <value>情報が不足しています。</value>
+  </data>
+  <data name="MainPageViewModel_Error_NoProjectPath" xml:space="preserve">
+    <value>プロジェクトファイル名が指定されていません。</value>
+  </data>
+  <data name="MainPageViewModel_Error_UnableLoadTemplate" xml:space="preserve">
+    <value>テンプレートを読み込めません。</value>
+  </data>
+  <data name="MainPageViewModel_Error_UnableRestoreProject" xml:space="preserve">
+    <value>プロジェクトを復元できません。</value>
+  </data>
+  <data name="MainPageViewModel_Information_Modify" xml:space="preserve">
+    <value>（更新）</value>
+  </data>
+  <data name="MainPageViewModel_Information_None" xml:space="preserve">
+    <value>（なし）</value>
+  </data>
+  <data name="MainPageViewModel_Information_ProjectSaved" xml:space="preserve">
+    <value>プロジェクト「{0}」を保存しました。</value>
+  </data>
+  <data name="MainPageViewModel_Information_UpdateLaunch" xml:space="preserve">
+    <value>【更新起動】
+
+{0} が更新されました。
+更新内容については［ヘルプ→更新履歴］メニューをご参照ください。</value>
+  </data>
+  <data name="MainPageViewModel_MenuFlyoutItemContentsTreeText" xml:space="preserve">
+    <value>{0} で作られた動画の一覧(N)</value>
+  </data>
+  <data name="MainPageViewModel_MenuFlyoutItemLatestInfoHistoryText" xml:space="preserve">
+    <value>{0} の最新情報(L)...</value>
+  </data>
+  <data name="MainPageViewModel_SwitchToDefaultFontIfNeeded_Warning" xml:space="preserve">
+    <value>プロジェクトで使用されているフォントがインストールされていないため、代替フォントを使用します。
+{0}</value>
+  </data>
+  <data name="MainPageViewModel_Undo_SynchronizeTemplate" xml:space="preserve">
+    <value>他プロジェクトのテンプレート変更反映</value>
+  </data>
+  <data name="MainPageViewModel_UndoTo_Error_CannotUndo" xml:space="preserve">
+    <value>元に戻せませんでした。</value>
+  </data>
+  <data name="MainPageViewModel_Warning_Beta" xml:space="preserve">
+    <value>このバージョンは開発途上のベータバージョンです。
+使用前にヘルプをよく読み、注意してお使い下さい。</value>
+  </data>
+  <data name="MainPageWelcomeControl_ButtonNew.Content" xml:space="preserve">
+    <value>新規プロジェクト（テンプレート使用可能）(N)...</value>
+  </data>
+  <data name="MainPageWelcomeControl_ButtonNextTips.ToolTipService.ToolTip" xml:space="preserve">
+    <value>次の Tips</value>
+  </data>
+  <data name="MainPageWelcomeControl_ButtonOpen.Content" xml:space="preserve">
+    <value>プロジェクトを開く(O)...</value>
+  </data>
+  <data name="MainPageWelcomeControl_ButtonPrevTips.ToolTipService.ToolTip" xml:space="preserve">
+    <value>前の Tips</value>
+  </data>
+  <data name="MainPageWelcomeControl_ButtonSampleFolder.Content" xml:space="preserve">
+    <value>サンプルフォルダー(S)</value>
+  </data>
+  <data name="MainPageWelcomeControl_ButtonTutorialMovie.Content" xml:space="preserve">
+    <value>チュートリアルを見る（動画）(M)</value>
+  </data>
+  <data name="MainPageWelcomeControl_ButtonTutorialText.Content" xml:space="preserve">
+    <value>チュートリアルを見る（テキスト）(U)</value>
+  </data>
+  <data name="MainPageWelcomeControl_TextBlockStart.Text" xml:space="preserve">
+    <value>新規プロジェクトを作成する（新しいカラオケ字幕付き動画を作成する）か、既存のプロジェクトを開く（既に作成済みのカラオケ字幕付き動画を編集する）か、選んでください。</value>
+  </data>
+  <data name="MainPageWelcomeControl_TextBlockTipsHeader.Text" xml:space="preserve">
+    <value>ワンポイント Tips</value>
+  </data>
+  <data name="MainPageWelcomeControl_TextBlockTutorial.Text" xml:space="preserve">
+    <value>初めての方はチュートリアルをご覧ください。サンプル素材を使用してカラオケ字幕付き動画を作成できます。</value>
+  </data>
+  <data name="MainPageWelcomeControlViewModel_Caption" xml:space="preserve">
+    <value>ようこそ　「{0}」　{1} へ。
+{0} では、左端ナビゲーションでパネルを切り替え、上のパネルから順に作業していくことで作成が進み、カラオケ字幕付き動画（ニコカラ）ができあがります。
+各パネルでの操作方法の詳細については、ヘルプをご覧ください。</value>
+  </data>
+  <data name="MainPageWelcomeControlViewModel_TipsDescription" xml:space="preserve">
+    <value>{0} の操作に慣れてきたら、Tips を参考にワンランク上のカラオケ字幕付き動画を目指してみてください。</value>
+  </data>
+  <data name="Meta_Language" xml:space="preserve">
+    <value>ja-JP</value>
+  </data>
+  <data name="Mp4SettingsControl_TextBlockSettingsName.Text" xml:space="preserve">
+    <value>エンコード設定の名称(N)：</value>
+  </data>
+  <data name="Mp4SettingsControl_TextBlockSoundVbr.Text" xml:space="preserve">
+    <value>音声ビットレート：</value>
+  </data>
+  <data name="Mp4SettingsControl_TextBlockVideoAdditional.Text" xml:space="preserve">
+    <value>映像追加オプション(A)：</value>
+  </data>
+  <data name="Mp4SettingsControl_TextBlockVideoCodec.Text" xml:space="preserve">
+    <value>映像コーデック(C)：</value>
+  </data>
+  <data name="Mp4SettingsControl_TextBlockVideoDevice.Text" xml:space="preserve">
+    <value>映像エンコードデバイス(D)：</value>
+  </data>
+  <data name="Mp4SettingsControl_TextBlockX264CrfHighQuality.Text" xml:space="preserve">
+    <value>高画質</value>
+  </data>
+  <data name="Mp4SettingsControl_TextBlockX264CrfLowQuality.Text" xml:space="preserve">
+    <value>低画質</value>
+  </data>
+  <data name="Mp4SettingsControl_TextBlockX264CrfNotice.Text" xml:space="preserve">
+    <value>数値が小さいほうが高画質です。</value>
+  </data>
+  <data name="Mp4SettingsControl_TextBlockX265CrfHighQuality.Text" xml:space="preserve">
+    <value>高画質</value>
+  </data>
+  <data name="Mp4SettingsControl_TextBlockX265CrfLowQuality.Text" xml:space="preserve">
+    <value>低画質</value>
+  </data>
+  <data name="Mp4SettingsControl_TextBlockX265CrfNotice.Text" xml:space="preserve">
+    <value>数値が小さいほうが高画質です。</value>
+  </data>
+  <data name="Mp4SettingsModel_Error_UnableSet" xml:space="preserve">
+    <value>映像パラメーターを設定できません：{0}</value>
+  </data>
+  <data name="Mp4SettingsModel_Mp4VideoDeviceNames_0" xml:space="preserve">
+    <value>ソフトウェア</value>
+  </data>
+  <data name="Mp4SettingsModel_Mp4VideoDeviceNames_1" xml:space="preserve">
+    <value>ハードウェア（Intel/QSV）</value>
+  </data>
+  <data name="Mp4SettingsModel_Mp4VideoDeviceNames_2" xml:space="preserve">
+    <value>ハードウェア（AMD/AMF）</value>
+  </data>
+  <data name="Mp4SettingsModel_Mp4VideoDeviceNames_3" xml:space="preserve">
+    <value>ハードウェア（NVIDIA/NVENC）</value>
+  </data>
+  <data name="Mp4SettingsModel_New" xml:space="preserve">
+    <value>新規</value>
+  </data>
+  <data name="Mp4SettingsModel_Quality" xml:space="preserve">
+    <value>画質[{0}](Q)：</value>
+  </data>
+  <data name="Mp4SettingsModel_SoftwareNotice" xml:space="preserve">
+    <value>{0} 未満にしても画質向上は体感できず、ファイルサイズが無駄になります。</value>
+  </data>
+  <data name="Mp4SettingsModel_VideoCodecNoticeH264" xml:space="preserve">
+    <value>様々な環境で再生できる動画になります。</value>
+  </data>
+  <data name="Mp4SettingsModel_VideoCodecNoticeH265" xml:space="preserve">
+    <value>高画質で、ファイルサイズも小さくなります。</value>
+  </data>
+  <data name="Mp4SettingsModel_VideoDeviceNoticeHardware" xml:space="preserve">
+    <value>{0} 環境で高速にエンコードできます。
+非対応環境ではエラーになります。低画質で、ファイルサイズは大きくなります。</value>
+  </data>
+  <data name="Mp4SettingsModel_VideoDeviceNoticeSoftware" xml:space="preserve">
+    <value>様々な環境でエンコードできます。
+高画質で、ファイルサイズも小さくなります。</value>
+  </data>
+  <data name="NicoKaraListOutputPage_ButtonAbort.Content" xml:space="preserve">
+    <value>中止(A)</value>
+  </data>
+  <data name="NicoKaraListOutputPage_TextBlockStatus.Text" xml:space="preserve">
+    <value>ニコカラリスト作成中...</value>
+  </data>
+  <data name="NicoKaraListOutputPageViewModel_Confirm_ButtonAbortClicked" xml:space="preserve">
+    <value>ニコカラリスト出力を中止しますか？</value>
+  </data>
+  <data name="NicoKaraListOutputPageViewModel_Information_Aborting" xml:space="preserve">
+    <value>中止しています...</value>
+  </data>
+  <data name="NicoKaraListOutputPageViewModel_Information_Done" xml:space="preserve">
+    <value>ニコカラリスト出力が完了しました。
+
+経過時間：{0}</value>
+  </data>
+  <data name="NicoKaraListOutputPageViewModel_ListOutputStatus_0" xml:space="preserve">
+    <value>準備中...</value>
+  </data>
+  <data name="NicoKaraListOutputPageViewModel_ListOutputStatus_1" xml:space="preserve">
+    <value>準備中...</value>
+  </data>
+  <data name="NicoKaraListOutputPageViewModel_ListOutputStatus_2" xml:space="preserve">
+    <value>ダウンロード中...</value>
+  </data>
+  <data name="NicoKaraListOutputPageViewModel_ListOutputStatus_3" xml:space="preserve">
+    <value>出力中...</value>
+  </data>
+  <data name="NicoKaraListOutputPageViewModel_ListOutputStatus_4" xml:space="preserve">
+    <value>終了</value>
+  </data>
+  <data name="NicoKaraListOutputWindow.Title" xml:space="preserve">
+    <value>ニコカラリスト出力</value>
+  </data>
+  <data name="NicoKaraListPage_ButtonBrowseDestFolder.Content" xml:space="preserve">
+    <value>参照(B)...</value>
+  </data>
+  <data name="NicoKaraListPage_ButtonDownloadUpdate.Content" xml:space="preserve">
+    <value>今すぐ更新データをダウンロード(W)</value>
+  </data>
+  <data name="NicoKaraListPage_ButtonList.Content" xml:space="preserve">
+    <value>リスト作成(G)</value>
+  </data>
+  <data name="NicoKaraListPage_ButtonOpenDestFolder.ToolTipService.ToolTip" xml:space="preserve">
+    <value>出力先フォルダーを開く(N)</value>
+  </data>
+  <data name="NicoKaraListPage_HyperlinkButtonListRule.Content" xml:space="preserve">
+    <value>リスト化ルールの詳細情報</value>
+  </data>
+  <data name="NicoKaraListPage_HyperlinkButtonUserId.Content" xml:space="preserve">
+    <value>ユーザー ID はマイページのユーザー名付近に表示されています</value>
+  </data>
+  <data name="NicoKaraListPage_TextBlockDescription_1.Text" xml:space="preserve">
+    <value>ニコニコ動画に投稿したニコカラを一覧表示するリストを作成します。</value>
+  </data>
+  <data name="NicoKaraListPage_TextBlockDescription_2.Text" xml:space="preserve">
+    <value>（補足）本機能はニコニコ動画公式によるものではなく、本アプリの独自機能です</value>
+  </data>
+  <data name="NicoKaraListPage_TextBlockDestFolder.Text" xml:space="preserve">
+    <value>出力先フォルダー(D)：</value>
+  </data>
+  <data name="NicoKaraListPage_TextBlockDownloadAdditionalDataWarning.Text" xml:space="preserve">
+    <value>（リスト作成に時間がかかるようになります）</value>
+  </data>
+  <data name="NicoKaraListPage_TextBlockDownloadSettings.Text" xml:space="preserve">
+    <value>ダウンロード設定(S)</value>
+  </data>
+  <data name="NicoKaraListPage_TextBlockDownloadUpdate_1.Text" xml:space="preserve">
+    <value>指定動画の更新データをダウンロード</value>
+  </data>
+  <data name="NicoKaraListPage_TextBlockDownloadUpdate_2.Text" xml:space="preserve">
+    <value>（投稿した動画のタイトルを後から編集した場合、更新データをダウンロードすると、編集後のタイトルでリスト化できます）</value>
+  </data>
+  <data name="NicoKaraListPage_TextBlockDownloadUpdate_3.Text" xml:space="preserve">
+    <value>（編集後のタイトルはリアルタイムで反映されるわけではなく、毎日 5:00 に反映されます。編集後、1 日経ってからダウンロードしてください）</value>
+  </data>
+  <data name="NicoKaraListPage_TextBlockDownloadWarning.Text" xml:space="preserve">
+    <value>ニコニコ動画の仕様変更によりダウンロードできなくなる場合があります。</value>
+  </data>
+  <data name="NicoKaraListPage_TextBlockRowPerPage.Text" xml:space="preserve">
+    <value>1 ページ当たりの行数(L)：</value>
+  </data>
+  <data name="NicoKaraListPage_TextBlockUpdateGlobalId.Text" xml:space="preserve">
+    <value>動画 ID(M)：</value>
+  </data>
+  <data name="NicoKaraListPage_TextBlockUserId.Text" xml:space="preserve">
+    <value>ニコニコ動画ユーザー ID(I)：</value>
+  </data>
+  <data name="NicoKaraListPageViewModel_CheckBoxDownloadAdditionalDataLabel" xml:space="preserve">
+    <value>「リスト作成」ボタンクリック時に追加データをダウンロード(A)　（{0}）</value>
+  </data>
+  <data name="NicoKaraListPageViewModel_CheckBoxDownloadAdditionalDataLabelDefault" xml:space="preserve">
+    <value>「リスト作成」ボタンクリック時に追加データをダウンロード(A)</value>
+  </data>
+  <data name="NicoKaraListPageViewModel_MaxUpdateTimeLabel" xml:space="preserve">
+    <value>前回データ：{0}</value>
+  </data>
+  <data name="NicoKaraListPageViewModel_UpdateExpanderDownloadSupplement" xml:space="preserve">
+    <value>（{0}、追加データダウンロード：{1}）</value>
+  </data>
+  <data name="NicoKaraListWindow.Title" xml:space="preserve">
+    <value>ニコカラリスト作成</value>
+  </data>
+  <data name="Nkm3Common_AllTypeFilterName" xml:space="preserve">
+    <value>すべてのファイル</value>
+  </data>
+  <data name="Nkm3Common_DestFormatFilterName_0" xml:space="preserve">
+    <value>無圧縮 AVI</value>
+  </data>
+  <data name="Nkm3Common_DestFormatFilterName_1" xml:space="preserve">
+    <value>MP4</value>
+  </data>
+  <data name="Nkm3Common_DestFormatFilterName_2" xml:space="preserve">
+    <value>連番 PNG</value>
+  </data>
+  <data name="Nkm3Common_DestFormatFilterName_3" xml:space="preserve">
+    <value>連番 PNG（字幕のみを透過で）</value>
+  </data>
+  <data name="Nkm3Common_ExeFilterName" xml:space="preserve">
+    <value>実行ファイル</value>
+  </data>
+  <data name="Nkm3Common_ImageFilterName" xml:space="preserve">
+    <value>画像ファイル</value>
+  </data>
+  <data name="Nkm3Common_LyricsFilterName" xml:space="preserve">
+    <value>歌詞ファイル</value>
+  </data>
+  <data name="Nkm3Common_MovieFilterName" xml:space="preserve">
+    <value>動画ファイル</value>
+  </data>
+  <data name="Nkm3Common_Nkm2ProjectFilterName" xml:space="preserve">
+    <value>旧プロジェクトファイル</value>
+  </data>
+  <data name="Nkm3Common_Nkm3ProjectFilterName" xml:space="preserve">
+    <value>プロジェクトファイル</value>
+  </data>
+  <data name="Nkm3Common_SoundAndMovieFilterName" xml:space="preserve">
+    <value>音声ファイル、動画ファイル</value>
+  </data>
+  <data name="Nkm3Common_SoundFilterName" xml:space="preserve">
+    <value>音声ファイル</value>
+  </data>
+  <data name="Nkm3Settings_InitMp4Settings_General" xml:space="preserve">
+    <value>汎用</value>
+  </data>
+  <data name="Nkm3Settings_InitMp4Settings_High" xml:space="preserve">
+    <value>高画質</value>
+  </data>
+  <data name="Nkm3SettingsPage_ButtonDefault.Content" xml:space="preserve">
+    <value>初期化(I)</value>
+  </data>
+  <data name="Nkm3SettingsPage_ButtonNavigationDown.ToolTipService.ToolTip" xml:space="preserve">
+    <value>パネル下へ</value>
+  </data>
+  <data name="Nkm3SettingsPage_ButtonNavigationUp.ToolTipService.ToolTip" xml:space="preserve">
+    <value>パネル上へ</value>
+  </data>
+  <data name="Nkm3SettingsPage_ToggleButtonEncoding.ToolTipService.ToolTip" xml:space="preserve">
+    <value>MP4 エンコード(3)</value>
+  </data>
+  <data name="Nkm3SettingsPage_ToggleButtonGeneral.ToolTipService.ToolTip" xml:space="preserve">
+    <value>全般(1)</value>
+  </data>
+  <data name="Nkm3SettingsPage_ToggleButtonMaintenance.ToolTipService.ToolTip" xml:space="preserve">
+    <value>メンテナンス(6)</value>
+  </data>
+  <data name="Nkm3SettingsPage_ToggleButtonPerformance.ToolTipService.ToolTip" xml:space="preserve">
+    <value>パフォーマンス(5)</value>
+  </data>
+  <data name="Nkm3SettingsPage_ToggleButtonReload.ToolTipService.ToolTip" xml:space="preserve">
+    <value>歌詞更新(2)</value>
+  </data>
+  <data name="Nkm3SettingsPage_ToggleButtonToast.ToolTipService.ToolTip" xml:space="preserve">
+    <value>通知(4)</value>
+  </data>
+  <data name="Nkm3SettingsPageEncodingControl_ButtonBrowseFfmpegPath.Content" xml:space="preserve">
+    <value>参照(B)...</value>
+  </data>
+  <data name="Nkm3SettingsPageEncodingControl_ButtonTool.ToolTipService.ToolTip" xml:space="preserve">
+    <value>各種(M)</value>
+  </data>
+  <data name="Nkm3SettingsPageEncodingControl_MenuFlyoutItemAddMp4Settings.Text" xml:space="preserve">
+    <value>エンコード設定を追加(L)</value>
+  </data>
+  <data name="Nkm3SettingsPageEncodingControl_MenuFlyoutItemRemoveMp4Settings.Text" xml:space="preserve">
+    <value>エンコード設定を削除(R)</value>
+  </data>
+  <data name="Nkm3SettingsPageEncodingControl_TextBlockFfmpegPath.Text" xml:space="preserve">
+    <value>FFmpeg の場所(F)：</value>
+  </data>
+  <data name="Nkm3SettingsPageEncodingControlViewModel_Confirm_AddMp4Settings" xml:space="preserve">
+    <value>「{0}」をコピーしてエンコード設定を追加します。
+よろしいですか？</value>
+  </data>
+  <data name="Nkm3SettingsPageEncodingControlViewModel_Confirm_RemoveMp4Settings" xml:space="preserve">
+    <value>「{0}」を削除します。
+よろしいですか？</value>
+  </data>
+  <data name="Nkm3SettingsPageEncodingControlViewModel_Error_CheckProperties_SettingsNameEmpty" xml:space="preserve">
+    <value>エンコード設定の名称を入力してください。</value>
+  </data>
+  <data name="Nkm3SettingsPageEncodingControlViewModel_Error_RemoveMp4Settings_LastSettings" xml:space="preserve">
+    <value>エンコード設定をなくすことはできません。</value>
+  </data>
+  <data name="Nkm3SettingsPageEncodingControlViewModel_Error_RemoveMp4Settings_NoTarget" xml:space="preserve">
+    <value>削除対象が指定されていません。</value>
+  </data>
+  <data name="Nkm3SettingsPageGeneralControl_CheckBoxAutoSave.Content" xml:space="preserve">
+    <value>自動回復用にプロジェクトを保存する(A)</value>
+  </data>
+  <data name="Nkm3SettingsPageGeneralControl_CheckBoxCloseButtonForEachTab.Content" xml:space="preserve">
+    <value>タブごとに閉じるボタンを表示する(L)</value>
+  </data>
+  <data name="Nkm3SettingsPageGeneralControl_CheckBoxIsolateLongRubyKanji.Content" xml:space="preserve">
+    <value>ルビが親文字の幅を超える場合、親文字の両側にスペースを空ける(S)</value>
+  </data>
+  <data name="Nkm3SettingsPageGeneralControl_TextBlockAutoSaveInterval_1.Text" xml:space="preserve">
+    <value>自動保存間隔(U)：</value>
+  </data>
+  <data name="Nkm3SettingsPageGeneralControl_TextBlockAutoSaveInterval_2.Text" xml:space="preserve">
+    <value>分</value>
+  </data>
+  <data name="Nkm3SettingsPageGeneralControl_TextBlockColorSpecifyType.Text" xml:space="preserve">
+    <value>色の設定方法(C)：</value>
+  </data>
+  <data name="Nkm3SettingsPageGeneralControl_TextBlockFastForward_1.Text" xml:space="preserve">
+    <value>早送り(F)：</value>
+  </data>
+  <data name="Nkm3SettingsPageGeneralControl_TextBlockFastForward_2.Text" xml:space="preserve">
+    <value>秒</value>
+  </data>
+  <data name="Nkm3SettingsPageGeneralControl_TextBlockFastRewind_1.Text" xml:space="preserve">
+    <value>早戻し(R)：</value>
+  </data>
+  <data name="Nkm3SettingsPageGeneralControl_TextBlockFastRewind_2.Text" xml:space="preserve">
+    <value>秒</value>
+  </data>
+  <data name="Nkm3SettingsPageGeneralControl_TextBlockFastTime.Text" xml:space="preserve">
+    <value>プレビュー時の早戻し・早送り秒数（目安）</value>
+  </data>
+  <data name="Nkm3SettingsPageGeneralControl_TextBlockFontFace.Text" xml:space="preserve">
+    <value>表示フォントフェース(N)：</value>
+  </data>
+  <data name="Nkm3SettingsPageGeneralControl_TextBlockFontSample.Text" xml:space="preserve">
+    <value>フォントサンプル文字(T)：</value>
+  </data>
+  <data name="Nkm3SettingsPageGeneralControl_TextBlockFontSampleAlnum.Text" xml:space="preserve">
+    <value>英数：</value>
+  </data>
+  <data name="Nkm3SettingsPageGeneralControl_TextBlockFontSampleKana.Text" xml:space="preserve">
+    <value>かな：</value>
+  </data>
+  <data name="Nkm3SettingsPageGeneralControl_TextBlockFontSampleKanji.Text" xml:space="preserve">
+    <value>漢字：</value>
+  </data>
+  <data name="Nkm3SettingsPageGeneralControl_TextBlockSpaceWidth.Text" xml:space="preserve">
+    <value>半角スペースの幅(W)：</value>
+  </data>
+  <data name="Nkm3SettingsPageGeneralControlViewModel_CheckProperties_Error_Alnum" xml:space="preserve">
+    <value>フォントサンプル文字の「英数」には英数文字を入力してください。</value>
+  </data>
+  <data name="Nkm3SettingsPageGeneralControlViewModel_CheckProperties_Error_Empty" xml:space="preserve">
+    <value>フォントサンプル文字を入力してください。</value>
+  </data>
+  <data name="Nkm3SettingsPageGeneralControlViewModel_CheckProperties_Error_Kana" xml:space="preserve">
+    <value>フォントサンプル文字の「かな」にはかな文字を入力してください。</value>
+  </data>
+  <data name="Nkm3SettingsPageGeneralControlViewModel_CheckProperties_Error_Length" xml:space="preserve">
+    <value>フォントサンプル文字は 1 文字にしてください。</value>
+  </data>
+  <data name="Nkm3SettingsPageGeneralControlViewModel_ColorSpecifyTypeNames_0" xml:space="preserve">
+    <value>RGBA 10 進</value>
+  </data>
+  <data name="Nkm3SettingsPageGeneralControlViewModel_ColorSpecifyTypeNames_1" xml:space="preserve">
+    <value>Web 16 進 + A 10 進</value>
+  </data>
+  <data name="Nkm3SettingsPageMaintenanceControl_ButtonBackup.Content" xml:space="preserve">
+    <value>設定のバックアップ(B)...</value>
+  </data>
+  <data name="Nkm3SettingsPageMaintenanceControl_ButtonCheckRss.Content" xml:space="preserve">
+    <value>今すぐ最新情報を確認(A)</value>
+  </data>
+  <data name="Nkm3SettingsPageMaintenanceControl_ButtonRestore.Content" xml:space="preserve">
+    <value>設定の復元(R)...</value>
+  </data>
+  <data name="Nkm3SettingsPageMaintenanceControl_TextBlockBackup.Text" xml:space="preserve">
+    <value>設定のバックアップ（ファイルに保存）</value>
+  </data>
+  <data name="Nkm3SettingsPageMaintenanceControlViewModel_CheckBoxCheckRssContent" xml:space="preserve">
+    <value>{0} の最新情報を自動的に確認する(L)</value>
+  </data>
+  <data name="Nkm3SettingsPageMaintenanceControlViewModel_Confirm_CheckRss" xml:space="preserve">
+    <value>最新情報の確認をオフにすると、{0} の新版がリリースされた際の更新内容などが表示されません。
+
+本当にオフにしてもよろしいですか？</value>
+  </data>
+  <data name="Nkm3SettingsPageMaintenanceControlViewModel_Error_Restore_UnableLoad" xml:space="preserve">
+    <value>設定ファイルを読み込めません。</value>
+  </data>
+  <data name="Nkm3SettingsPageMaintenanceControlViewModel_Information_ButtonBackupClicked" xml:space="preserve">
+    <value>設定をバックアップしました。</value>
+  </data>
+  <data name="Nkm3SettingsPageMaintenanceControlViewModel_Information_ButtonRestoreClicked" xml:space="preserve">
+    <value>設定を復元しました。</value>
+  </data>
+  <data name="Nkm3SettingsPagePerformanceControl_CheckBoxUseMultiThread.Content" xml:space="preserve">
+    <value>マルチスレッドで描画する(M)</value>
+  </data>
+  <data name="Nkm3SettingsPagePerformanceControl_CheckBoxUseUseHardwareAdapter.Content" xml:space="preserve">
+    <value>ハードウェアアダプタで描画する(H)</value>
+  </data>
+  <data name="Nkm3SettingsPageReloadControl_CheckBoxReloadRunFontSelector.Content" xml:space="preserve">
+    <value>自動でフォントを設定(F)</value>
+  </data>
+  <data name="Nkm3SettingsPageReloadControl_CheckBoxReloadRunLayoutSelector.Content" xml:space="preserve">
+    <value>自動でレイアウトを設定(L)</value>
+  </data>
+  <data name="Nkm3SettingsPageReloadControl_CheckBoxReloadRunLineBreaker.Content" xml:space="preserve">
+    <value>自動で区切りを設定(B)</value>
+  </data>
+  <data name="Nkm3SettingsPageReloadControl_CheckBoxReloadRunShowTimeAdjuster.Content" xml:space="preserve">
+    <value>自動で表示開始時刻・表示終了時刻を設定(T)</value>
+  </data>
+  <data name="Nkm3SettingsPageReloadControl_CheckBoxReloadRunSubtitleActionSelector.Content" xml:space="preserve">
+    <value>自動でアクションを設定(A)</value>
+  </data>
+  <data name="Nkm3SettingsPageReloadControl_TextBlockDescription_1.Text" xml:space="preserve">
+    <value>歌詞ファイルが更新された時、以下の設定を実行します。</value>
+  </data>
+  <data name="Nkm3SettingsPageReloadControl_TextBlockDescription_2.Text" xml:space="preserve">
+    <value>ON にした項目は自動設定されます。</value>
+  </data>
+  <data name="Nkm3SettingsPageReloadControl_TextBlockDescription_3.Text" xml:space="preserve">
+    <value>OFF にした項目は更新前の内容ができる限り維持されます。</value>
+  </data>
+  <data name="Nkm3SettingsPageToastControl_CheckBoxLyrics.Content" xml:space="preserve">
+    <value>歌詞更新(L)</value>
+  </data>
+  <data name="Nkm3SettingsPageToastControl_CheckBoxMisc.Content" xml:space="preserve">
+    <value>その他(M)</value>
+  </data>
+  <data name="Nkm3SettingsPageToastControl_CheckBoxProject.Content" xml:space="preserve">
+    <value>プロジェクトとその要素(P)</value>
+  </data>
+  <data name="Nkm3SettingsPageToastControl_CheckBoxTemplate.Content" xml:space="preserve">
+    <value>テンプレート(T)</value>
+  </data>
+  <data name="Nkm3SettingsPageToastControl_TextBlockDescription_1.Text" xml:space="preserve">
+    <value>以下のカテゴリーの通知を行います。</value>
+  </data>
+  <data name="Nkm3SettingsPageToastControl_TextBlockDescription_2.Text" xml:space="preserve">
+    <value>※OS の設定で通知がオフになっている場合は、通知されません。</value>
+  </data>
+  <data name="Nkm3SettingsPageViewModel_Confirm_ButtonDefaultClicked" xml:space="preserve">
+    <value>環境設定をすべて初期設定に戻します。
+よろしいですか？</value>
+  </data>
+  <data name="Nkm3SettingsWindow.Title" xml:space="preserve">
+    <value>環境設定</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>いいえ</value>
+  </data>
+  <data name="NoAction_Description" xml:space="preserve">
+    <value>アクションしない</value>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="OutputPage_ButtonAbort.Content" xml:space="preserve">
+    <value>中止(A)</value>
+  </data>
+  <data name="OutputPage_ButtonNext.ToolTipService.ToolTip" xml:space="preserve">
+    <value>次へ(N)</value>
+  </data>
+  <data name="OutputPage_ButtonPrev.ToolTipService.ToolTip" xml:space="preserve">
+    <value>前へ(P)</value>
+  </data>
+  <data name="OutputPage_TextBlockLatestInfo.Text" xml:space="preserve">
+    <value>最新情報</value>
+  </data>
+  <data name="OutputPageViewModel_Confirm_ButtonAbortClicked" xml:space="preserve">
+    <value>動画出力を中止しますか？</value>
+  </data>
+  <data name="OutputPageViewModel_Error_FreeSpaceString" xml:space="preserve">
+    <value>空き容量を取得できません。</value>
+  </data>
+  <data name="OutputPageViewModel_Error_Prepare" xml:space="preserve">
+    <value>動画出力の準備ができませんでした。</value>
+  </data>
+  <data name="OutputPageViewModel_FreeSpaceString" xml:space="preserve">
+    <value>空き容量：{0} GB</value>
+  </data>
+  <data name="OutputPageViewModel_Information_NoInfo" xml:space="preserve">
+    <value>（最新情報を取得していません）</value>
+  </data>
+  <data name="OutputPageViewModel_Information_PageLoaded_Done" xml:space="preserve">
+    <value>動画出力が完了しました。
+
+経過時間：{0}</value>
+  </data>
+  <data name="OutputPageViewModel_OutputStatus_0" xml:space="preserve">
+    <value>準備中...</value>
+  </data>
+  <data name="OutputPageViewModel_OutputStatus_1" xml:space="preserve">
+    <value>字幕データの準備中...</value>
+  </data>
+  <data name="OutputPageViewModel_OutputStatus_2" xml:space="preserve">
+    <value>出力中...</value>
+  </data>
+  <data name="OutputPageViewModel_OutputStatus_3" xml:space="preserve">
+    <value>終了</value>
+  </data>
+  <data name="OutputPageViewModel_UpdateEstimate_Hour" xml:space="preserve">
+    <value>残り：{0} 時間 {1} 分</value>
+  </data>
+  <data name="OutputPageViewModel_UpdateEstimate_Minute" xml:space="preserve">
+    <value>残り：{0} 分</value>
+  </data>
+  <data name="OutputPageViewModel_UpdateEstimate_Second" xml:space="preserve">
+    <value>残り：{0} 秒</value>
+  </data>
+  <data name="OutputPageViewModel_UpdateEstimate_Soon" xml:space="preserve">
+    <value>間もなく完了します...</value>
+  </data>
+  <data name="OutputPageViewModel_UpdateSettings_Delimiter" xml:space="preserve">
+    <value>、</value>
+  </data>
+  <data name="OutputPageViewModel_UpdateSettings_DestFormat" xml:space="preserve">
+    <value>出力形式：{0}</value>
+  </data>
+  <data name="OutputPageViewModel_UpdateSettings_DoubleFrame" xml:space="preserve">
+    <value>（字幕ワイプを 2 倍滑らかにする）</value>
+  </data>
+  <data name="OutputWindow.Title" xml:space="preserve">
+    <value>動画出力</value>
+  </data>
+  <data name="PartFontSelector_Chorus" xml:space="preserve">
+    <value>コーラス</value>
+  </data>
+  <data name="PartFontSelector_Description" xml:space="preserve">
+    <value>メインパートとそれ以外のパート（コーラスなど）で別々のフォントを設定します。</value>
+  </data>
+  <data name="PartFontSelector_Name" xml:space="preserve">
+    <value>パート別にフォントを設定</value>
+  </data>
+  <data name="ProjectDataModel_CreateLyricsFont_SettingsName_0" xml:space="preserve">
+    <value>標準配色</value>
+  </data>
+  <data name="ProjectDataModel_CreateLyricsFont_SettingsName_1" xml:space="preserve">
+    <value>青配色</value>
+  </data>
+  <data name="ProjectDataModel_CreateLyricsFont_SettingsName_2" xml:space="preserve">
+    <value>緑配色</value>
+  </data>
+  <data name="ProjectDataModel_CreateLyricsFont_SettingsName_3" xml:space="preserve">
+    <value>グラデーション配色</value>
+  </data>
+  <data name="ProjectDataModel_CreateLyricsFont_SettingsName_4" xml:space="preserve">
+    <value>コーラス配色</value>
+  </data>
+  <data name="ProjectDataModel_CreateLyricsFont_SettingsName_5" xml:space="preserve">
+    <value>情報小</value>
+  </data>
+  <data name="ProjectDataModel_CreateLyricsFont_SettingsName_6" xml:space="preserve">
+    <value>情報中</value>
+  </data>
+  <data name="ProjectDataModel_CreateLyricsFont_SettingsName_7" xml:space="preserve">
+    <value>情報大</value>
+  </data>
+  <data name="ProjectDataModel_CreateLyricsLayout_SettingsName_0" xml:space="preserve">
+    <value>下寄せ2行</value>
+  </data>
+  <data name="ProjectDataModel_CreateLyricsLayout_SettingsName_1" xml:space="preserve">
+    <value>下寄せ3行</value>
+  </data>
+  <data name="ProjectDataModel_CreateLyricsLayout_SettingsName_2" xml:space="preserve">
+    <value>上寄せ2行</value>
+  </data>
+  <data name="ProjectDataModel_CreateLyricsLayout_SettingsName_3" xml:space="preserve">
+    <value>コーラス</value>
+  </data>
+  <data name="ProjectDataModel_CreateLyricsLayout_SettingsName_4" xml:space="preserve">
+    <value>タイトル左上</value>
+  </data>
+  <data name="ProjectDataModel_CreateLyricsLayout_SettingsName_5" xml:space="preserve">
+    <value>タイトル中央</value>
+  </data>
+  <data name="ProjectDataModel_CreateTitleInfoModel_Title" xml:space="preserve">
+    <value>タイトル</value>
+  </data>
+  <data name="ProjectDataModel_DestFormat_Undo" xml:space="preserve">
+    <value>出力形式</value>
+  </data>
+  <data name="ProjectDataModel_DestPath_Undo" xml:space="preserve">
+    <value>出力ファイル名</value>
+  </data>
+  <data name="ProjectDataModel_DoubleFrame_Undo" xml:space="preserve">
+    <value>字幕ワイプを 2 倍滑らかにする</value>
+  </data>
+  <data name="ProjectDataModel_ModelName" xml:space="preserve">
+    <value>プロジェクト</value>
+  </data>
+  <data name="ProjectDataModel_Mp4SettingsIndex_Undo" xml:space="preserve">
+    <value>MP4 設定</value>
+  </data>
+  <data name="ProjectDataModel_ProjectName_New" xml:space="preserve">
+    <value>新規プロジェクト</value>
+  </data>
+  <data name="ProjectDataModel_ProjectName_Old" xml:space="preserve">
+    <value>旧プロジェクト</value>
+  </data>
+  <data name="ProjectDataModel_SourceInfo_Undo" xml:space="preserve">
+    <value>素材情報</value>
+  </data>
+  <data name="RenamePageViewModel_ButtonOkClicked_Error_NameDuplicate" xml:space="preserve">
+    <value>すでにテンプレートに同じ名称が登録されています。
+別の名称にしてください。</value>
+  </data>
+  <data name="RenamePageViewModel_ButtonOkClicked_Error_NameEmpty" xml:space="preserve">
+    <value>名称を入力してください。</value>
+  </data>
+  <data name="RenameWindow.Title" xml:space="preserve">
+    <value>名称の変更</value>
+  </data>
+  <data name="SaveProjectTemplatePage_CheckBoxFont.Content" xml:space="preserve">
+    <value>フォント設定</value>
+  </data>
+  <data name="SaveProjectTemplatePage_CheckBoxLayout.Content" xml:space="preserve">
+    <value>レイアウト設定</value>
+  </data>
+  <data name="SaveProjectTemplatePage_CheckBoxOutput.Content" xml:space="preserve">
+    <value>動画出力</value>
+  </data>
+  <data name="SaveProjectTemplatePage_CheckBoxSource.Content" xml:space="preserve">
+    <value>背景素材</value>
+  </data>
+  <data name="SaveProjectTemplatePage_CheckBoxSynchronizeAll.Content" xml:space="preserve">
+    <value>すべてのフォント設定・レイアウト設定の連動をオンにする</value>
+  </data>
+  <data name="SaveProjectTemplatePage_CheckBoxTitle.Content" xml:space="preserve">
+    <value>タイトル設定</value>
+  </data>
+  <data name="SaveProjectTemplatePage_TextBlockDescription.Text" xml:space="preserve">
+    <value>現在のプロジェクトをテンプレートとして登録します。</value>
+  </data>
+  <data name="SaveProjectTemplatePage_TextBlockElements.Text" xml:space="preserve">
+    <value>テンプレートに含めたい要素を選択してください。</value>
+  </data>
+  <data name="SaveProjectTemplatePage_TextBlockName.Text" xml:space="preserve">
+    <value>テンプレート名：</value>
+  </data>
+  <data name="SaveProjectTemplatePage_TextBlockSynchronizeAll.Text" xml:space="preserve">
+    <value>テンプレートにフォント設定・レイアウト設定を含める場合、</value>
+  </data>
+  <data name="SaveProjectTemplatePageViewModel_ButtonOkClicked_Error_DuplicateName" xml:space="preserve">
+    <value>すでにテンプレートに同じ名称が登録されています。
+テンプレート名を変更してください。</value>
+  </data>
+  <data name="SaveProjectTemplatePageViewModel_ButtonOkClicked_Error_EmptyElement" xml:space="preserve">
+    <value>テンプレートに含めたい要素を選択してください。</value>
+  </data>
+  <data name="SaveProjectTemplatePageViewModel_ButtonOkClicked_Error_EmptyName" xml:space="preserve">
+    <value>テンプレート名を入力してください。</value>
+  </data>
+  <data name="SaveProjectTemplateWindow.Title" xml:space="preserve">
+    <value>プロジェクトをテンプレートとして登録</value>
+  </data>
+  <data name="SelectTemplatePage_ButtonDelete.Content" xml:space="preserve">
+    <value>削除 (D)</value>
+  </data>
+  <data name="SelectTemplatePage_ButtonRename.Content" xml:space="preserve">
+    <value>名称の変更 (R)</value>
+  </data>
+  <data name="SelectTemplatePage_TextBlockDescription.Text" xml:space="preserve">
+    <value>使用するテンプレートを選択してください。</value>
+  </data>
+  <data name="SelectTemplatePageViewModel_UpdateStock_Default" xml:space="preserve">
+    <value>（標準）</value>
+  </data>
+  <data name="SelectTemplatePageViewModelT_ButtonDeleteClicked_Confirm" xml:space="preserve">
+    <value>「{0}」を削除します。
+よろしいですか？
+
+（補足）
+「{0}」を使用しているプロジェクトを開くと復活することがあります。</value>
+  </data>
+  <data name="SelectTemplatePageViewModelT_ButtonDeleteClicked_Error_NoSelect" xml:space="preserve">
+    <value>削除したいテンプレートを選択してください。</value>
+  </data>
+  <data name="SelectTemplatePageViewModelT_ButtonRenameClicked_Error_NoSelect" xml:space="preserve">
+    <value>名称を変更したいテンプレートを選択してください。</value>
+  </data>
+  <data name="SelectTemplatePageViewModelT_ButtonRenameClicked_Error_UnableLoad" xml:space="preserve">
+    <value>登録済のテンプレートを読み込めません。</value>
+  </data>
+  <data name="SelectTemplateWindow_TemplateKind_0" xml:space="preserve">
+    <value>タイトル</value>
+  </data>
+  <data name="SelectTemplateWindow_TemplateKind_1" xml:space="preserve">
+    <value>フォント設定</value>
+  </data>
+  <data name="SelectTemplateWindow_TemplateKind_2" xml:space="preserve">
+    <value>レイアウト設定</value>
+  </data>
+  <data name="SelectTemplateWindow_TemplateKind_3" xml:space="preserve">
+    <value>プロジェクト</value>
+  </data>
+  <data name="SelectTemplateWindow_Title_Misc" xml:space="preserve">
+    <value>{0}テンプレートの使用</value>
+  </data>
+  <data name="SelectTemplateWindow_Title_Project" xml:space="preserve">
+    <value>{0}の新規作成</value>
+  </data>
+  <data name="SeqLinesBreaker_Description" xml:space="preserve">
+    <value>原則として指定された行数ごとにページ区切りを設定します。
+ワイプタイミングに差があるところは行数にかかわらず段落区切りを設定します。</value>
+  </data>
+  <data name="SeqLinesBreaker_Name" xml:space="preserve">
+    <value>一定行数ごとにページ区切りを設定</value>
+  </data>
+  <data name="SeqLinesBreakerSettingsModel_SeqDescription" xml:space="preserve">
+    <value>行ごと（{0}～{1}）</value>
+  </data>
+  <data name="SettingsAddOnPage_ButtonDefault.Content" xml:space="preserve">
+    <value>初期化(I)</value>
+  </data>
+  <data name="SettingsAddOnPage_CheckBoxRunFontSelector.Content" xml:space="preserve">
+    <value>自動でフォントを設定(F)</value>
+  </data>
+  <data name="SettingsAddOnPage_CheckBoxRunLayoutSelector.Content" xml:space="preserve">
+    <value>自動でレイアウトを設定(L)</value>
+  </data>
+  <data name="SettingsAddOnPage_CheckBoxRunShowTimeAdjuster.Content" xml:space="preserve">
+    <value>自動で表示開始時刻・表示終了時刻を設定(T)</value>
+  </data>
+  <data name="SettingsAddOnPage_CheckBoxRunSubtitleActionSelector.Content" xml:space="preserve">
+    <value>自動でアクションを設定(A)</value>
+  </data>
+  <data name="SettingsAddOnPage_TextBlockAddOnIndex.Text" xml:space="preserve">
+    <value>設定方法(H)：</value>
+  </data>
+  <data name="SettingsAddOnPage_TextBlockContinue.Text" xml:space="preserve">
+    <value>設定後、以下の設定を続けて実行します。</value>
+  </data>
+  <data name="SettingsAddOnPage_TextBlockSettings.Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="SettingsAddOnPageCharFadeInFadeOutControl_CheckBoxDelayInlineGraphics.Content" xml:space="preserve">
+    <value>インライングラフィックスのフェードアウトを遅らせる(D)</value>
+  </data>
+  <data name="SettingsAddOnPageCharFadeInFadeOutControl_CheckBoxDelayInlineGraphics.ToolTipService.ToolTip" xml:space="preserve">
+    <value>インライングラフィックスを歌詞パート分けのアイコンとして使う場合、
+このオプションを有効にすると見やすくなります</value>
+  </data>
+  <data name="SettingsAddOnPageCharFadeInFadeOutControl_CheckBoxWholeFadeOut.Content" xml:space="preserve">
+    <value>表示終了時刻を基準にフェードアウト（フェードインと同様のイメージでフェードアウト）(E)</value>
+  </data>
+  <data name="SettingsAddOnPageCharFadeInFadeOutControl_TextBlockIntroDelay.Text" xml:space="preserve">
+    <value>先頭と末尾の時間差(L)：</value>
+  </data>
+  <data name="SettingsAddOnPageCharFadeInFadeOutControl_TextBlockTailDelay.Text" xml:space="preserve">
+    <value>行末文字が消え始めるまでの時間(T)：</value>
+  </data>
+  <data name="SettingsAddOnPageEmptyLineBreakerControl_TextBlockDescription.Text" xml:space="preserve">
+    <value>以下の設定に基づいて段落区切りの設定を判定します。</value>
+  </data>
+  <data name="SettingsAddOnPageLineFadeControl_TextBlockFadeInTime.Text" xml:space="preserve">
+    <value>フェードイン完了までの時間(N)：</value>
+  </data>
+  <data name="SettingsAddOnPageLineFadeControl_TextBlockFadeOutTime.Text" xml:space="preserve">
+    <value>フェードアウト完了までの時間(U)：</value>
+  </data>
+  <data name="SettingsAddOnPageLinesLayoutSelectorControl_TextBlockBegin.Text" xml:space="preserve">
+    <value>適用対象レイアウト(L)：</value>
+  </data>
+  <data name="SettingsAddOnPageLinesLayoutSelectorControl_TextBlockDescription.Text" xml:space="preserve">
+    <value>上記範囲のレイアウトの中から適用します。</value>
+  </data>
+  <data name="SettingsAddOnPageLinesLayoutSelectorControl_TextBlockEnd.Text" xml:space="preserve">
+    <value>～</value>
+  </data>
+  <data name="SettingsAddOnPageNoSettingsControl_TextBlockNoSettings.Text" xml:space="preserve">
+    <value>（設定項目無し）</value>
+  </data>
+  <data name="SettingsAddOnPagePartFontSelectorControl_CheckBoxAutoChorus.Content" xml:space="preserve">
+    <value>歌詞のコーラス部分を自動色分けする(C)</value>
+  </data>
+  <data name="SettingsAddOnPagePartFontSelectorControl_CheckBoxContinueLyricsCharToFont.Content" xml:space="preserve">
+    <value>行が変わっても維持(G)</value>
+  </data>
+  <data name="SettingsAddOnPagePartFontSelectorControl_CheckBoxLyricsCharToFont.Content" xml:space="preserve">
+    <value>歌詞の文字と同じ名称のフォント設定を適用する(F)</value>
+  </data>
+  <data name="SettingsAddOnPagePartFontSelectorControl_HyperlinkButtonHelp.Content" xml:space="preserve">
+    <value>詳細情報</value>
+  </data>
+  <data name="SettingsAddOnPagePartFontSelectorControl_TextBlockAutoChorusBeginChars.Text" xml:space="preserve">
+    <value>コーラス開始文字(B)：</value>
+  </data>
+  <data name="SettingsAddOnPagePartFontSelectorControl_TextBlockAutoChorusEndChars.Text" xml:space="preserve">
+    <value>コーラス終了文字(E)：</value>
+  </data>
+  <data name="SettingsAddOnPagePartFontSelectorControl_TextBlockChorusFont.Text" xml:space="preserve">
+    <value>コーラスフォント(F)：</value>
+  </data>
+  <data name="SettingsAddOnPageSeqLinesBreakerControl_TextBlockDescription.Text" xml:space="preserve">
+    <value>以下の設定に基づいて段落区切りの設定を判定します。</value>
+  </data>
+  <data name="SettingsAddOnPageSeqLinesBreakerControl_TextBlockSeq.Text" xml:space="preserve">
+    <value>ページ区切りを設定する行数(L)：</value>
+  </data>
+  <data name="SettingsAddOnPageSlideUpDownControl_CheckBoxFadeIn.Content" xml:space="preserve">
+    <value>フェードイン(N)</value>
+  </data>
+  <data name="SettingsAddOnPageSlideUpDownControl_CheckBoxFadeOut.Content" xml:space="preserve">
+    <value>フェードアウト(U)</value>
+  </data>
+  <data name="SettingsAddOnPageSlideUpDownControl_TextBlockFadeDetail.Text" xml:space="preserve">
+    <value>フェード詳細設定</value>
+  </data>
+  <data name="SettingsAddOnPageSlideUpDownControl_TextBlockSlideAmountDescription.Text" xml:space="preserve">
+    <value>（プラスなら下、マイナスなら上にスライド）</value>
+  </data>
+  <data name="SettingsAddOnPageSlideUpDownControl_TextBlockSlideAmountSize.Text" xml:space="preserve">
+    <value>上下スライド量(S)：</value>
+  </data>
+  <data name="SettingsAddOnPageSlideUpDownControl_TextBlockSlideAmountUnit.Text" xml:space="preserve">
+    <value>px/秒</value>
+  </data>
+  <data name="SettingsAddOnPageTopShortAdjusterControl_CheckBoxManualProtectTime.Content" xml:space="preserve">
+    <value>切り替え時間が短い場合の表示保護時間を手動設定する(M)　※上級者向け</value>
+  </data>
+  <data name="SettingsAddOnPageTopShortAdjusterControl_TextBlockIntervalTime2.Text" xml:space="preserve">
+    <value>歌詞の表示間隔(4)：</value>
+  </data>
+  <data name="SettingsAddOnPageTopShortAdjusterControl_TextBlockManualProtectTime.Text" xml:space="preserve">
+    <value>表示保護時間(3)：</value>
+  </data>
+  <data name="SettingsAddOnPageTopShortAdjusterControl_TextBlockPostTime2.Text" xml:space="preserve">
+    <value>ワイプ後の表示時間(2)：</value>
+  </data>
+  <data name="SettingsAddOnPageTopShortAdjusterControl_TextBlockPreTime2.Text" xml:space="preserve">
+    <value>ワイプ前の表示時間(1)：</value>
+  </data>
+  <data name="SettingsAddOnPageTopShortAdjusterControl_TextBoxManualProtectTime.ToolTipService.ToolTip" xml:space="preserve">
+    <value>ワイプ前・ワイプ後の表示時間以下にしてください。</value>
+  </data>
+  <data name="SettingsAddOnPageTopShortAdjusterControl_TextBoxPostTime2.ToolTipService.ToolTip" xml:space="preserve">
+    <value>アクションがユートピアの場合は、ワイプ後の表示時間を 1000 [ms] 以上にすると行末の動きがきれいになります。</value>
+  </data>
+  <data name="SettingsAddOnPageUnificationFontSelectorControl_TextBlockFont.Text" xml:space="preserve">
+    <value>使用するフォント(F)：</value>
+  </data>
+  <data name="SettingsAddOnPageUnificationLayoutSelectorControl_TextBlockLayout.Text" xml:space="preserve">
+    <value>使用するレイアウト(L)：</value>
+  </data>
+  <data name="SettingsAddOnPageUnificationSubtitleActionSelectorControl_ButtonEditAction.ToolTipService.ToolTip" xml:space="preserve">
+    <value>字幕アクションの編集...</value>
+  </data>
+  <data name="SettingsAddOnPageUnificationSubtitleActionSelectorControl_TextBlockSubtitleAction.Text" xml:space="preserve">
+    <value>使用する字幕アクション(U)：</value>
+  </data>
+  <data name="SettingsAddOnPageUtopiaControl_CheckBoxDelayInlineGraphics.Content" xml:space="preserve">
+    <value>インライングラフィックスのフェードアウトを遅らせる(D)</value>
+  </data>
+  <data name="SettingsAddOnPageUtopiaControl_CheckBoxDelayInlineGraphics.ToolTipService.ToolTip" xml:space="preserve">
+    <value>インライングラフィックスを歌詞パート分けのアイコンとして使う場合、
+このオプションを有効にすると見やすくなります</value>
+  </data>
+  <data name="SettingsAddOnPageUtopiaControl_TextBlockTailDelay.Text" xml:space="preserve">
+    <value>行末文字が消え始めるまでの時間(T)：</value>
+  </data>
+  <data name="SettingsAddOnPageViewModel_ButtonDefaultClicked_Confirm" xml:space="preserve">
+    <value>設定をすべて初期設定に戻します。
+よろしいですか？</value>
+  </data>
+  <data name="SettingsNameModel_AdjustSettingName_New" xml:space="preserve">
+    <value>新規</value>
+  </data>
+  <data name="SettingsNameModel_SettingsName_Undo" xml:space="preserve">
+    <value>{0}設定 {1} の名称</value>
+  </data>
+  <data name="SettingsNameModel_SettingsNameLabel" xml:space="preserve">
+    <value>{0}設定 {1} の名称(N)：</value>
+  </data>
+  <data name="ShowTimeAdjusterPageViewModel_PageDescription" xml:space="preserve">
+    <value>すべての行の表示開始時刻・表示終了時刻を自動設定します。</value>
+  </data>
+  <data name="ShowTimeAdjusterPageViewModel_Title" xml:space="preserve">
+    <value>自動で表示開始時刻・表示終了時刻を設定</value>
+  </data>
+  <data name="SlideUpDown_Description" xml:space="preserve">
+    <value>行全体を上または下にスライド移動</value>
+  </data>
+  <data name="SlideUpDown_Name" xml:space="preserve">
+    <value>上下スライド</value>
+  </data>
+  <data name="SourceInfoModel_BackgroundColor_Undo" xml:space="preserve">
+    <value>背景色</value>
+  </data>
+  <data name="SourceInfoModel_BackgroundHeight_Undo" xml:space="preserve">
+    <value>解像度（縦）</value>
+  </data>
+  <data name="SourceInfoModel_BackgroundWidth_Undo" xml:space="preserve">
+    <value>解像度（横）</value>
+  </data>
+  <data name="SourceInfoModel_Fps_Undo" xml:space="preserve">
+    <value>フレームレート</value>
+  </data>
+  <data name="SourceInfoModel_ImagePath_Undo" xml:space="preserve">
+    <value>画像ファイル名</value>
+  </data>
+  <data name="SourceInfoModel_MoviePath_Undo" xml:space="preserve">
+    <value>元になる曲の動画ファイル名</value>
+  </data>
+  <data name="SourceInfoModel_MoviePlusSound_Undo" xml:space="preserve">
+    <value>別ファイルの音声を使用する</value>
+  </data>
+  <data name="SourceInfoModel_SoundTrackList_Undo" xml:space="preserve">
+    <value>音声ファイル群</value>
+  </data>
+  <data name="SourceInfoModel_SourceKind_Undo" xml:space="preserve">
+    <value>背景素材の種類</value>
+  </data>
+  <data name="SpinFlip_Description" xml:space="preserve">
+    <value>文字ごとにスピンしながらフリップする</value>
+  </data>
+  <data name="SpinFlip_Name" xml:space="preserve">
+    <value>スピンフリップ</value>
+  </data>
+  <data name="SplashPage_TextBlockAppName.Text" xml:space="preserve">
+    <value>ニコカラメーカー 3</value>
+  </data>
+  <data name="SplashPage_TextBlockStarting.Text" xml:space="preserve">
+    <value>起動しています...</value>
+  </data>
+  <data name="SubtitleActionSelectorPageViewModel_PageDescription" xml:space="preserve">
+    <value>すべての行のアクションを自動設定します。</value>
+  </data>
+  <data name="SubtitleActionSelectorPageViewModel_Title" xml:space="preserve">
+    <value>自動でアクションを設定</value>
+  </data>
+  <data name="TitleInfoControl_ButtonEditShowTime.ToolTipService.ToolTip" xml:space="preserve">
+    <value>表示時刻の編集(S)...</value>
+  </data>
+  <data name="TitleInfoControl_TableViewColumnFont.Header" xml:space="preserve">
+    <value>フォント</value>
+  </data>
+  <data name="TitleInfoControl_TableViewColumnSubtitleAction.Header" xml:space="preserve">
+    <value>アクション</value>
+  </data>
+  <data name="TitleInfoControl_TableViewColumnTitle.Header" xml:space="preserve">
+    <value>タイトル</value>
+  </data>
+  <data name="TitleInfoControl_TextBlockLayout.Text" xml:space="preserve">
+    <value>レイアウト(L)：</value>
+  </data>
+  <data name="TitleInfoControl_TextBlockShowTime.Text" xml:space="preserve">
+    <value>表示時刻(S)：</value>
+  </data>
+  <data name="TitleInfoModel_ModelName" xml:space="preserve">
+    <value>タイトル</value>
+  </data>
+  <data name="ToastHistoryPage_TextBlockDescription.Text" xml:space="preserve">
+    <value>環境設定や OS の設定で通知がオフになっている場合の履歴も含めて表示しています。</value>
+  </data>
+  <data name="ToastHistoryWindow_Title" xml:space="preserve">
+    <value>通知履歴</value>
+  </data>
+  <data name="TopLongAdjuster_Description" xml:space="preserve">
+    <value>下段の歌詞とのつながりがわかりやすいよう、上段の歌詞をなるべく長めに表示します。
+中段のタイミングは、レイアウトの上下配置により変わります。
+初代ニコカラメーカーの表示時刻と同じ、標準的な設定方法です。</value>
+  </data>
+  <data name="TopLongAdjuster_Name" xml:space="preserve">
+    <value>上段歌詞を長めに表示する</value>
+  </data>
+  <data name="TopShortAdjuster_Description" xml:space="preserve">
+    <value>背景動画の邪魔をしないよう、上段の歌詞をワイプ後速やかに消します。</value>
+  </data>
+  <data name="TopShortAdjuster_Name" xml:space="preserve">
+    <value>上段歌詞を速やかに消す</value>
+  </data>
+  <data name="UndoManager_UpdateCanUndoAndRedo_Error_CannotRedo" xml:space="preserve">
+    <value>やり直しできません</value>
+  </data>
+  <data name="UndoManager_UpdateCanUndoAndRedo_Error_CannotUndo" xml:space="preserve">
+    <value>元に戻せません</value>
+  </data>
+  <data name="UndoManager_UpdateCanUndoAndRedo_Information_Redo" xml:space="preserve">
+    <value>やり直し(R) - {0}</value>
+  </data>
+  <data name="UndoManager_UpdateCanUndoAndRedo_Information_Undo" xml:space="preserve">
+    <value>元に戻す(U) - {0}</value>
+  </data>
+  <data name="UnificationFontSelector_Description" xml:space="preserve">
+    <value>すべて同じフォントに統一します。</value>
+  </data>
+  <data name="UnificationFontSelector_Name" xml:space="preserve">
+    <value>すべて同じフォントにする</value>
+  </data>
+  <data name="UnificationLayoutSelector_Description" xml:space="preserve">
+    <value>すべて同じレイアウトに統一します。</value>
+  </data>
+  <data name="UnificationLayoutSelector_Name" xml:space="preserve">
+    <value>すべて同じレイアウトにする</value>
+  </data>
+  <data name="UnificationSubtitleActionSelector_Description" xml:space="preserve">
+    <value>すべて同じ字幕アクションに統一します。</value>
+  </data>
+  <data name="UnificationSubtitleActionSelector_Name" xml:space="preserve">
+    <value>すべて同じ字幕アクションにする</value>
+  </data>
+  <data name="Utopia_Description" xml:space="preserve">
+    <value>ワイプ後の文字がひねりながら消えていく</value>
+  </data>
+  <data name="Utopia_Name" xml:space="preserve">
+    <value>ユートピア</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>警告</value>
+  </data>
+  <data name="WarningsPage_ToggleButtonInformations.ToolTipService.ToolTip" xml:space="preserve">
+    <value>情報を表示(I)</value>
+  </data>
+  <data name="WarningsPage_ToggleButtonWarnings.ToolTipService.ToolTip" xml:space="preserve">
+    <value>警告を表示(W)</value>
+  </data>
+  <data name="WarningsWindow_Title" xml:space="preserve">
+    <value>警告・情報一覧</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>はい</value>
+  </data>
+</root>
