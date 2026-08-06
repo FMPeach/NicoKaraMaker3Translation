@@ -35,7 +35,7 @@ If a folder for your language does not already exist in "Strings" folder, create
 
 Please use folder names according to BCP47 language-region (e.g. de-DE).
 
-Copy "Strings/en-US/Resources.resw" to the folder you created.
+Copy "Strings/en-US/Resources.resw" (or "Strings/ja-JP/Resources.resw") to the folder you created.
 
 > \[!NOTE]
 > If you are having trouble creating folders or copying files during online editing, please request creation on "Issue" page.
