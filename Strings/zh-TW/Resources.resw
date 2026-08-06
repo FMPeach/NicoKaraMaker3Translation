@@ -1,0 +1,2836 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    … ado.net/XML headers & schema …
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, …</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, …</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutPage_ButtonCheckUpdate.Content" xml:space="preserve">
+    <value>檢查更新(U)</value>
+  </data>
+  <data name="AboutPage_ButtonHistory.Content" xml:space="preserve">
+    <value>更新記錄(H)</value>
+  </data>
+  <data name="AboutPage_TextBlockAppDistrib.Text" xml:space="preserve">
+    <value>發布頁面：</value>
+  </data>
+  <data name="AboutPage_TextBlockAppInfo.Text" xml:space="preserve">
+    <value>應用程式資訊</value>
+  </data>
+  <data name="AboutPage_TextBlockAppSupport.Text" xml:space="preserve">
+    <value>支援頁面：</value>
+  </data>
+  <data name="AboutPage_TextBlockAppTranslationProject.Text" xml:space="preserve">
+    <value>翻譯專案：</value>
+  </data>
+  <data name="AboutPage_TextBlockAuthorCreatorSupport.Text" xml:space="preserve">
+    <value>創作者贊助：</value>
+  </data>
+  <data name="AboutPage_TextBlockAuthorEMail.Text" xml:space="preserve">
+    <value>電子郵件：</value>
+  </data>
+  <data name="AboutPage_TextBlockAuthorFanbox.Text" xml:space="preserve">
+    <value>粉絲網站：</value>
+  </data>
+  <data name="AboutPage_TextBlockAuthorInfo.Text" xml:space="preserve">
+    <value>作者資訊</value>
+  </data>
+  <data name="AboutPage_TextBlockAuthorTwitter.Text" xml:space="preserve">
+    <value>X (Twitter)：</value>
+  </data>
+  <data name="AboutPage_TextBlockAuthorWeb.Text" xml:space="preserve">
+    <value>官方網站：</value>
+  </data>
+  <data name="AboutWindow_Title" xml:space="preserve">
+    <value>{0} 的版本資訊</value>
+  </data>
+  <data name="App_Fatal_UnhandledException" xml:space="preserve">
+    <value>發生未預期的錯誤，應用程式即將關閉。</value>
+  </data>
+  <data name="AppInfo_AppName" xml:space="preserve">
+    <value>NicoKaraMaker 3</value>
+  </data>
+  <data name="AppInfo_AssociationName" xml:space="preserve">
+    <value>NicoKaraMaker 3 專案檔</value>
+  </data>
+  <data name="AppInfo_Description" xml:space="preserve">
+    <value>能夠輕鬆製作卡拉 OK 字幕影片檔 (NicoKara) 的字幕壓製工具。</value>
+  </data>
+  <data name="AppInfo_Distribution_Store" xml:space="preserve">
+    <value>商店版</value>
+  </data>
+  <data name="AppInfo_Distribution_Zip" xml:space="preserve">
+    <value>ZIP 版</value>
+  </data>
+  <data name="AudioPlayer_AudioPlayer_Error_BadAudio" xml:space="preserve">
+    <value>音訊播放環境發生問題。</value>
+  </data>
+  <data name="BrushInfoModel_Description_Bitmap" xml:space="preserve">
+    <value>貼上圖片。</value>
+  </data>
+  <data name="BrushInfoModel_Description_Gradient" xml:space="preserve">
+    <value>以漸層 (平滑變化的多種顏色) 填滿。</value>
+  </data>
+  <data name="BrushInfoModel_Description_MilleFeuille" xml:space="preserve">
+    <value>以千層 (清晰變化的多種顏色) 填滿。</value>
+  </data>
+  <data name="BrushInfoModel_Description_Solid" xml:space="preserve">
+    <value>以指定的顏色填滿。</value>
+  </data>
+  <data name="BrushInfoModel_Error_BitmapPathEmpty" xml:space="preserve">
+    <value>請指定圖片檔。</value>
+  </data>
+  <data name="BrushInfoModel_Error_BitmapPathNotExist" xml:space="preserve">
+    <value>{0} 不存在。</value>
+  </data>
+  <data name="BrushInfoModel_ModelName" xml:space="preserve">
+    <value>配色</value>
+  </data>
+  <data name="BrushInfoModel_Undo_BitmapPath" xml:space="preserve">
+    <value>圖片檔</value>
+  </data>
+  <data name="BrushInfoModel_Undo_BitmapScale" xml:space="preserve">
+    <value>圖片縮放比例</value>
+  </data>
+  <data name="BrushInfoModel_Undo_SelectedBrushTypeIndex" xml:space="preserve">
+    <value>填滿</value>
+  </data>
+  <data name="BrushInfoModel_Undo_SolidColor" xml:space="preserve">
+    <value>變更顏色</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="Cfm2SettingsNavigationMaintenancePage_ButtonBackup.Content" xml:space="preserve">
+    <value>備份設定(B)</value>
+  </data>
+  <data name="Cfm2SettingsNavigationMaintenancePage_ButtonCheckRss.Content" xml:space="preserve">
+    <value>立即檢查最新資訊(A)</value>
+  </data>
+  <data name="Cfm2SettingsNavigationMaintenancePage_ButtonRestore.Content" xml:space="preserve">
+    <value>還原設定(R)</value>
+  </data>
+  <data name="Cfm2SettingsNavigationMaintenancePage_CheckBoxCheckRss_Content" xml:space="preserve">
+    <value>自動檢查 {0} 的最新資訊(L)</value>
+  </data>
+  <data name="Cfm2SettingsNavigationMaintenancePage_TextBlockBackup.Text" xml:space="preserve">
+    <value>備份設定 (儲存至檔案)</value>
+  </data>
+  <data name="Cfm2SettingsNavigationMaintenancePageViewModel_Confirm_CheckRss" xml:space="preserve">
+    <value>若停用最新資訊檢查，當 {0} 發布新版本時將不會顯示更新內容。
+確定要停用嗎？</value>
+  </data>
+  <data name="Cfm2SettingsNavigationMaintenancePageViewModel_Confirm_LoadSettingsArchiveAsync" xml:space="preserve">
+    <value>正在嘗試還原不同版本的設定。
+可能無法正常還原，確定要還原嗎？</value>
+  </data>
+  <data name="Cfm2SettingsNavigationMaintenancePageViewModel_Done_ButtonBackupClicked" xml:space="preserve">
+    <value>已備份設定。</value>
+  </data>
+  <data name="Cfm2SettingsNavigationMaintenancePageViewModel_Done_ButtonRestoreClicked" xml:space="preserve">
+    <value>已還原設定。</value>
+  </data>
+  <data name="Cfm2SettingsNavigationMaintenancePageViewModel_Error_ButtonBackupClicked" xml:space="preserve">
+    <value>按一下備份設定按鈕時發生錯誤：</value>
+  </data>
+  <data name="Cfm2SettingsNavigationMaintenancePageViewModel_Error_ButtonCheckRssClicked" xml:space="preserve">
+    <value>立即檢查最新資訊時發生錯誤：</value>
+  </data>
+  <data name="Cfm2SettingsNavigationMaintenancePageViewModel_Error_ButtonRestoreClicked" xml:space="preserve">
+    <value>按一下還原設定按鈕時發生錯誤：</value>
+  </data>
+  <data name="Cfm2SettingsNavigationMaintenancePageViewModel_Error_LoadSettingsArchiveAsync_CannotLoad" xml:space="preserve">
+    <value>無法讀取設定檔。</value>
+  </data>
+  <data name="Cfm2SettingsNavigationMaintenancePageViewModel_Error_LoadSettingsArchiveAsync_CannotLoad2" xml:space="preserve">
+    <value>無法讀取設定檔中的設定。</value>
+  </data>
+  <data name="Cfm2SettingsNavigationSettingsPage_AnchorHint.Text" xml:space="preserve">
+    <value>(註) GenerateAnchorFiles 標籤的指定將優先套用。</value>
+  </data>
+  <data name="Cfm2SettingsNavigationSettingsPage_CheckBoxOverwriteAnchorFiles.Content" xml:space="preserve">
+    <value>覆寫現有的錨點檔(V)</value>
+  </data>
+  <data name="Cfm2SettingsNavigationSettingsPage_TextBlockAnchor_ToolTip.Content" xml:space="preserve">
+    <value>設定當指定 GenerateAnchorFiles 標籤時，要為哪個標題建立錨點檔。</value>
+  </data>
+  <data name="Cfm2SettingsNavigationSettingsPage_TextBlockAnchor.Text" xml:space="preserve">
+    <value>要建立錨點檔的標題</value>
+  </data>
+  <data name="Cfm2SettingsNavigationSettingsPage_TextBlockToc_ToolTip.Content" xml:space="preserve">
+    <value>設定當指定 Toc 標籤時，要為哪個標題建立目錄。</value>
+  </data>
+  <data name="Cfm2SettingsNavigationSettingsPage_TextBlockToc.Text" xml:space="preserve">
+    <value>要建立目錄的標題</value>
+  </data>
+  <data name="Cfm2SettingsNavigationSettingsPage_TextBlockTocHint.Text" xml:space="preserve">
+    <value>(註) Toc 標籤的指定將優先套用。</value>
+  </data>
+  <data name="Cfm2SettingsNavigationSettingsPageViewModel_Error_CheckProperties_AnchorFile" xml:space="preserve">
+    <value>請選擇至少 1 個要建立錨點檔的標題。
+(註) 若不想建立錨點檔，只要不使用 GenerateAnchorFiles 標籤即不會建立。</value>
+  </data>
+  <data name="Cfm2SettingsNavigationSettingsPageViewModel_Error_CheckProperties_Toc" xml:space="preserve">
+    <value>請選擇至少 1 個要建立目錄的標題。
+(註) 若不想插入目錄，只要不使用 Toc 標籤即不會插入。</value>
+  </data>
+  <data name="Cfm2SettingsPage_ButtonDefault.Content" xml:space="preserve">
+    <value>還原為預設值(I)</value>
+  </data>
+  <data name="Cfm2SettingsPage_NavigationViewItemMaintenance.Content" xml:space="preserve">
+    <value>維護</value>
+  </data>
+  <data name="Cfm2SettingsPage_NavigationViewItemSettings.Content" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="Cfm2SettingsPageViewModel_Confirm_Default" xml:space="preserve">
+    <value>將所有設定還原為預設值。
+確定要執行嗎？</value>
+  </data>
+  <data name="Cfm2SettingsPageViewModel_Error_ButtonCancelClicked" xml:space="preserve">
+    <value>按一下取消按鈕時發生錯誤：</value>
+  </data>
+  <data name="Cfm2SettingsPageViewModel_Error_ButtonDefaultClicked" xml:space="preserve">
+    <value>按一下還原為預設值按鈕時發生錯誤：</value>
+  </data>
+  <data name="Cfm2SettingsPageViewModel_Error_ButtonOkClicked" xml:space="preserve">
+    <value>按一下確定按鈕時發生錯誤：</value>
+  </data>
+  <data name="Cfm2SettingsPageViewModel_Error_NavigationViewSelectionChanged" xml:space="preserve">
+    <value>選擇導覽時發生錯誤：</value>
+  </data>
+  <data name="Cfm2SettingsWindow_Title" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="CharFadeInFadeOut_Description" xml:space="preserve">
+    <value>錯開每個字元的淡入及淡出時間點</value>
+  </data>
+  <data name="CharFadeInFadeOut_Name" xml:space="preserve">
+    <value>逐字淡入淡出</value>
+  </data>
+  <data name="ColorBindControl_ButtonEdit.ToolTipService.ToolTip" xml:space="preserve">
+    <value>編輯顏色(D)…</value>
+  </data>
+  <data name="ColorBindControl_ButtonSpuit.ToolTipService.ToolTip" xml:space="preserve">
+    <value>滴管 (按一下滑鼠來取得游標位置的顏色)
+(註) 也可以從其他應用程式的視窗中取得</value>
+  </data>
+  <data name="ColorBindControl_TextBlockSpuitDescription.Text" xml:space="preserve">
+    <value>按滑鼠左鍵取色；按右鍵取消。</value>
+  </data>
+  <data name="ColorBindControl_TextBlockWeb16.Text" xml:space="preserve">
+    <value>16 進位 RGB：#</value>
+  </data>
+  <data name="ColorBindModel_Undo_Color" xml:space="preserve">
+    <value>變更顏色</value>
+  </data>
+  <data name="ColorPickerPage_TextBlockMediaColor.Text" xml:space="preserve">
+    <value>顏色：</value>
+  </data>
+  <data name="ColorPickerPage_TextBlockRecentColors.Text" xml:space="preserve">
+    <value>最近使用的顏色：</value>
+  </data>
+  <data name="ColorPickerWindow.Title" xml:space="preserve">
+    <value>編輯顏色</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>確認</value>
+  </data>
+  <data name="Detail" xml:space="preserve">
+    <value>詳細資訊</value>
+  </data>
+  <data name="DirectXCommon_DefaultFontName_Serif" xml:space="preserve">
+    <value>新細明體</value>
+  </data>
+  <data name="EditShowTimePage_RadioButtonIsHead.Content" xml:space="preserve">
+    <value>指定從歌曲開頭算起的時間(A)</value>
+  </data>
+  <data name="EditShowTimePage_RadioButtonIsHeadAndInterval.Content" xml:space="preserve">
+    <value>指定從歌曲開頭算起的時間與顯示時間(B)</value>
+  </data>
+  <data name="EditShowTimePage_RadioButtonIsHeadAndTail.Content" xml:space="preserve">
+    <value>分別指定從歌曲開頭與結尾算起的時間(C)</value>
+  </data>
+  <data name="EditShowTimePage_RadioButtonIsTail.Content" xml:space="preserve">
+    <value>指定從歌曲結尾算起的時間(D)</value>
+  </data>
+  <data name="EditShowTimePage_TextBlockChangingShowTime.Text" xml:space="preserve">
+    <value>標題顯示時間：</value>
+  </data>
+  <data name="EditShowTimePage_TextBlockDuration.Text" xml:space="preserve">
+    <value>歌曲長度：</value>
+  </data>
+  <data name="EditShowTimePage_TextBlockIsHeadAndIntervalHeadOffset.Text" xml:space="preserve">
+    <value>顯示開始時間(3)：</value>
+  </data>
+  <data name="EditShowTimePage_TextBlockIsHeadAndIntervalInterval.Text" xml:space="preserve">
+    <value>顯示時間(4)：</value>
+  </data>
+  <data name="EditShowTimePage_TextBlockIsHeadAndTailHeadOffset.Text" xml:space="preserve">
+    <value>顯示開始時間(5)：</value>
+  </data>
+  <data name="EditShowTimePage_TextBlockIsHeadAndTailTailOffset.Text" xml:space="preserve">
+    <value>結尾的隱藏時間(6)：</value>
+  </data>
+  <data name="EditShowTimePage_TextBlockIsHeadHeadEnd.Text" xml:space="preserve">
+    <value>顯示結束時間(2)：</value>
+  </data>
+  <data name="EditShowTimePage_TextBlockIsHeadHeadOffset.Text" xml:space="preserve">
+    <value>顯示開始時間(1)：</value>
+  </data>
+  <data name="EditShowTimePage_TextBlockIsTailInterval.Text" xml:space="preserve">
+    <value>顯示時間(7)：</value>
+  </data>
+  <data name="EditShowTimePage_TextBlockIsTailTailOffset.Text" xml:space="preserve">
+    <value>結尾的隱藏時間(8)：</value>
+  </data>
+  <data name="EditShowTimePageViewModel_Information_BadSource" xml:space="preserve">
+    <value>(未正確指定背景素材)</value>
+  </data>
+  <data name="EditShowTimeWindow.Title" xml:space="preserve">
+    <value>編輯標題顯示時間</value>
+  </data>
+  <data name="EditSoundListPage_ButtonAdd.ToolTipService.ToolTip" xml:space="preserve">
+    <value>新增(A)</value>
+  </data>
+  <data name="EditSoundListPage_TableViewColumnBrowse.ToolTip" xml:space="preserve">
+    <value>瀏覽</value>
+  </data>
+  <data name="EditSoundListPage_TableViewColumnName.Header" xml:space="preserve">
+    <value>音軌名稱 (選填)</value>
+  </data>
+  <data name="EditSoundListPage_TableViewColumnPath.Header" xml:space="preserve">
+    <value>音訊檔</value>
+  </data>
+  <data name="EditSoundListPage_TableViewColumnRemove.ToolTip" xml:space="preserve">
+    <value>刪除</value>
+  </data>
+  <data name="EditSoundListPage_TextBlockDescription.Text" xml:space="preserve">
+    <value>可指定多個音訊檔。拖曳左側即可改變順序。</value>
+  </data>
+  <data name="EditSoundListPageViewModel_Error_PathEmpty" xml:space="preserve">
+    <value>未指定「{0}」的音訊檔。</value>
+  </data>
+  <data name="EditSoundListWindow_Title" xml:space="preserve">
+    <value>編輯音訊清單</value>
+  </data>
+  <data name="EditSubtitleActionPageViewModel_PageDescription" xml:space="preserve">
+    <value>設定字幕動作的詳細內容。</value>
+  </data>
+  <data name="EditSubtitleActionPageViewModel_Title" xml:space="preserve">
+    <value>編輯字幕動作</value>
+  </data>
+  <data name="EditTitlePage_TextBlockAddPositionIndex.Text" xml:space="preserve">
+    <value>新增行的位置：</value>
+  </data>
+  <data name="EditTitlePage_TextBlockNote.Text" xml:space="preserve">
+    <value>(註)
+- 可輸入多行內容。
+- 輸入 @Title 等 @ 標籤時，將會套用歌詞檔中 @ 標籤的內容。</value>
+  </data>
+  <data name="EditTitlePageViewModel_AddTitlePositionName_0" xml:space="preserve">
+    <value>最上方</value>
+  </data>
+  <data name="EditTitlePageViewModel_AddTitlePositionName_1" xml:space="preserve">
+    <value>所選行的上方</value>
+  </data>
+  <data name="EditTitlePageViewModel_AddTitlePositionName_2" xml:space="preserve">
+    <value>所選行的下方</value>
+  </data>
+  <data name="EditTitlePageViewModel_AddTitlePositionName_3" xml:space="preserve">
+    <value>最下方</value>
+  </data>
+  <data name="EditTitleWindow_TitleAdd" xml:space="preserve">
+    <value>新增標題行</value>
+  </data>
+  <data name="EditTitleWindow_TitleEdit" xml:space="preserve">
+    <value>編輯標題行</value>
+  </data>
+  <data name="EmptyLineBreaker_Description" xml:space="preserve">
+    <value>在歌詞檔的空行位置設定換頁。
+若刷色時間點不連續，則會忽略空行，改以時間差判定段落分隔。</value>
+  </data>
+  <data name="EmptyLineBreaker_Name" xml:space="preserve">
+    <value>在空行位置設定換頁</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>錯誤</value>
+  </data>
+  <data name="FadeSubtitleActionSelector_Description" xml:space="preserve">
+    <value>在段落開頭淡入，段落結尾淡出。</value>
+  </data>
+  <data name="FadeSubtitleActionSelector_Name" xml:space="preserve">
+    <value>以段落分隔淡入淡出</value>
+  </data>
+  <data name="Fatal" xml:space="preserve">
+    <value>嚴重錯誤</value>
+  </data>
+  <data name="File_HelpWithoutExtension" xml:space="preserve">
+    <value>CFileMerge2_zh-tw</value>
+  </data>
+  <data name="File_HistoryWithoutExtension" xml:space="preserve">
+    <value>CFileMerge2_History_zh-tw</value>
+  </data>
+  <data name="FontFaceInfoModel_CharSize_Undo" xml:space="preserve">
+    <value>字型大小</value>
+  </data>
+  <data name="FontFaceInfoModel_EdgeSize_Undo" xml:space="preserve">
+    <value>邊框寬度</value>
+  </data>
+  <data name="FontFaceInfoModel_EdgeSize2_Undo" xml:space="preserve">
+    <value>邊框 2 寬度</value>
+  </data>
+  <data name="FontFaceInfoModel_FallbackName_Default" xml:space="preserve">
+    <value>預設字型</value>
+  </data>
+  <data name="FontFaceInfoModel_FontFaceName_Undo" xml:space="preserve">
+    <value>字型詳細設定</value>
+  </data>
+  <data name="FontFaceInfoModel_FontName_Undo" xml:space="preserve">
+    <value>字型</value>
+  </data>
+  <data name="FontFaceInfoModel_ModelName" xml:space="preserve">
+    <value>字元類型字型</value>
+  </data>
+  <data name="FontFaceInfoModel_UseEdge2_Undo" xml:space="preserve">
+    <value>邊框 2</value>
+  </data>
+  <data name="FontFaceInfoModel_XScale_Undo" xml:space="preserve">
+    <value>水平縮放比例</value>
+  </data>
+  <data name="FontFaceSettingsWindow_Title" xml:space="preserve">
+    <value>「{0}」的字型詳細設定</value>
+  </data>
+  <data name="FontSelectorPageViewModel_PageDescription" xml:space="preserve">
+    <value>自動設定所有行的字型。</value>
+  </data>
+  <data name="FontSelectorPageViewModel_Title" xml:space="preserve">
+    <value>自動設定字型</value>
+  </data>
+  <data name="GeneralView_ButtonCancel.Content" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="GeneralView_ButtonClose.Content" xml:space="preserve">
+    <value>關閉</value>
+  </data>
+  <data name="GeneralView_ButtonOk.Content" xml:space="preserve">
+    <value>確定</value>
+  </data>
+  <data name="GeneralView_Error_CannotShowHelp" xml:space="preserve">
+    <value>無法顯示說明。</value>
+  </data>
+  <data name="GeneralView_Error_NoAnchor" xml:space="preserve">
+    <value>無法顯示符合目前狀況的說明：</value>
+  </data>
+  <data name="GeneralView_FileTypeSta" xml:space="preserve">
+    <value>設定檔</value>
+  </data>
+  <data name="GeneralView_Information_ShowNormalHelp" xml:space="preserve">
+    <value>顯示一般說明。</value>
+  </data>
+  <data name="Information" xml:space="preserve">
+    <value>資訊</value>
+  </data>
+  <data name="LatestInfoHistoryPage_ButtonCheckRss.Content" xml:space="preserve">
+    <value>立即檢查最新資訊(A)</value>
+  </data>
+  <data name="LatestInfoHistoryPage_ButtonClose.Content" xml:space="preserve">
+    <value>關閉</value>
+  </data>
+  <data name="LatestInfoHistoryPage_ButtonDetail.Content" xml:space="preserve">
+    <value>詳細資訊(D)</value>
+  </data>
+  <data name="LatestInfoHistoryPageViewModel_Error_OpenDetailNotSelect" xml:space="preserve">
+    <value>請選擇要查看詳細資訊的最新資訊。</value>
+  </data>
+  <data name="LatestInfoHistoryWindow_Title" xml:space="preserve">
+    <value>{0} 的最新資訊</value>
+  </data>
+  <data name="LatestInfoManager_Ask_AskDisplayLatestAsync" xml:space="preserve">
+    <value>找到 {0} 則最新資訊。
+要立即查看嗎？</value>
+  </data>
+  <data name="LatestInfoManager_Cancel_AskDisplayLatestAsync" xml:space="preserve">
+    <value>已取消顯示最新資訊。</value>
+  </data>
+  <data name="LatestInfoManager_Error_CheckAsync" xml:space="preserve">
+    <value>檢查最新資訊時發生錯誤：</value>
+  </data>
+  <data name="LatestInfoManager_Error_DisplayLatest_Not" xml:space="preserve">
+    <value>無法顯示最新資訊。</value>
+  </data>
+  <data name="LatestInfoManager_Error_DisplayLatest_Part" xml:space="preserve">
+    <value>部分最新資訊無法顯示。</value>
+  </data>
+  <data name="LatestInfoManager_NoInfo_CheckAsync" xml:space="preserve">
+    <value>沒有最新資訊。</value>
+  </data>
+  <data name="LayoutSelectorPageViewModel_PageDescription" xml:space="preserve">
+    <value>自動設定所有行的版面配置。</value>
+  </data>
+  <data name="LayoutSelectorPageViewModel_Title" xml:space="preserve">
+    <value>自動設定版面配置</value>
+  </data>
+  <data name="LineBreakerPageViewModel_PageDescription" xml:space="preserve">
+    <value>自動設定所有分隔 (換頁、段落分隔)。</value>
+  </data>
+  <data name="LineBreakerPageViewModel_Title" xml:space="preserve">
+    <value>自動設定分隔</value>
+  </data>
+  <data name="LineFadeIn_Description" xml:space="preserve">
+    <value>整行淡入</value>
+  </data>
+  <data name="LineFadeIn_Name" xml:space="preserve">
+    <value>淡入</value>
+  </data>
+  <data name="LineFadeInFadeOut_Description" xml:space="preserve">
+    <value>整行淡入及淡出</value>
+  </data>
+  <data name="LineFadeInFadeOut_Name" xml:space="preserve">
+    <value>淡入/淡出</value>
+  </data>
+  <data name="LineFadeOut_Description" xml:space="preserve">
+    <value>整行淡出</value>
+  </data>
+  <data name="LineFadeOut_Name" xml:space="preserve">
+    <value>淡出</value>
+  </data>
+  <data name="LinesLayoutSelector_Description" xml:space="preserve">
+    <value>套用與頁面內行數相同的版面配置。
+例如：3 行頁面 → 套用 3 行版面配置</value>
+  </data>
+  <data name="LinesLayoutSelector_Name" xml:space="preserve">
+    <value>根據行數設定版面配置</value>
+  </data>
+  <data name="LyricsFontBrushControl_ButtonAddPosition.ToolTipService.ToolTip" xml:space="preserve">
+    <value>新增標記(GA)</value>
+  </data>
+  <data name="LyricsFontBrushControl_ButtonBrowseBitmapPath.Content" xml:space="preserve">
+    <value>瀏覽(GB)…</value>
+  </data>
+  <data name="LyricsFontBrushControl_ButtonRemovePosition.ToolTipService.ToolTip" xml:space="preserve">
+    <value>刪除標記(GR)</value>
+  </data>
+  <data name="LyricsFontBrushControl_TextBlockBitmapPath.Text" xml:space="preserve">
+    <value>圖片檔(GF)：</value>
+  </data>
+  <data name="LyricsFontBrushControl_TextBlockBitmapScale.Text" xml:space="preserve">
+    <value>縮放比例(GZ)：</value>
+  </data>
+  <data name="LyricsFontBrushControl_TextBlockMarkerInfo.Text" xml:space="preserve">
+    <value>在想新增標記的位置按一下即可新增；
+拖曳上下兩端的標記亦可新增。</value>
+  </data>
+  <data name="LyricsFontBrushControl_TextBlockSelectedMultiPosition.Text" xml:space="preserve">
+    <value>標記位置(GM)：</value>
+  </data>
+  <data name="LyricsFontBrushControl_ToggleButtonBitmap.ToolTipService.ToolTip" xml:space="preserve">
+    <value>圖片</value>
+  </data>
+  <data name="LyricsFontBrushControl_ToggleButtonGradient.ToolTipService.ToolTip" xml:space="preserve">
+    <value>漸層</value>
+  </data>
+  <data name="LyricsFontBrushControl_ToggleButtonMilleFeuille.ToolTipService.ToolTip" xml:space="preserve">
+    <value>千層</value>
+  </data>
+  <data name="LyricsFontBrushControl_ToggleButtonSolid.ToolTipService.ToolTip" xml:space="preserve">
+    <value>單色填滿</value>
+  </data>
+  <data name="LyricsFontControl_ButtonFontFaceSettings.ToolTipService.ToolTip" xml:space="preserve">
+    <value>字型詳細設定…</value>
+  </data>
+  <data name="LyricsFontControl_ButtonSwapWipe.ToolTipService.ToolTip" xml:space="preserve">
+    <value>交換刷色前後的配色(WS)</value>
+  </data>
+  <data name="LyricsFontControl_MenuFlyoutItemCopyAfterWipeToBefore.Text" xml:space="preserve">
+    <value>將刷色後的配色複製到刷色前(A)</value>
+  </data>
+  <data name="LyricsFontControl_MenuFlyoutItemCopyBeforeWipeToAfter.Text" xml:space="preserve">
+    <value>將刷色前的配色複製到刷色後(B)</value>
+  </data>
+  <data name="LyricsFontControl_MenuFlyoutItemSwapWipe.Text" xml:space="preserve">
+    <value>交換刷色前後的配色(S)</value>
+  </data>
+  <data name="LyricsFontControl_TextBlockAfterBefore.Text" xml:space="preserve">
+    <value>後　　前</value>
+  </data>
+  <data name="LyricsFontControl_TextBlockBlurLevel.Text" xml:space="preserve">
+    <value>模糊程度(RB)：</value>
+  </data>
+  <data name="LyricsFontControl_TextBlockBrushInfo.Text" xml:space="preserve">
+    <value>配色</value>
+  </data>
+  <data name="LyricsFontControl_TextBlockDecorKind.Text" xml:space="preserve">
+    <value>文字裝飾類型(RK)：</value>
+  </data>
+  <data name="LyricsFontControl_TextBlockDecorSizeSize.Text" xml:space="preserve">
+    <value>文字裝飾尺寸(RS)：</value>
+  </data>
+  <data name="LyricsFontControl_TextBlockFontFaceInfo.Text" xml:space="preserve">
+    <value>字型：</value>
+  </data>
+  <data name="LyricsFontControl_TextBlockFontInfo.Text" xml:space="preserve">
+    <value>歌詞　　標音</value>
+  </data>
+  <data name="LyricsFontControl_TextBlockSample.Text" xml:space="preserve">
+    <value>範例</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonDecorAfter.Content" xml:space="preserve">
+    <value>裝飾</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonDecorAfter.ToolTipService.ToolTip" xml:space="preserve">
+    <value>裝飾色 (刷色後)</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonDecorBefore.Content" xml:space="preserve">
+    <value>裝飾</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonDecorBefore.ToolTipService.ToolTip" xml:space="preserve">
+    <value>裝飾色 (刷色前)</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonLyricAlnum.Content" xml:space="preserve">
+    <value>英數字</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonLyricAlnum.ToolTipService.ToolTip" xml:space="preserve">
+    <value>英數字 (歌詞)</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonLyricKana.Content" xml:space="preserve">
+    <value>假名</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonLyricKana.ToolTipService.ToolTip" xml:space="preserve">
+    <value>假名 (歌詞)</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonLyricKanji.Content" xml:space="preserve">
+    <value>漢字</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonLyricKanji.ToolTipService.ToolTip" xml:space="preserve">
+    <value>漢字 (歌詞)</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonMainCharAfter.Content" xml:space="preserve">
+    <value>文字</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonMainCharAfter.ToolTipService.ToolTip" xml:space="preserve">
+    <value>文字顏色 (刷色後)</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonMainCharBefore.Content" xml:space="preserve">
+    <value>文字</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonMainCharBefore.ToolTipService.ToolTip" xml:space="preserve">
+    <value>文字顏色 (刷色前)</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonMainEdge2After.Content" xml:space="preserve">
+    <value>邊框 2</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonMainEdge2After.ToolTipService.ToolTip" xml:space="preserve">
+    <value>邊框 2 顏色 (刷色後)</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonMainEdge2Before.Content" xml:space="preserve">
+    <value>邊框 2</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonMainEdge2Before.ToolTipService.ToolTip" xml:space="preserve">
+    <value>邊框 2 顏色 (刷色前)</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonMainEdgeAfter.Content" xml:space="preserve">
+    <value>邊框</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonMainEdgeAfter.ToolTipService.ToolTip" xml:space="preserve">
+    <value>邊框顏色 (刷色後)</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonMainEdgeBefore.Content" xml:space="preserve">
+    <value>邊框</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonMainEdgeBefore.ToolTipService.ToolTip" xml:space="preserve">
+    <value>邊框顏色 (刷色前)</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonRubyAlnum.Content" xml:space="preserve">
+    <value>英數字</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonRubyAlnum.ToolTipService.ToolTip" xml:space="preserve">
+    <value>英數字 (標音)</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonRubyKana.Content" xml:space="preserve">
+    <value>假名</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonRubyKana.ToolTipService.ToolTip" xml:space="preserve">
+    <value>假名 (標音)</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonRubyKanji.Content" xml:space="preserve">
+    <value>漢字</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonRubyKanji.ToolTipService.ToolTip" xml:space="preserve">
+    <value>漢字 (標音)</value>
+  </data>
+  <data name="LyricsFontFaceControl_CheckBoxUseEdge2.Content" xml:space="preserve">
+    <value>加上邊框 2(VE)</value>
+  </data>
+  <data name="LyricsFontFaceControl_TextBlockCharSizeSize.Text" xml:space="preserve">
+    <value>字型大小(I)：</value>
+  </data>
+  <data name="LyricsFontFaceControl_TextBlockCharSizeSizeNote_0.Text" xml:space="preserve">
+    <value>(設為 0 時，將與</value>
+  </data>
+  <data name="LyricsFontFaceControl_TextBlockCharSizeSizeNote_1.Text" xml:space="preserve">
+    <value>相同)</value>
+  </data>
+  <data name="LyricsFontFaceControl_TextBlockDetail.Text" xml:space="preserve">
+    <value>詳細資訊(A)：</value>
+  </data>
+  <data name="LyricsFontFaceControl_TextBlockEdgeSize2Size.Text" xml:space="preserve">
+    <value>邊框 2 寬度(VW)：</value>
+  </data>
+  <data name="LyricsFontFaceControl_TextBlockEdgeSize2SizeNote_0.Text" xml:space="preserve">
+    <value>(設為 0 時，將與</value>
+  </data>
+  <data name="LyricsFontFaceControl_TextBlockEdgeSize2SizeNote_1.Text" xml:space="preserve">
+    <value>相同)</value>
+  </data>
+  <data name="LyricsFontFaceControl_TextBlockEdgeSizeSize.Text" xml:space="preserve">
+    <value>邊框寬度(B)：</value>
+  </data>
+  <data name="LyricsFontFaceControl_TextBlockEdgeSizeSizeNote_0.Text" xml:space="preserve">
+    <value>(設為 0 時，將與</value>
+  </data>
+  <data name="LyricsFontFaceControl_TextBlockEdgeSizeSizeNote_1.Text" xml:space="preserve">
+    <value>相同)</value>
+  </data>
+  <data name="LyricsFontFaceControl_TextBlockFontName.Text" xml:space="preserve">
+    <value>字型(O)：</value>
+  </data>
+  <data name="LyricsFontFaceControl_TextBlockFontNameNote_0.Text" xml:space="preserve">
+    <value>(留白時，將與</value>
+  </data>
+  <data name="LyricsFontFaceControl_TextBlockFontNameNote_1.Text" xml:space="preserve">
+    <value>相同)</value>
+  </data>
+  <data name="LyricsFontFaceControl_TextBlockUseEdge2Note_0.Text" xml:space="preserve">
+    <value>(設為「－」時，將與</value>
+  </data>
+  <data name="LyricsFontFaceControl_TextBlockUseEdge2Note_1.Text" xml:space="preserve">
+    <value>相同)</value>
+  </data>
+  <data name="LyricsFontFaceControl_TextBlockXScale.Text" xml:space="preserve">
+    <value>水平縮放比例：</value>
+  </data>
+  <data name="LyricsFontFaceControl_TextBlockXScaleNote_0.Text" xml:space="preserve">
+    <value>(設為 0 時，將與</value>
+  </data>
+  <data name="LyricsFontFaceControl_TextBlockXScaleNote_1.Text" xml:space="preserve">
+    <value>相同)</value>
+  </data>
+  <data name="LyricsFontModel_BrushInfoModel_SettingsName_0" xml:space="preserve">
+    <value>刷色後/文字顏色</value>
+  </data>
+  <data name="LyricsFontModel_BrushInfoModel_SettingsName_1" xml:space="preserve">
+    <value>邊框顏色</value>
+  </data>
+  <data name="LyricsFontModel_BrushInfoModel_SettingsName_2" xml:space="preserve">
+    <value>邊框 2 顏色</value>
+  </data>
+  <data name="LyricsFontModel_BrushInfoModel_SettingsName_3" xml:space="preserve">
+    <value>裝飾色</value>
+  </data>
+  <data name="LyricsFontModel_BrushInfoModel_SettingsName_4" xml:space="preserve">
+    <value>刷色前/文字顏色</value>
+  </data>
+  <data name="LyricsFontModel_BrushInfoModel_SettingsName_5" xml:space="preserve">
+    <value>邊框顏色</value>
+  </data>
+  <data name="LyricsFontModel_BrushInfoModel_SettingsName_6" xml:space="preserve">
+    <value>邊框 2 顏色</value>
+  </data>
+  <data name="LyricsFontModel_BrushInfoModel_SettingsName_7" xml:space="preserve">
+    <value>裝飾色</value>
+  </data>
+  <data name="LyricsFontModel_FontFaceInfoModel_SettingsName_0" xml:space="preserve">
+    <value>歌詞/漢字</value>
+  </data>
+  <data name="LyricsFontModel_FontFaceInfoModel_SettingsName_1" xml:space="preserve">
+    <value>歌詞/假名</value>
+  </data>
+  <data name="LyricsFontModel_FontFaceInfoModel_SettingsName_2" xml:space="preserve">
+    <value>歌詞/英數字</value>
+  </data>
+  <data name="LyricsFontModel_FontFaceInfoModel_SettingsName_3" xml:space="preserve">
+    <value>標音/漢字</value>
+  </data>
+  <data name="LyricsFontModel_FontFaceInfoModel_SettingsName_4" xml:space="preserve">
+    <value>標音/假名</value>
+  </data>
+  <data name="LyricsFontModel_FontFaceInfoModel_SettingsName_5" xml:space="preserve">
+    <value>標音/英數字</value>
+  </data>
+  <data name="LyricsFontModel_ModelName" xml:space="preserve">
+    <value>字型</value>
+  </data>
+  <data name="LyricsFontModel_Undo_BlurLevel" xml:space="preserve">
+    <value>模糊程度</value>
+  </data>
+  <data name="LyricsFontModel_Undo_DecorKind" xml:space="preserve">
+    <value>文字裝飾類型</value>
+  </data>
+  <data name="LyricsFontModel_Undo_DecorSize" xml:space="preserve">
+    <value>文字裝飾尺寸</value>
+  </data>
+  <data name="LyricsInfoControl_ButtonBrowseSourceLyricsPath.Content" xml:space="preserve">
+    <value>瀏覽(B)…</value>
+  </data>
+  <data name="LyricsInfoControl_TableViewColumnFont.Header" xml:space="preserve">
+    <value>字型</value>
+  </data>
+  <data name="LyricsInfoControl_TableViewColumnLayout.Header" xml:space="preserve">
+    <value>版面配置</value>
+  </data>
+  <data name="LyricsInfoControl_TableViewColumnLyrics.Header" xml:space="preserve">
+    <value>歌詞</value>
+  </data>
+  <data name="LyricsInfoControl_TableViewColumnLyricsBeginTime.Header" xml:space="preserve">
+    <value>演唱開始</value>
+  </data>
+  <data name="LyricsInfoControl_TableViewColumnLyricsEndTime.Header" xml:space="preserve">
+    <value>演唱結束</value>
+  </data>
+  <data name="LyricsInfoControl_TableViewColumnShowBeginTime.Header" xml:space="preserve">
+    <value>顯示開始</value>
+  </data>
+  <data name="LyricsInfoControl_TableViewColumnShowEndTime.Header" xml:space="preserve">
+    <value>顯示結束</value>
+  </data>
+  <data name="LyricsInfoControl_TableViewColumnSubtitleAction.Header" xml:space="preserve">
+    <value>動作</value>
+  </data>
+  <data name="LyricsInfoControl_TextBlockSourceLyricsPath.Text" xml:space="preserve">
+    <value>歌詞檔(L)：</value>
+  </data>
+  <data name="LyricsInfoModel_ModelName" xml:space="preserve">
+    <value>歌詞</value>
+  </data>
+  <data name="LyricsInfoModel_SettingsNameDefault_Chorus" xml:space="preserve">
+    <value>合唱{0}</value>
+  </data>
+  <data name="LyricsInfoModel_SettingsNameDefault_Main" xml:space="preserve">
+    <value>主歌詞</value>
+  </data>
+  <data name="LyricsInfoModel_SourceLyricsPath_Undo" xml:space="preserve">
+    <value>歌詞檔名</value>
+  </data>
+  <data name="LyricsLayoutControl_AllowBiting.Content" xml:space="preserve">
+    <value>允許部分文字重疊(W)</value>
+  </data>
+  <data name="LyricsLayoutControl_ButtonAddHorizontalLayout.ToolTipService.ToolTip" xml:space="preserve">
+    <value>新增左右版面配置(A)</value>
+  </data>
+  <data name="LyricsLayoutControl_ButtonRemoveHorizontalLayout.ToolTipService.ToolTip" xml:space="preserve">
+    <value>刪除左右版面配置(R)</value>
+  </data>
+  <data name="LyricsLayoutControl_HorizontalAlignment.Text" xml:space="preserve">
+    <value>各行的水平配置</value>
+  </data>
+  <data name="LyricsLayoutControl_HorizontalMarginSize.Text" xml:space="preserve">
+    <value>左右邊距(F)</value>
+  </data>
+  <data name="LyricsLayoutControl_TextBlockLineSpaceSize.Text" xml:space="preserve">
+    <value>行距(L)</value>
+  </data>
+  <data name="LyricsLayoutControl_TextBlockLyricsAndRubyIntervalSize.Text" xml:space="preserve">
+    <value>歌詞與標音的間距(C)：</value>
+  </data>
+  <data name="LyricsLayoutControl_TextBlockLyricsIntervalSize.Text" xml:space="preserve">
+    <value>歌詞間距(I)：</value>
+  </data>
+  <data name="LyricsLayoutControl_TextBlockRubyAlignment.Text" xml:space="preserve">
+    <value>標音對齊方式(Y)：</value>
+  </data>
+  <data name="LyricsLayoutControl_TextBlockRubyIntervalSize.Text" xml:space="preserve">
+    <value>標音間距(U)：</value>
+  </data>
+  <data name="LyricsLayoutControl_TextBlockSmartHorizon.Text" xml:space="preserve">
+    <value>智慧水平對齊(D)</value>
+  </data>
+  <data name="LyricsLayoutControl_TextBlockVerticalAlignment.Text" xml:space="preserve">
+    <value>垂直對齊</value>
+  </data>
+  <data name="LyricsLayoutControl_TextBlockVerticalMarginBottomSize.Text" xml:space="preserve">
+    <value>下邊距(B)：</value>
+  </data>
+  <data name="LyricsLayoutControl_TextBlockVerticalMarginTopSize.Text" xml:space="preserve">
+    <value>上邊距(O)：</value>
+  </data>
+  <data name="LyricsLayoutControl_ToggleButtonBottom.Content" xml:space="preserve">
+    <value>↓　靠下</value>
+  </data>
+  <data name="LyricsLayoutControl_ToggleButtonCenter.Content" xml:space="preserve">
+    <value>－　垂直置中</value>
+  </data>
+  <data name="LyricsLayoutControl_ToggleButtonTop.Content" xml:space="preserve">
+    <value>↑　靠上</value>
+  </data>
+  <data name="LyricsLayoutModel_ModelName" xml:space="preserve">
+    <value>版面配置</value>
+  </data>
+  <data name="LyricsLayoutModel_Undo_AllowBiting" xml:space="preserve">
+    <value>允許部分文字重疊</value>
+  </data>
+  <data name="LyricsLayoutModel_Undo_HorizontalMargin" xml:space="preserve">
+    <value>左右邊距</value>
+  </data>
+  <data name="LyricsLayoutModel_Undo_LineSpace" xml:space="preserve">
+    <value>行距</value>
+  </data>
+  <data name="LyricsLayoutModel_Undo_LyricsAndRubyInterval" xml:space="preserve">
+    <value>歌詞與標音的間距</value>
+  </data>
+  <data name="LyricsLayoutModel_Undo_LyricsInterval" xml:space="preserve">
+    <value>歌詞間距</value>
+  </data>
+  <data name="LyricsLayoutModel_Undo_RubyAlignment" xml:space="preserve">
+    <value>標音對齊方式</value>
+  </data>
+  <data name="LyricsLayoutModel_Undo_RubyInterval" xml:space="preserve">
+    <value>標音間距</value>
+  </data>
+  <data name="LyricsLayoutModel_Undo_SelectedVerticalAlignmentIndex" xml:space="preserve">
+    <value>垂直對齊</value>
+  </data>
+  <data name="LyricsLayoutModel_Undo_SmartHorizon" xml:space="preserve">
+    <value>智慧水平對齊</value>
+  </data>
+  <data name="LyricsLayoutModel_Undo_VerticalMargin" xml:space="preserve">
+    <value>上下邊距</value>
+  </data>
+  <data name="LyricsLoader_LoadAll_Error_NoTimeTags" xml:space="preserve">
+    <value>歌詞檔中沒有時間標籤：
+{0}</value>
+  </data>
+  <data name="LyricsLoader_LoadAll_Error_PathEmpty" xml:space="preserve">
+    <value>未指定歌詞檔。</value>
+  </data>
+  <data name="LyricsLoader_LoadLines_Error_Encoding" xml:space="preserve">
+    <value>無法判斷歌詞檔的文字編碼：
+{0}</value>
+  </data>
+  <data name="MainPage_ButtonNavigationDown.ToolTipService.ToolTip" xml:space="preserve">
+    <value>移動至面板下方</value>
+  </data>
+  <data name="MainPage_ButtonNavigationUp.ToolTipService.ToolTip" xml:space="preserve">
+    <value>移動至面板上方</value>
+  </data>
+  <data name="MainPage_MenuBarItemEdit.Title" xml:space="preserve">
+    <value>編輯(E)</value>
+  </data>
+  <data name="MainPage_MenuBarItemHelp.Title" xml:space="preserve">
+    <value>說明(H)</value>
+  </data>
+  <data name="MainPage_MenuBarItemProject.Title" xml:space="preserve">
+    <value>專案(P)</value>
+  </data>
+  <data name="MainPage_MenuBarItemTools.Title" xml:space="preserve">
+    <value>工具(T)</value>
+  </data>
+  <data name="MainPage_MenuFlyoutItemAbout.Text" xml:space="preserve">
+    <value>版本資訊(A)…</value>
+  </data>
+  <data name="MainPage_MenuFlyoutItemChat.Text" xml:space="preserve">
+    <value>聯絡我們(R)</value>
+  </data>
+  <data name="MainPage_MenuFlyoutItemCheckUpdate.Text" xml:space="preserve">
+    <value>檢查更新(U)</value>
+  </data>
+  <data name="MainPage_MenuFlyoutItemCommercialUse.Text" xml:space="preserve">
+    <value>關於商業用途(C)</value>
+  </data>
+  <data name="MainPage_MenuFlyoutItemFaq.Text" xml:space="preserve">
+    <value>常見問題(Q)</value>
+  </data>
+  <data name="MainPage_MenuFlyoutItemHelp.Text" xml:space="preserve">
+    <value>說明(H)</value>
+  </data>
+  <data name="MainPage_MenuFlyoutItemHistory.Text" xml:space="preserve">
+    <value>更新記錄(Y)</value>
+  </data>
+  <data name="MainPage_MenuFlyoutItemNew.Text" xml:space="preserve">
+    <value>新增(N)…</value>
+  </data>
+  <data name="MainPage_MenuFlyoutItemNicoKaraList.Text" xml:space="preserve">
+    <value>建立 NicoKara 清單(I)…</value>
+  </data>
+  <data name="MainPage_MenuFlyoutItemOpen.Text" xml:space="preserve">
+    <value>開啟(O)…</value>
+  </data>
+  <data name="MainPage_MenuFlyoutItemQuit.Text" xml:space="preserve">
+    <value>結束(Q)</value>
+  </data>
+  <data name="MainPage_MenuFlyoutItemSampleFolder.Text" xml:space="preserve">
+    <value>範例資料夾(S)</value>
+  </data>
+  <data name="MainPage_MenuFlyoutItemSave.Text" xml:space="preserve">
+    <value>儲存檔案(S)</value>
+  </data>
+  <data name="MainPage_MenuFlyoutItemSaveAs.Text" xml:space="preserve">
+    <value>另存新檔(A)…</value>
+  </data>
+  <data name="MainPage_MenuFlyoutItemSaveTemplate.Text" xml:space="preserve">
+    <value>儲存為範本(T)…</value>
+  </data>
+  <data name="MainPage_MenuFlyoutItemSettings.Text" xml:space="preserve">
+    <value>設定(S)…</value>
+  </data>
+  <data name="MainPage_MenuFlyoutItemSupport.Text" xml:space="preserve">
+    <value>贊助與捐贈(P)</value>
+  </data>
+  <data name="MainPage_MenuFlyoutItemToastHistory.Text" xml:space="preserve">
+    <value>通知記錄(N)…</value>
+  </data>
+  <data name="MainPage_MenuFlyoutItemTranslationProject.Text" xml:space="preserve">
+    <value>翻譯專案(L)</value>
+  </data>
+  <data name="MainPage_MenuFlyoutItemTutorialMovie.Text" xml:space="preserve">
+    <value>教學 (影片)(M)</value>
+  </data>
+  <data name="MainPage_MenuFlyoutItemTutorialText.Text" xml:space="preserve">
+    <value>教學 (文字)(T)</value>
+  </data>
+  <data name="MainPage_MenuFlyoutItemWarnings.Text" xml:space="preserve">
+    <value>警告與資訊清單(W)…</value>
+  </data>
+  <data name="MainPage_MenuFlyoutSubItemRecent.Text" xml:space="preserve">
+    <value>最近使用的專案(R)</value>
+  </data>
+  <data name="MainPage_ToggleButtonFont.ToolTipService.ToolTip" xml:space="preserve">
+    <value>字型設定(5)</value>
+  </data>
+  <data name="MainPage_ToggleButtonLayout.ToolTipService.ToolTip" xml:space="preserve">
+    <value>版面配置設定(6)</value>
+  </data>
+  <data name="MainPage_ToggleButtonLyrics.ToolTipService.ToolTip" xml:space="preserve">
+    <value>歌詞設定(3)</value>
+  </data>
+  <data name="MainPage_ToggleButtonOutput.ToolTipService.ToolTip" xml:space="preserve">
+    <value>輸出影片(8)</value>
+  </data>
+  <data name="MainPage_ToggleButtonPreview.ToolTipService.ToolTip" xml:space="preserve">
+    <value>預覽(7)</value>
+  </data>
+  <data name="MainPage_ToggleButtonSource.ToolTipService.ToolTip" xml:space="preserve">
+    <value>背景素材(2)</value>
+  </data>
+  <data name="MainPage_ToggleButtonTitle.ToolTipService.ToolTip" xml:space="preserve">
+    <value>標題設定(4)</value>
+  </data>
+  <data name="MainPage_ToggleButtonWelcome.ToolTipService.ToolTip" xml:space="preserve">
+    <value>歡迎(1)</value>
+  </data>
+  <data name="MainPageControlViewModel_SynchronizeOff_Confirm" xml:space="preserve">
+    <value>若關閉同步，其他專案的變更將不會同步。
+此外，再次開啟時可能會發生衝突。
+
+確定要關閉嗎？</value>
+  </data>
+  <data name="MainPageControlViewModel_SynchronizeOn_Error_AlreadySynchronized" xml:space="preserve">
+    <value>已儲存為範本並正在同步中，無須重新儲存。</value>
+  </data>
+  <data name="MainPageControlViewModel_SynchronizeOn_Error_CannotLoadRegisteredTemplate" xml:space="preserve">
+    <value>無法讀取已儲存的範本。</value>
+  </data>
+  <data name="MainPageControlViewModel_SynchronizeOn_Error_TemplateNotSupported" xml:space="preserve">
+    <value>不支援此範本。</value>
+  </data>
+  <data name="MainPageControlViewModel_SynchronizeOn_Information_Registered" xml:space="preserve">
+    <value>已將「{0}」儲存為範本。</value>
+  </data>
+  <data name="MainPageControlViewModel_SynchronizeOn_Information_Renamed" xml:space="preserve">
+    <value>由於已存在相同名稱的範本，設定名稱已變更為「{0}」並完成儲存。</value>
+  </data>
+  <data name="MainPageFontControl_ButtonSearch.ToolTipService.ToolTip" xml:space="preserve">
+    <value>搜尋字型設定</value>
+  </data>
+  <data name="MainPageFontControl_ButtonTool.ToolTipService.ToolTip" xml:space="preserve">
+    <value>各種工具(M)</value>
+  </data>
+  <data name="MainPageFontControl_MenuFlyoutItemAddLyricsFont.Text" xml:space="preserve">
+    <value>新增字型設定(L)</value>
+  </data>
+  <data name="MainPageFontControl_MenuFlyoutItemLoadTemplate.Text" xml:space="preserve">
+    <value>使用範本(T)…</value>
+  </data>
+  <data name="MainPageFontControl_MenuFlyoutItemRemoveLyricsFont.Text" xml:space="preserve">
+    <value>刪除字型設定(R)</value>
+  </data>
+  <data name="MainPageFontControl_MenuFlyoutItemSaveTemplate.Text" xml:space="preserve">
+    <value>儲存為範本(G)</value>
+  </data>
+  <data name="MainPageFontControl_TextBlockSynchronize.Text" xml:space="preserve">
+    <value>範本同步：</value>
+  </data>
+  <data name="MainPageFontControl_TextBoxSearch.PlaceholderText" xml:space="preserve">
+    <value>搜尋字型設定</value>
+  </data>
+  <data name="MainPageFontControl_ToggleButtonSynchronize.Content" xml:space="preserve">
+    <value>同步(S)</value>
+  </data>
+  <data name="MainPageFontControlViewModel_ButtonFontFaceSettingsClicked_Undo_FontFace" xml:space="preserve">
+    <value>字型外觀</value>
+  </data>
+  <data name="MainPageFontControlViewModel_Caption" xml:space="preserve">
+    <value>在字型設定面板中，可設定歌詞設定面板中指定字型的詳細內容。
+只要設定「字型設定 1」即可建立字幕，但也可視需求設定多組字型。</value>
+  </data>
+  <data name="MainPageFontControlViewModel_Confirm_AddLyricsFont" xml:space="preserve">
+    <value>將複製「{0}」並新增字型設定。
+確定要執行嗎？</value>
+  </data>
+  <data name="MainPageFontControlViewModel_Confirm_RemoveLyricsFont" xml:space="preserve">
+    <value>將刪除「{0}」。
+確定要刪除嗎？</value>
+  </data>
+  <data name="MainPageFontControlViewModel_DecorKindNames_0" xml:space="preserve">
+    <value>無</value>
+  </data>
+  <data name="MainPageFontControlViewModel_DecorKindNames_1" xml:space="preserve">
+    <value>陰影</value>
+  </data>
+  <data name="MainPageFontControlViewModel_DecorKindNames_2" xml:space="preserve">
+    <value>模糊</value>
+  </data>
+  <data name="MainPageFontControlViewModel_Error_FindLyricsFont" xml:space="preserve">
+    <value>請輸入搜尋關鍵字。</value>
+  </data>
+  <data name="MainPageFontControlViewModel_Error_LoadTemplateDup" xml:space="preserve">
+    <value>您已經在使用範本「{0}」。</value>
+  </data>
+  <data name="MainPageFontControlViewModel_Error_LoadTemplateDupChange" xml:space="preserve">
+    <value>(名稱已變更為「{0}」)</value>
+  </data>
+  <data name="MainPageFontControlViewModel_Error_LoadTemplateUnable" xml:space="preserve">
+    <value>無法讀取範本。</value>
+  </data>
+  <data name="MainPageFontControlViewModel_Error_NoSearch" xml:space="preserve">
+    <value>沒有包含「{0}」名稱的字型設定。</value>
+  </data>
+  <data name="MainPageFontControlViewModel_Error_RemoveLyricsFont" xml:space="preserve">
+    <value>無法刪除所有字型設定。</value>
+  </data>
+  <data name="MainPageFontControlViewModel_Error_RemovePositionFirst" xml:space="preserve">
+    <value>無法刪除最上段的標記。</value>
+  </data>
+  <data name="MainPageFontControlViewModel_Error_RemovePositionLast" xml:space="preserve">
+    <value>無法刪除最下段的標記。</value>
+  </data>
+  <data name="MainPageFontControlViewModel_Information_CheckMarkers0P" xml:space="preserve">
+    <value>字型設定中有多個 0% 位置的標記：{0} - {1}</value>
+  </data>
+  <data name="MainPageFontControlViewModel_Information_CheckMarkers100P" xml:space="preserve">
+    <value>字型設定中有多個 100% 位置的標記：{0} - {1}</value>
+  </data>
+  <data name="MainPageFontControlViewModel_Undo_AddLyricsFont" xml:space="preserve">
+    <value>新增字型設定</value>
+  </data>
+  <data name="MainPageFontControlViewModel_Undo_CopyAfterWipeToBefore" xml:space="preserve">
+    <value>將刷色後的配色複製到刷色前</value>
+  </data>
+  <data name="MainPageFontControlViewModel_Undo_CopyBeforeWipeToAfter" xml:space="preserve">
+    <value>將刷色前的配色複製到刷色後</value>
+  </data>
+  <data name="MainPageFontControlViewModel_Undo_LoadTemplate" xml:space="preserve">
+    <value>使用字型範本</value>
+  </data>
+  <data name="MainPageFontControlViewModel_Undo_RemoveLyricsFont" xml:space="preserve">
+    <value>刪除字型設定「{0}」</value>
+  </data>
+  <data name="MainPageFontControlViewModel_Undo_SwapWipe" xml:space="preserve">
+    <value>交換刷色前後的配色</value>
+  </data>
+  <data name="MainPageFrameRateControl_TextBlockFrameRate.Text" xml:space="preserve">
+    <value>影格率(F)：</value>
+  </data>
+  <data name="MainPageLayoutControl_ButtonSearch.ToolTipService.ToolTip" xml:space="preserve">
+    <value>搜尋版面配置設定</value>
+  </data>
+  <data name="MainPageLayoutControl_ButtonTool.ToolTipService.ToolTip" xml:space="preserve">
+    <value>各種工具(M)</value>
+  </data>
+  <data name="MainPageLayoutControl_MenuFlyoutItemAddLyricsLayout.Text" xml:space="preserve">
+    <value>新增版面配置設定(L)</value>
+  </data>
+  <data name="MainPageLayoutControl_MenuFlyoutItemLoadTemplate.Text" xml:space="preserve">
+    <value>使用範本(T)…</value>
+  </data>
+  <data name="MainPageLayoutControl_MenuFlyoutItemRemoveLyricsLayout.Text" xml:space="preserve">
+    <value>刪除版面配置設定(R)</value>
+  </data>
+  <data name="MainPageLayoutControl_MenuFlyoutItemSaveTemplate.Text" xml:space="preserve">
+    <value>儲存為範本(G)</value>
+  </data>
+  <data name="MainPageLayoutControl_TextBlockSynchronize.Text" xml:space="preserve">
+    <value>範本同步：</value>
+  </data>
+  <data name="MainPageLayoutControl_TextBoxSearch.PlaceholderText" xml:space="preserve">
+    <value>搜尋版面配置設定</value>
+  </data>
+  <data name="MainPageLayoutControl_ToggleButtonSynchronize.Content" xml:space="preserve">
+    <value>同步(S)</value>
+  </data>
+  <data name="MainPageLayoutControlViewModel_Caption" xml:space="preserve">
+    <value>在版面配置設定面板中，可設定歌詞設定面板中指定版面配置的詳細內容。
+只要設定「版面配置設定 1」即可配置字幕，但也可視需求設定多組版面配置。</value>
+  </data>
+  <data name="MainPageLayoutControlViewModel_Confirm_AddLyricsLayout" xml:space="preserve">
+    <value>將複製「{0}」並新增版面配置設定。
+確定要執行嗎？</value>
+  </data>
+  <data name="MainPageLayoutControlViewModel_Confirm_RemoveLyricsLayout" xml:space="preserve">
+    <value>將刪除「{0}」。
+確定要刪除嗎？</value>
+  </data>
+  <data name="MainPageLayoutControlViewModel_Error_FindLyricsLayout" xml:space="preserve">
+    <value>請輸入搜尋關鍵字。</value>
+  </data>
+  <data name="MainPageLayoutControlViewModel_Error_LoadTemplateDup" xml:space="preserve">
+    <value>您已經在使用範本「{0}」。</value>
+  </data>
+  <data name="MainPageLayoutControlViewModel_Error_LoadTemplateDupChange" xml:space="preserve">
+    <value>(名稱已變更為「{0}」)</value>
+  </data>
+  <data name="MainPageLayoutControlViewModel_Error_LoadTemplateUnable" xml:space="preserve">
+    <value>無法讀取範本。</value>
+  </data>
+  <data name="MainPageLayoutControlViewModel_Error_NoSearch" xml:space="preserve">
+    <value>沒有包含「{0}」名稱的版面配置設定。</value>
+  </data>
+  <data name="MainPageLayoutControlViewModel_Error_RemoveHorizontalLayoutLast" xml:space="preserve">
+    <value>無法刪除最後一個設定。</value>
+  </data>
+  <data name="MainPageLayoutControlViewModel_Error_RemoveHorizontalLayoutSelect" xml:space="preserve">
+    <value>請選擇要刪除的設定。</value>
+  </data>
+  <data name="MainPageLayoutControlViewModel_Error_RemoveLyricsLayout" xml:space="preserve">
+    <value>無法刪除所有版面配置設定。</value>
+  </data>
+  <data name="MainPageLayoutControlViewModel_RubyAlignmentNames_0" xml:space="preserve">
+    <value>自動對齊</value>
+  </data>
+  <data name="MainPageLayoutControlViewModel_RubyAlignmentNames_1" xml:space="preserve">
+    <value>置中</value>
+  </data>
+  <data name="MainPageLayoutControlViewModel_RubyAlignmentNames_2" xml:space="preserve">
+    <value>分散對齊</value>
+  </data>
+  <data name="MainPageLayoutControlViewModel_SmartHorizonNames_0" xml:space="preserve">
+    <value>不調整</value>
+  </data>
+  <data name="MainPageLayoutControlViewModel_SmartHorizonNames_1" xml:space="preserve">
+    <value>對齊中心位置</value>
+  </data>
+  <data name="MainPageLayoutControlViewModel_SmartHorizonNames_2" xml:space="preserve">
+    <value>對齊左右邊緣</value>
+  </data>
+  <data name="MainPageLayoutControlViewModel_Undo_AddHorizontalLayout" xml:space="preserve">
+    <value>新增左右版面配置</value>
+  </data>
+  <data name="MainPageLayoutControlViewModel_Undo_AddLyricsLayout" xml:space="preserve">
+    <value>新增版面配置設定</value>
+  </data>
+  <data name="MainPageLayoutControlViewModel_Undo_LoadTemplate" xml:space="preserve">
+    <value>使用版面配置範本</value>
+  </data>
+  <data name="MainPageLayoutControlViewModel_Undo_RemoveHorizontalLayout" xml:space="preserve">
+    <value>刪除左右版面配置</value>
+  </data>
+  <data name="MainPageLayoutControlViewModel_Undo_RemoveLyricsLayout" xml:space="preserve">
+    <value>刪除版面配置設定「{0}」</value>
+  </data>
+  <data name="MainPageLyricsControl_ButtonFontSelector.ToolTipService.ToolTip" xml:space="preserve">
+    <value>自動設定字型(F)…</value>
+  </data>
+  <data name="MainPageLyricsControl_ButtonLayoutSelector.ToolTipService.ToolTip" xml:space="preserve">
+    <value>自動設定版面配置(Y)…</value>
+  </data>
+  <data name="MainPageLyricsControl_ButtonLineBreaker.ToolTipService.ToolTip" xml:space="preserve">
+    <value>自動設定分隔(R)…</value>
+  </data>
+  <data name="MainPageLyricsControl_ButtonShowTimeAdjuster.ToolTipService.ToolTip" xml:space="preserve">
+    <value>自動設定顯示開始與結束時間(S)…</value>
+  </data>
+  <data name="MainPageLyricsControl_ButtonSubtitleActionSelector.ToolTipService.ToolTip" xml:space="preserve">
+    <value>自動設定動作(A)…</value>
+  </data>
+  <data name="MainPageLyricsControl_ButtonTool.ToolTipService.ToolTip" xml:space="preserve">
+    <value>各種工具(M)</value>
+  </data>
+  <data name="MainPageLyricsControl_MenuFlyoutItemAddMultiTextInfo.Text" xml:space="preserve">
+    <value>新增歌詞設定(L)</value>
+  </data>
+  <data name="MainPageLyricsControl_MenuFlyoutItemEditAction.Text" xml:space="preserve">
+    <value>編輯字幕動作(J)…</value>
+  </data>
+  <data name="MainPageLyricsControl_MenuFlyoutItemRemoveMultiTextInfo.Text" xml:space="preserve">
+    <value>刪除歌詞設定(R)</value>
+  </data>
+  <data name="MainPageLyricsControlViewModel_Caption" xml:space="preserve">
+    <value>在歌詞設定面板中，可指定歌詞的字型及版面配置等。
+只要設定「歌詞設定 1」即可建立字幕，但也可視需求設定多組歌詞。</value>
+  </data>
+  <data name="MainPageLyricsControlViewModel_Information_Reloaded" xml:space="preserve">
+    <value>歌詞檔「{0}」已更新，並已套用變更。</value>
+  </data>
+  <data name="MainPageLyricsControlViewModel_Information_ReloadedAfterLoad" xml:space="preserve">
+    <value>歌詞檔「{0}」在上次儲存專案後有更新，並已套用變更。</value>
+  </data>
+  <data name="MainPageLyricsControlViewModel_Information_RunMisc" xml:space="preserve">
+    <value>已自動設定{0}。</value>
+  </data>
+  <data name="MainPageLyricsControlViewModel_Information_RunMisc_FontSelector" xml:space="preserve">
+    <value>、字型</value>
+  </data>
+  <data name="MainPageLyricsControlViewModel_Information_RunMisc_LayoutSelector" xml:space="preserve">
+    <value>、版面配置</value>
+  </data>
+  <data name="MainPageLyricsControlViewModel_Information_RunMisc_LineBreaker" xml:space="preserve">
+    <value>、分隔</value>
+  </data>
+  <data name="MainPageLyricsControlViewModel_Information_RunMisc_ShowTimeAdjuster" xml:space="preserve">
+    <value>、顯示時間</value>
+  </data>
+  <data name="MainPageLyricsControlViewModel_Information_RunMisc_SubtitleActionSelector" xml:space="preserve">
+    <value>、動作</value>
+  </data>
+  <data name="MainPageLyricsControlViewModel_Undo_RunFontSelector" xml:space="preserve">
+    <value>自動設定字型</value>
+  </data>
+  <data name="MainPageLyricsControlViewModel_Undo_RunLayoutSelector" xml:space="preserve">
+    <value>自動設定版面配置</value>
+  </data>
+  <data name="MainPageLyricsControlViewModel_Undo_RunLineBreaker" xml:space="preserve">
+    <value>自動設定分隔</value>
+  </data>
+  <data name="MainPageLyricsControlViewModel_Undo_RunShowTimeAdjuster" xml:space="preserve">
+    <value>自動設定顯示開始與結束時間</value>
+  </data>
+  <data name="MainPageLyricsControlViewModel_Undo_RunSubtitleActionSelector" xml:space="preserve">
+    <value>自動設定動作</value>
+  </data>
+  <data name="MainPageLyricsControlViewModel_Warning_ShowBeginTimeGtLyricsActualBeginTime" xml:space="preserve">
+    <value>顯示開始時間晚於演唱開始時間。</value>
+  </data>
+  <data name="MainPageLyricsControlViewModel_Warning_ShowEndTimeLtLyricsActualEndTime" xml:space="preserve">
+    <value>顯示結束時間早於演唱結束時間。</value>
+  </data>
+  <data name="MainPageMultiTextViewModel_Confirm_AddMultiTextInfo" xml:space="preserve">
+    <value>將新增{0}設定。
+確定要執行嗎？</value>
+  </data>
+  <data name="MainPageMultiTextViewModel_Confirm_RemoveMultiTextInfo" xml:space="preserve">
+    <value>將刪除「{0}」。
+確定要刪除嗎？</value>
+  </data>
+  <data name="MainPageMultiTextViewModel_Error_EditActionSelect" xml:space="preserve">
+    <value>請選擇要編輯字幕動作的行。
+(也可以選擇多行)</value>
+  </data>
+  <data name="MainPageMultiTextViewModel_Error_EditActionValid" xml:space="preserve">
+    <value>請選擇有效的{0}行。</value>
+  </data>
+  <data name="MainPageMultiTextViewModel_Error_NoLine" xml:space="preserve">
+    <value>目前沒有{0}行。</value>
+  </data>
+  <data name="MainPageMultiTextViewModel_Error_RemoveMultiTextInfo" xml:space="preserve">
+    <value>無法刪除所有{0}設定。</value>
+  </data>
+  <data name="MainPageMultiTextViewModel_Undo_AddMultiTextInfo" xml:space="preserve">
+    <value>新增{0}設定</value>
+  </data>
+  <data name="MainPageMultiTextViewModel_Undo_EditAction" xml:space="preserve">
+    <value>編輯字幕動作</value>
+  </data>
+  <data name="MainPageMultiTextViewModel_Undo_FontIndexChanged" xml:space="preserve">
+    <value>變更字型</value>
+  </data>
+  <data name="MainPageMultiTextViewModel_Undo_LayoutIndexChanged" xml:space="preserve">
+    <value>變更版面配置</value>
+  </data>
+  <data name="MainPageMultiTextViewModel_Undo_RemoveMultiTextInfo" xml:space="preserve">
+    <value>刪除{0}設定「{1}」</value>
+  </data>
+  <data name="MainPageMultiTextViewModel_Undo_SubtitleActionChanged" xml:space="preserve">
+    <value>變更動作</value>
+  </data>
+  <data name="MainPageOutputControl_ButtonBrowseDestPath.Content" xml:space="preserve">
+    <value>瀏覽(B)…</value>
+  </data>
+  <data name="MainPageOutputControl_ButtonMp4Settings.ToolTipService.ToolTip" xml:space="preserve">
+    <value>MP4 編碼設定(M)…</value>
+  </data>
+  <data name="MainPageOutputControl_ButtonOpenDestFolder.ToolTipService.ToolTip" xml:space="preserve">
+    <value>開啟輸出目標資料夾(N)</value>
+  </data>
+  <data name="MainPageOutputControl_ButtonOutput.Content" xml:space="preserve">
+    <value>輸出影片(O)</value>
+  </data>
+  <data name="MainPageOutputControl_CheckBoxDoubleFrame.Content" xml:space="preserve">
+    <value>讓字幕刷色的平滑度提升 2 倍 (影格率加倍)(W)</value>
+  </data>
+  <data name="MainPageOutputControl_HyperlinkButtonContentsTree2C.Content" xml:space="preserve">
+    <value>NicoKaraMaker 簡易說明影片</value>
+  </data>
+  <data name="MainPageOutputControl_HyperlinkButtonCreatorSupport1C.Content" xml:space="preserve">
+    <value>創作者贊助</value>
+  </data>
+  <data name="MainPageOutputControl_HyperlinkButtonFantia1C.Content" xml:space="preserve">
+    <value>粉絲網站</value>
+  </data>
+  <data name="MainPageOutputControl_TextBlockContentsTree1.Text" xml:space="preserve">
+    <value>若要將製作的影片發布至 niconico 動畫，請將原影片 (在背景素材面板指定的影片) 以及</value>
+  </data>
+  <data name="MainPageOutputControl_TextBlockContentsTree2L.Text" xml:space="preserve">
+    <value>「</value>
+  </data>
+  <data name="MainPageOutputControl_TextBlockContentsTree2R.Text" xml:space="preserve">
+    <value>」(sm28311188) 設定為內容樹的來源作品。</value>
+  </data>
+  <data name="MainPageOutputControl_TextBlockContentsTree3.Text" xml:space="preserve">
+    <value>若不發布至 niconico 動畫而是發布至 YouTube 等影片網站，請附上 sm28311188 的連結。</value>
+  </data>
+  <data name="MainPageOutputControl_TextBlockCreatorSupport1L.Text" xml:space="preserve">
+    <value>niconico 動畫的「</value>
+  </data>
+  <data name="MainPageOutputControl_TextBlockCreatorSupport1R.Text" xml:space="preserve">
+    <value>」</value>
+  </data>
+  <data name="MainPageOutputControl_TextBlockCreatorSupport2.Text" xml:space="preserve">
+    <value>期待您的加入與支持。</value>
+  </data>
+  <data name="MainPageOutputControl_TextBlockDestFormat.Text" xml:space="preserve">
+    <value>輸出格式(F)：</value>
+  </data>
+  <data name="MainPageOutputControl_TextBlockDestPath.Text" xml:space="preserve">
+    <value>輸出目標檔名(D)：</value>
+  </data>
+  <data name="MainPageOutputControl_TextBlockFantia1L.Text" xml:space="preserve">
+    <value>本應用程式的「</value>
+  </data>
+  <data name="MainPageOutputControl_TextBlockFantia1R.Text" xml:space="preserve">
+    <value>」已開設。</value>
+  </data>
+  <data name="MainPageOutputControlViewModel_AddDestFile" xml:space="preserve">
+    <value>_NicoKaraMaker3輸出</value>
+  </data>
+  <data name="MainPageOutputControlViewModel_AddDestFolder" xml:space="preserve">
+    <value>輸出</value>
+  </data>
+  <data name="MainPageOutputControlViewModel_Caption" xml:space="preserve">
+    <value>在輸出影片面板中，將根據目前的設定輸出帶有卡拉 OK 字幕的影片。請注意 SSD / HDD 的剩餘空間。</value>
+  </data>
+  <data name="MainPageOutputControlViewModel_Error_BadFfmpeg" xml:space="preserve">
+    <value>因 FFmpeg 未正確設定，無法以 MP4 格式輸出。</value>
+  </data>
+  <data name="MainPageOutputControlViewModel_Error_DestPathNotSet" xml:space="preserve">
+    <value>未指定輸出目標檔名。</value>
+  </data>
+  <data name="MainPageOutputControlViewModel_Error_SourceNotSet" xml:space="preserve">
+    <value>未指定背景素材。</value>
+  </data>
+  <data name="MainPageOutputControlViewModel_Information_Avi" xml:space="preserve">
+    <value>若輸出的未壓縮 AVI 影片無法正確播放，請參閱說明中的影片輸出頁面。</value>
+  </data>
+  <data name="MainPageOutputControlViewModel_Information_AviOverFhd" xml:space="preserve">
+    <value>若以未壓縮 AVI 格式輸出超過 Full HD 的解析度，預計會花費相當長的時間。</value>
+  </data>
+  <data name="MainPageOutputControlViewModel_Information_BadFfmpeg" xml:space="preserve">
+    <value>FFmpeg 未正確設定。</value>
+  </data>
+  <data name="MainPagePreviewControl_ButtonFastForward.ToolTipService.ToolTip" xml:space="preserve">
+    <value>快轉(X)</value>
+  </data>
+  <data name="MainPagePreviewControl_ButtonFastRewind.ToolTipService.ToolTip" xml:space="preserve">
+    <value>倒轉(Z)</value>
+  </data>
+  <data name="MainPagePreviewControl_ButtonPlay.ToolTipService.ToolTip" xml:space="preserve">
+    <value>播放/暫停(A)</value>
+  </data>
+  <data name="MainPagePreviewControl_ButtonStep.ToolTipService.ToolTip" xml:space="preserve">
+    <value>逐格播放(F)</value>
+  </data>
+  <data name="MainPagePreviewControl_ButtonStop.ToolTipService.ToolTip" xml:space="preserve">
+    <value>停止(S)</value>
+  </data>
+  <data name="MainPagePreviewControl_ButtonWarnings.ToolTipService.ToolTip" xml:space="preserve">
+    <value>顯示警告與資訊清單(W)</value>
+  </data>
+  <data name="MainPagePreviewControl_TextBlockQuality.Text" xml:space="preserve">
+    <value>算圖品質(Q)</value>
+  </data>
+  <data name="MainPagePreviewControl_TextBlockTimeStamp.Text" xml:space="preserve">
+    <value>時間顯示(I)</value>
+  </data>
+  <data name="MainPagePreviewControlViewModel_ButtonMuteToolTipMute" xml:space="preserve">
+    <value>靜音中(M)</value>
+  </data>
+  <data name="MainPagePreviewControlViewModel_ButtonMuteToolTipOutput" xml:space="preserve">
+    <value>音訊輸出開啟(M)</value>
+  </data>
+  <data name="MainPagePreviewControlViewModel_Caption" xml:space="preserve">
+    <value>在預覽面板中，可以在輸出影片前確認成果。
+若字幕量多或電腦效能較低，可能會出現字幕閃爍或時間點偏差，但在輸出影片時將會正常輸出，敬請放心。</value>
+  </data>
+  <data name="MainPageSoundControl_ButtonBrowseSoundPath.Content" xml:space="preserve">
+    <value>編輯(C)…</value>
+  </data>
+  <data name="MainPageSoundControl_TextBlockSoundPath.Text" xml:space="preserve">
+    <value>音訊(A)：</value>
+  </data>
+  <data name="MainPageSourceControl_ButtonBrowseImagePath1.Content" xml:space="preserve">
+    <value>瀏覽(B)…</value>
+  </data>
+  <data name="MainPageSourceControl_ButtonBrowseImagePath2.Content" xml:space="preserve">
+    <value>瀏覽(B)…</value>
+  </data>
+  <data name="MainPageSourceControl_ButtonBrowseMoviePath.Content" xml:space="preserve">
+    <value>瀏覽(B)…</value>
+  </data>
+  <data name="MainPageSourceControl_CheckBoxMoviePlusSound.Content" xml:space="preserve">
+    <value>使用其他檔案的音訊(D)</value>
+  </data>
+  <data name="MainPageSourceControl_TextBlockBackgroundColor.Text" xml:space="preserve">
+    <value>背景色(D)：</value>
+  </data>
+  <data name="MainPageSourceControl_TextBlockBackgroundSize.Text" xml:space="preserve">
+    <value>解析度(R)：</value>
+  </data>
+  <data name="MainPageSourceControl_TextBlockImagePath1.Text" xml:space="preserve">
+    <value>圖片(G)：</value>
+  </data>
+  <data name="MainPageSourceControl_TextBlockImagePath2.Text" xml:space="preserve">
+    <value>圖片序列的開頭圖片(G)：</value>
+  </data>
+  <data name="MainPageSourceControl_TextBlockIsBackground.Text" xml:space="preserve">
+    <value>以指定顏色填滿背景。</value>
+  </data>
+  <data name="MainPageSourceControl_TextBlockIsImage.Text" xml:space="preserve">
+    <value>使用單張圖片作為背景。</value>
+  </data>
+  <data name="MainPageSourceControl_TextBlockIsMovie.Text" xml:space="preserve">
+    <value>使用影片作為背景。</value>
+  </data>
+  <data name="MainPageSourceControl_TextBlockIsSequenceImage.Text" xml:space="preserve">
+    <value>使用圖片序列作為背景。</value>
+  </data>
+  <data name="MainPageSourceControl_TextBlockMoviePath.Text" xml:space="preserve">
+    <value>作為背景使用的原影片(M)：</value>
+  </data>
+  <data name="MainPageSourceControl_TextBlockSourceDuration.Text" xml:space="preserve">
+    <value>長度：</value>
+  </data>
+  <data name="MainPageSourceControl_TextBlockSourceFrameRate.Text" xml:space="preserve">
+    <value>影格率：</value>
+  </data>
+  <data name="MainPageSourceControl_TextBlockSourceInfo.Text" xml:space="preserve">
+    <value>素材資訊</value>
+  </data>
+  <data name="MainPageSourceControl_TextBlockSourceResolution.Text" xml:space="preserve">
+    <value>解析度：</value>
+  </data>
+  <data name="MainPageSourceControl_ToggleButtonIsBackground.ToolTipService.ToolTip" xml:space="preserve">
+    <value>背景色(S4)</value>
+  </data>
+  <data name="MainPageSourceControl_ToggleButtonIsImage.ToolTipService.ToolTip" xml:space="preserve">
+    <value>單張圖片(S2)</value>
+  </data>
+  <data name="MainPageSourceControl_ToggleButtonIsMovie.ToolTipService.ToolTip" xml:space="preserve">
+    <value>影片(S1)</value>
+  </data>
+  <data name="MainPageSourceControl_ToggleButtonIsSequenceImage.ToolTipService.ToolTip" xml:space="preserve">
+    <value>圖片序列(S3)</value>
+  </data>
+  <data name="MainPageSourceControlViewModel_Caption" xml:space="preserve">
+    <value>在背景素材面板中，可指定背景的影片、圖片及音訊。</value>
+  </data>
+  <data name="MainPageSourceControlViewModel_Error_FileNotFound" xml:space="preserve">
+    <value>{0} 不存在。</value>
+  </data>
+  <data name="MainPageSourceControlViewModel_Error_UnableGetMovieInfo" xml:space="preserve">
+    <value>無法取得影片資訊。</value>
+  </data>
+  <data name="MainPageTitleControl_ButtonAddTitle.ToolTipService.ToolTip" xml:space="preserve">
+    <value>新增標題行(A)…</value>
+  </data>
+  <data name="MainPageTitleControl_ButtonEditTitle.ToolTipService.ToolTip" xml:space="preserve">
+    <value>編輯標題行(D)…</value>
+  </data>
+  <data name="MainPageTitleControl_ButtonRemoveTitle.ToolTipService.ToolTip" xml:space="preserve">
+    <value>刪除標題行(R)</value>
+  </data>
+  <data name="MainPageTitleControl_ButtonTool.ToolTipService.ToolTip" xml:space="preserve">
+    <value>各種工具(M)</value>
+  </data>
+  <data name="MainPageTitleControl_MenuFlyoutItemAddMultiTextInfo.Text" xml:space="preserve">
+    <value>新增標題設定(L)</value>
+  </data>
+  <data name="MainPageTitleControl_MenuFlyoutItemEditAction.Text" xml:space="preserve">
+    <value>編輯字幕動作(J)…</value>
+  </data>
+  <data name="MainPageTitleControl_MenuFlyoutItemRemoveMultiTextInfo.Text" xml:space="preserve">
+    <value>刪除標題設定(R)</value>
+  </data>
+  <data name="MainPageTitleControlViewModel_Caption" xml:space="preserve">
+    <value>在標題設定面板中，可指定標題及其字型、版面配置等。
+若不需要標題，可略過設定。</value>
+  </data>
+  <data name="MainPageTitleControlViewModel_Confirm_RemoveEmpty" xml:space="preserve">
+    <value>將刪除空行。確定要刪除嗎？</value>
+  </data>
+  <data name="MainPageTitleControlViewModel_Confirm_RemoveMulti" xml:space="preserve">
+    <value>將刪除所選的 {0} 行。
+確定要刪除嗎？</value>
+  </data>
+  <data name="MainPageTitleControlViewModel_Confirm_RemoveTitle" xml:space="preserve">
+    <value>將刪除以下標題行。確定要刪除嗎？
+{0}</value>
+  </data>
+  <data name="MainPageTitleControlViewModel_Error_AddOrReplaceTitle" xml:space="preserve">
+    <value>以下內容無效，因此未新增：
+{0}</value>
+  </data>
+  <data name="MainPageTitleControlViewModel_Error_AddOrReplaceTitle_Part" xml:space="preserve">
+    <value>第 {0} 行</value>
+  </data>
+  <data name="MainPageTitleControlViewModel_Error_SelectRemoveTitle" xml:space="preserve">
+    <value>請選擇要刪除的行。</value>
+  </data>
+  <data name="MainPageTitleControlViewModel_Undo_AddTitle" xml:space="preserve">
+    <value>新增標題行</value>
+  </data>
+  <data name="MainPageTitleControlViewModel_Undo_EditTitle" xml:space="preserve">
+    <value>編輯標題行</value>
+  </data>
+  <data name="MainPageTitleControlViewModel_Undo_RemoveTitle" xml:space="preserve">
+    <value>刪除標題行</value>
+  </data>
+  <data name="MainPageViewModel_Confirm_LoadAutoSave" xml:space="preserve">
+    <value>發現先前自動儲存的專案。
+
+專案：{0}
+自動儲存時間：{1}
+
+要復原嗎？
+
+(註)
+若選「否」，將刪除自動儲存的檔案。
+若想繼續編輯，請選「是」。</value>
+  </data>
+  <data name="MainPageViewModel_Confirm_Modify" xml:space="preserve">
+    <value>「{0}」已更新。
+要儲存嗎？</value>
+  </data>
+  <data name="MainPageViewModel_Confirm_Nkm2Project" xml:space="preserve">
+    <value>讀取舊版 NicoKaraMaker 2 的專案時，部分設定 (如字幕動作等) 將無法讀取。
+此外，讀取可能需要花費一些時間。</value>
+  </data>
+  <data name="MainPageViewModel_Error_EmptyContent" xml:space="preserve">
+    <value>內容為空。</value>
+  </data>
+  <data name="MainPageViewModel_Error_LackInformation" xml:space="preserve">
+    <value>資訊不足。</value>
+  </data>
+  <data name="MainPageViewModel_Error_NoProjectPath" xml:space="preserve">
+    <value>未指定專案檔名。</value>
+  </data>
+  <data name="MainPageViewModel_Error_UnableLoadTemplate" xml:space="preserve">
+    <value>無法讀取範本。</value>
+  </data>
+  <data name="MainPageViewModel_Error_UnableRestoreProject" xml:space="preserve">
+    <value>無法還原專案。</value>
+  </data>
+  <data name="MainPageViewModel_Information_Modify" xml:space="preserve">
+    <value>(已更新)</value>
+  </data>
+  <data name="MainPageViewModel_Information_None" xml:space="preserve">
+    <value>(無)</value>
+  </data>
+  <data name="MainPageViewModel_Information_ProjectSaved" xml:space="preserve">
+    <value>已儲存專案「{0}」。</value>
+  </data>
+  <data name="MainPageViewModel_Information_UpdateLaunch" xml:space="preserve">
+    <value>(系統更新)
+
+{0} 已更新。
+關於更新內容，請參閱 (說明→更新記錄) 選單。</value>
+  </data>
+  <data name="MainPageViewModel_MenuFlyoutItemContentsTreeText" xml:space="preserve">
+    <value>使用 {0} 製作的影片清單(N)</value>
+  </data>
+  <data name="MainPageViewModel_MenuFlyoutItemLatestInfoHistoryText" xml:space="preserve">
+    <value>{0} 的最新資訊(L)…</value>
+  </data>
+  <data name="MainPageViewModel_SwitchToDefaultFontIfNeeded_Warning" xml:space="preserve">
+    <value>專案中使用的字型尚未安裝，因此將使用替代字型。
+{0}</value>
+  </data>
+  <data name="MainPageViewModel_Undo_SynchronizeTemplate" xml:space="preserve">
+    <value>套用其他專案的範本變更</value>
+  </data>
+  <data name="MainPageViewModel_UndoTo_Error_CannotUndo" xml:space="preserve">
+    <value>無法復原。</value>
+  </data>
+  <data name="MainPageViewModel_Warning_Beta" xml:space="preserve">
+    <value>此版本為開發中的 Beta 版。
+使用前請詳細閱讀說明，並小心使用。</value>
+  </data>
+  <data name="MainPageWelcomeControl_ButtonNew.Content" xml:space="preserve">
+    <value>新增專案 (可使用範本)(N)…</value>
+  </data>
+  <data name="MainPageWelcomeControl_ButtonNextTips.ToolTipService.ToolTip" xml:space="preserve">
+    <value>下一個小提示</value>
+  </data>
+  <data name="MainPageWelcomeControl_ButtonOpen.Content" xml:space="preserve">
+    <value>開啟專案(O)…</value>
+  </data>
+  <data name="MainPageWelcomeControl_ButtonPrevTips.ToolTipService.ToolTip" xml:space="preserve">
+    <value>上一個小提示</value>
+  </data>
+  <data name="MainPageWelcomeControl_ButtonSampleFolder.Content" xml:space="preserve">
+    <value>範例資料夾(S)</value>
+  </data>
+  <data name="MainPageWelcomeControl_ButtonTutorialMovie.Content" xml:space="preserve">
+    <value>查看教學 (影片)(M)</value>
+  </data>
+  <data name="MainPageWelcomeControl_ButtonTutorialText.Content" xml:space="preserve">
+    <value>查看教學 (文字)(U)</value>
+  </data>
+  <data name="MainPageWelcomeControl_TextBlockStart.Text" xml:space="preserve">
+    <value>請選擇要建立新專案 (製作新的卡拉 OK 字幕影片)，或開啟現有專案 (編輯已製作的卡拉 OK 字幕影片)。</value>
+  </data>
+  <data name="MainPageWelcomeControl_TextBlockTipsHeader.Text" xml:space="preserve">
+    <value>實用小提示</value>
+  </data>
+  <data name="MainPageWelcomeControl_TextBlockTutorial.Text" xml:space="preserve">
+    <value>初次使用者請先查看教學。可以使用範例素材來製作卡拉 OK 字幕影片。</value>
+  </data>
+  <data name="MainPageWelcomeControlViewModel_Caption" xml:space="preserve">
+    <value>歡迎來到「{0}」 {1}。
+{0} 中，請透過左側導覽切換面板，並由上往下依序操作，即可完成帶有卡拉 OK 字幕的影片 (NicoKara)。
+關於各面板的詳細操作方法，請參閱說明。</value>
+  </data>
+  <data name="MainPageWelcomeControlViewModel_TipsDescription" xml:space="preserve">
+    <value>熟悉 {0} 的操作後，可以參考小提示，挑戰製作更進階的卡拉 OK 字幕影片。</value>
+  </data>
+  <data name="Meta_Language" xml:space="preserve">
+    <value>zh-TW</value>
+  </data>
+  <data name="Mp4SettingsControl_TextBlockSettingsName.Text" xml:space="preserve">
+    <value>編碼設定名稱(N)：</value>
+  </data>
+  <data name="Mp4SettingsControl_TextBlockSoundVbr.Text" xml:space="preserve">
+    <value>音訊位元率：</value>
+  </data>
+  <data name="Mp4SettingsControl_TextBlockVideoAdditional.Text" xml:space="preserve">
+    <value>額外視訊選項(A)：</value>
+  </data>
+  <data name="Mp4SettingsControl_TextBlockVideoCodec.Text" xml:space="preserve">
+    <value>視訊編解碼器(C)：</value>
+  </data>
+  <data name="Mp4SettingsControl_TextBlockVideoDevice.Text" xml:space="preserve">
+    <value>視訊編碼裝置(D)：</value>
+  </data>
+  <data name="Mp4SettingsControl_TextBlockX264CrfHighQuality.Text" xml:space="preserve">
+    <value>高畫質</value>
+  </data>
+  <data name="Mp4SettingsControl_TextBlockX264CrfLowQuality.Text" xml:space="preserve">
+    <value>低畫質</value>
+  </data>
+  <data name="Mp4SettingsControl_TextBlockX264CrfNotice.Text" xml:space="preserve">
+    <value>數值越小畫質越高。</value>
+  </data>
+  <data name="Mp4SettingsControl_TextBlockX265CrfHighQuality.Text" xml:space="preserve">
+    <value>高畫質</value>
+  </data>
+  <data name="Mp4SettingsControl_TextBlockX265CrfLowQuality.Text" xml:space="preserve">
+    <value>低畫質</value>
+  </data>
+  <data name="Mp4SettingsControl_TextBlockX265CrfNotice.Text" xml:space="preserve">
+    <value>數值越小畫質越高。</value>
+  </data>
+  <data name="Mp4SettingsModel_Error_UnableSet" xml:space="preserve">
+    <value>無法設定視訊參數：{0}</value>
+  </data>
+  <data name="Mp4SettingsModel_Mp4VideoDeviceNames_0" xml:space="preserve">
+    <value>軟體</value>
+  </data>
+  <data name="Mp4SettingsModel_Mp4VideoDeviceNames_1" xml:space="preserve">
+    <value>硬體 (Intel/QSV)</value>
+  </data>
+  <data name="Mp4SettingsModel_Mp4VideoDeviceNames_2" xml:space="preserve">
+    <value>硬體 (AMD/AMF)</value>
+  </data>
+  <data name="Mp4SettingsModel_Mp4VideoDeviceNames_3" xml:space="preserve">
+    <value>硬體 (NVIDIA/NVENC)</value>
+  </data>
+  <data name="Mp4SettingsModel_New" xml:space="preserve">
+    <value>新增</value>
+  </data>
+  <data name="Mp4SettingsModel_Quality" xml:space="preserve">
+    <value>畫質[{0}](Q)：</value>
+  </data>
+  <data name="Mp4SettingsModel_SoftwareNotice" xml:space="preserve">
+    <value>低於 {0} 也看不出畫質提升，只會徒增檔案大小。</value>
+  </data>
+  <data name="Mp4SettingsModel_VideoCodecNoticeH264" xml:space="preserve">
+    <value>可於多種環境中播放的影片。</value>
+  </data>
+  <data name="Mp4SettingsModel_VideoCodecNoticeH265" xml:space="preserve">
+    <value>高畫質且檔案較小。</value>
+  </data>
+  <data name="Mp4SettingsModel_VideoDeviceNoticeHardware" xml:space="preserve">
+    <value>在 {0} 環境中能高速編碼。
+在不支援的環境中會發生錯誤。畫質較低且檔案較大。</value>
+  </data>
+  <data name="Mp4SettingsModel_VideoDeviceNoticeSoftware" xml:space="preserve">
+    <value>在各種環境中皆可編碼。
+高畫質且檔案較小。</value>
+  </data>
+  <data name="NicoKaraListOutputPage_ButtonAbort.Content" xml:space="preserve">
+    <value>中止(A)</value>
+  </data>
+  <data name="NicoKaraListOutputPage_TextBlockStatus.Text" xml:space="preserve">
+    <value>正在建立 NicoKara 清單…</value>
+  </data>
+  <data name="NicoKaraListOutputPageViewModel_Confirm_ButtonAbortClicked" xml:space="preserve">
+    <value>確定要中止輸出 NicoKara 清單嗎？</value>
+  </data>
+  <data name="NicoKaraListOutputPageViewModel_Information_Aborting" xml:space="preserve">
+    <value>正在中止…</value>
+  </data>
+  <data name="NicoKaraListOutputPageViewModel_Information_Done" xml:space="preserve">
+    <value>NicoKara 清單輸出完成。
+
+耗時：{0}</value>
+  </data>
+  <data name="NicoKaraListOutputPageViewModel_ListOutputStatus_0" xml:space="preserve">
+    <value>準備中…</value>
+  </data>
+  <data name="NicoKaraListOutputPageViewModel_ListOutputStatus_1" xml:space="preserve">
+    <value>準備中…</value>
+  </data>
+  <data name="NicoKaraListOutputPageViewModel_ListOutputStatus_2" xml:space="preserve">
+    <value>下載中…</value>
+  </data>
+  <data name="NicoKaraListOutputPageViewModel_ListOutputStatus_3" xml:space="preserve">
+    <value>輸出中…</value>
+  </data>
+  <data name="NicoKaraListOutputPageViewModel_ListOutputStatus_4" xml:space="preserve">
+    <value>完成</value>
+  </data>
+  <data name="NicoKaraListOutputWindow.Title" xml:space="preserve">
+    <value>輸出 NicoKara 清單</value>
+  </data>
+  <data name="NicoKaraListPage_ButtonBrowseDestFolder.Content" xml:space="preserve">
+    <value>瀏覽(B)…</value>
+  </data>
+  <data name="NicoKaraListPage_ButtonDownloadUpdate.Content" xml:space="preserve">
+    <value>立即下載更新資料(W)</value>
+  </data>
+  <data name="NicoKaraListPage_ButtonList.Content" xml:space="preserve">
+    <value>建立清單(G)</value>
+  </data>
+  <data name="NicoKaraListPage_ButtonOpenDestFolder.ToolTipService.ToolTip" xml:space="preserve">
+    <value>開啟輸出目標資料夾(N)</value>
+  </data>
+  <data name="NicoKaraListPage_HyperlinkButtonListRule.Content" xml:space="preserve">
+    <value>清單規則詳細資訊</value>
+  </data>
+  <data name="NicoKaraListPage_HyperlinkButtonUserId.Content" xml:space="preserve">
+    <value>使用者 ID 顯示於個人頁面的使用者名稱附近</value>
+  </data>
+  <data name="NicoKaraListPage_TextBlockDescription_1.Text" xml:space="preserve">
+    <value>建立在 niconico 動畫上發布的 NicoKara 影片清單。</value>
+  </data>
+  <data name="NicoKaraListPage_TextBlockDescription_2.Text" xml:space="preserve">
+    <value>(註) 本功能並非 niconico 動畫官方提供，為本應用程式的專有功能。</value>
+  </data>
+  <data name="NicoKaraListPage_TextBlockDestFolder.Text" xml:space="preserve">
+    <value>輸出目標資料夾(D)：</value>
+  </data>
+  <data name="NicoKaraListPage_TextBlockDownloadAdditionalDataWarning.Text" xml:space="preserve">
+    <value>(建立清單會花費較多時間)</value>
+  </data>
+  <data name="NicoKaraListPage_TextBlockDownloadSettings.Text" xml:space="preserve">
+    <value>下載設定(S)</value>
+  </data>
+  <data name="NicoKaraListPage_TextBlockDownloadUpdate_1.Text" xml:space="preserve">
+    <value>下載指定影片的更新資料</value>
+  </data>
+  <data name="NicoKaraListPage_TextBlockDownloadUpdate_2.Text" xml:space="preserve">
+    <value>(如果事後修改了已發布影片的標題，下載更新資料後，將能以編輯後的標題建立清單)</value>
+  </data>
+  <data name="NicoKaraListPage_TextBlockDownloadUpdate_3.Text" xml:space="preserve">
+    <value>(編輯後的標題不會即時生效，而是於每天 5:00 更新。請在編輯過後 1 天再進行下載)</value>
+  </data>
+  <data name="NicoKaraListPage_TextBlockDownloadWarning.Text" xml:space="preserve">
+    <value>因 niconico 動畫的規格變更，有可能會發生無法下載的情況。</value>
+  </data>
+  <data name="NicoKaraListPage_TextBlockRowPerPage.Text" xml:space="preserve">
+    <value>每頁行數(L)：</value>
+  </data>
+  <data name="NicoKaraListPage_TextBlockUpdateGlobalId.Text" xml:space="preserve">
+    <value>影片 ID(M)：</value>
+  </data>
+  <data name="NicoKaraListPage_TextBlockUserId.Text" xml:space="preserve">
+    <value>niconico 動畫使用者 ID(I)：</value>
+  </data>
+  <data name="NicoKaraListPageViewModel_CheckBoxDownloadAdditionalDataLabel" xml:space="preserve">
+    <value>按一下「建立清單」按鈕時下載額外資料(A) ({0})</value>
+  </data>
+  <data name="NicoKaraListPageViewModel_CheckBoxDownloadAdditionalDataLabelDefault" xml:space="preserve">
+    <value>按一下「建立清單」按鈕時下載額外資料(A)</value>
+  </data>
+  <data name="NicoKaraListPageViewModel_MaxUpdateTimeLabel" xml:space="preserve">
+    <value>上次資料：{0}</value>
+  </data>
+  <data name="NicoKaraListPageViewModel_UpdateExpanderDownloadSupplement" xml:space="preserve">
+    <value>({0}，額外資料下載：{1})</value>
+  </data>
+  <data name="NicoKaraListWindow.Title" xml:space="preserve">
+    <value>建立 NicoKara 清單</value>
+  </data>
+  <data name="Nkm3Common_AllTypeFilterName" xml:space="preserve">
+    <value>所有檔案</value>
+  </data>
+  <data name="Nkm3Common_DestFormatFilterName_0" xml:space="preserve">
+    <value>未壓縮 AVI</value>
+  </data>
+  <data name="Nkm3Common_DestFormatFilterName_1" xml:space="preserve">
+    <value>MP4</value>
+  </data>
+  <data name="Nkm3Common_DestFormatFilterName_2" xml:space="preserve">
+    <value>PNG 圖片序列</value>
+  </data>
+  <data name="Nkm3Common_DestFormatFilterName_3" xml:space="preserve">
+    <value>PNG 圖片序列 (僅字幕去背透明)</value>
+  </data>
+  <data name="Nkm3Common_ExeFilterName" xml:space="preserve">
+    <value>執行檔</value>
+  </data>
+  <data name="Nkm3Common_ImageFilterName" xml:space="preserve">
+    <value>圖片檔</value>
+  </data>
+  <data name="Nkm3Common_LyricsFilterName" xml:space="preserve">
+    <value>歌詞檔</value>
+  </data>
+  <data name="Nkm3Common_MovieFilterName" xml:space="preserve">
+    <value>影片檔</value>
+  </data>
+  <data name="Nkm3Common_Nkm2ProjectFilterName" xml:space="preserve">
+    <value>舊專案檔</value>
+  </data>
+  <data name="Nkm3Common_Nkm3ProjectFilterName" xml:space="preserve">
+    <value>專案檔</value>
+  </data>
+  <data name="Nkm3Common_SoundAndMovieFilterName" xml:space="preserve">
+    <value>影音檔</value>
+  </data>
+  <data name="Nkm3Common_SoundFilterName" xml:space="preserve">
+    <value>音訊檔</value>
+  </data>
+  <data name="Nkm3Settings_InitMp4Settings_General" xml:space="preserve">
+    <value>一般</value>
+  </data>
+  <data name="Nkm3Settings_InitMp4Settings_High" xml:space="preserve">
+    <value>高畫質</value>
+  </data>
+  <data name="Nkm3SettingsPage_ButtonDefault.Content" xml:space="preserve">
+    <value>還原為預設值(I)</value>
+  </data>
+  <data name="Nkm3SettingsPage_ButtonNavigationDown.ToolTipService.ToolTip" xml:space="preserve">
+    <value>移動至面板下方</value>
+  </data>
+  <data name="Nkm3SettingsPage_ButtonNavigationUp.ToolTipService.ToolTip" xml:space="preserve">
+    <value>移動至面板上方</value>
+  </data>
+  <data name="Nkm3SettingsPage_ToggleButtonEncoding.ToolTipService.ToolTip" xml:space="preserve">
+    <value>MP4 編碼(3)</value>
+  </data>
+  <data name="Nkm3SettingsPage_ToggleButtonGeneral.ToolTipService.ToolTip" xml:space="preserve">
+    <value>一般(1)</value>
+  </data>
+  <data name="Nkm3SettingsPage_ToggleButtonMaintenance.ToolTipService.ToolTip" xml:space="preserve">
+    <value>維護(6)</value>
+  </data>
+  <data name="Nkm3SettingsPage_ToggleButtonPerformance.ToolTipService.ToolTip" xml:space="preserve">
+    <value>效能(5)</value>
+  </data>
+  <data name="Nkm3SettingsPage_ToggleButtonReload.ToolTipService.ToolTip" xml:space="preserve">
+    <value>更新歌詞(2)</value>
+  </data>
+  <data name="Nkm3SettingsPage_ToggleButtonToast.ToolTipService.ToolTip" xml:space="preserve">
+    <value>通知(4)</value>
+  </data>
+  <data name="Nkm3SettingsPageEncodingControl_ButtonBrowseFfmpegPath.Content" xml:space="preserve">
+    <value>瀏覽(B)…</value>
+  </data>
+  <data name="Nkm3SettingsPageEncodingControl_ButtonTool.ToolTipService.ToolTip" xml:space="preserve">
+    <value>各種工具(M)</value>
+  </data>
+  <data name="Nkm3SettingsPageEncodingControl_MenuFlyoutItemAddMp4Settings.Text" xml:space="preserve">
+    <value>新增編碼設定(L)</value>
+  </data>
+  <data name="Nkm3SettingsPageEncodingControl_MenuFlyoutItemRemoveMp4Settings.Text" xml:space="preserve">
+    <value>刪除編碼設定(R)</value>
+  </data>
+  <data name="Nkm3SettingsPageEncodingControl_TextBlockFfmpegPath.Text" xml:space="preserve">
+    <value>FFmpeg 的位置(F)：</value>
+  </data>
+  <data name="Nkm3SettingsPageEncodingControlViewModel_Confirm_AddMp4Settings" xml:space="preserve">
+    <value>將複製「{0}」並新增編碼設定。
+確定要執行嗎？</value>
+  </data>
+  <data name="Nkm3SettingsPageEncodingControlViewModel_Confirm_RemoveMp4Settings" xml:space="preserve">
+    <value>將刪除「{0}」。
+確定要刪除嗎？</value>
+  </data>
+  <data name="Nkm3SettingsPageEncodingControlViewModel_Error_CheckProperties_SettingsNameEmpty" xml:space="preserve">
+    <value>請輸入編碼設定名稱。</value>
+  </data>
+  <data name="Nkm3SettingsPageEncodingControlViewModel_Error_RemoveMp4Settings_LastSettings" xml:space="preserve">
+    <value>無法刪除所有編碼設定。</value>
+  </data>
+  <data name="Nkm3SettingsPageEncodingControlViewModel_Error_RemoveMp4Settings_NoTarget" xml:space="preserve">
+    <value>請選擇要刪除的編碼設定。</value>
+  </data>
+  <data name="Nkm3SettingsPageGeneralControl_CheckBoxAutoSave.Content" xml:space="preserve">
+    <value>自動儲存專案以供復原(A)</value>
+  </data>
+  <data name="Nkm3SettingsPageGeneralControl_CheckBoxCloseButtonForEachTab.Content" xml:space="preserve">
+    <value>在每個索引標籤上顯示關閉按鈕(L)</value>
+  </data>
+  <data name="Nkm3SettingsPageGeneralControl_CheckBoxIsolateLongRubyKanji.Content" xml:space="preserve">
+    <value>若標音超過漢字寬度，在漢字兩側保留空白(S)</value>
+  </data>
+  <data name="Nkm3SettingsPageGeneralControl_TextBlockAutoSaveInterval_1.Text" xml:space="preserve">
+    <value>自動儲存間隔(U)：</value>
+  </data>
+  <data name="Nkm3SettingsPageGeneralControl_TextBlockAutoSaveInterval_2.Text" xml:space="preserve">
+    <value>分鐘</value>
+  </data>
+  <data name="Nkm3SettingsPageGeneralControl_TextBlockColorSpecifyType.Text" xml:space="preserve">
+    <value>顏色設定方式(C)：</value>
+  </data>
+  <data name="Nkm3SettingsPageGeneralControl_TextBlockFastForward_1.Text" xml:space="preserve">
+    <value>快轉(F)：</value>
+  </data>
+  <data name="Nkm3SettingsPageGeneralControl_TextBlockFastForward_2.Text" xml:space="preserve">
+    <value>秒</value>
+  </data>
+  <data name="Nkm3SettingsPageGeneralControl_TextBlockFastRewind_1.Text" xml:space="preserve">
+    <value>倒轉(R)：</value>
+  </data>
+  <data name="Nkm3SettingsPageGeneralControl_TextBlockFastRewind_2.Text" xml:space="preserve">
+    <value>秒</value>
+  </data>
+  <data name="Nkm3SettingsPageGeneralControl_TextBlockFastTime.Text" xml:space="preserve">
+    <value>預覽時的快轉/倒轉秒數 (參考值)</value>
+  </data>
+  <data name="Nkm3SettingsPageGeneralControl_TextBlockFontFace.Text" xml:space="preserve">
+    <value>顯示字型(N)：</value>
+  </data>
+  <data name="Nkm3SettingsPageGeneralControl_TextBlockFontSample.Text" xml:space="preserve">
+    <value>字型範例字元(T)：</value>
+  </data>
+  <data name="Nkm3SettingsPageGeneralControl_TextBlockFontSampleAlnum.Text" xml:space="preserve">
+    <value>英數字：</value>
+  </data>
+  <data name="Nkm3SettingsPageGeneralControl_TextBlockFontSampleKana.Text" xml:space="preserve">
+    <value>假名：</value>
+  </data>
+  <data name="Nkm3SettingsPageGeneralControl_TextBlockFontSampleKanji.Text" xml:space="preserve">
+    <value>漢字：</value>
+  </data>
+  <data name="Nkm3SettingsPageGeneralControl_TextBlockSpaceWidth.Text" xml:space="preserve">
+    <value>半形空白的寬度(W)：</value>
+  </data>
+  <data name="Nkm3SettingsPageGeneralControlViewModel_CheckProperties_Error_Alnum" xml:space="preserve">
+    <value>請在字型範例字元的「英數字」欄位輸入英文或數字。</value>
+  </data>
+  <data name="Nkm3SettingsPageGeneralControlViewModel_CheckProperties_Error_Empty" xml:space="preserve">
+    <value>請輸入字型範例字元。</value>
+  </data>
+  <data name="Nkm3SettingsPageGeneralControlViewModel_CheckProperties_Error_Kana" xml:space="preserve">
+    <value>字型範例字元的「假名」欄位請輸入假名字元。</value>
+  </data>
+  <data name="Nkm3SettingsPageGeneralControlViewModel_CheckProperties_Error_Length" xml:space="preserve">
+    <value>字型範例字元必須為 1 個字元。</value>
+  </data>
+  <data name="Nkm3SettingsPageGeneralControlViewModel_ColorSpecifyTypeNames_0" xml:space="preserve">
+    <value>RGBA 10 進位</value>
+  </data>
+  <data name="Nkm3SettingsPageGeneralControlViewModel_ColorSpecifyTypeNames_1" xml:space="preserve">
+    <value>Web 16 進位 + A 10 進位</value>
+  </data>
+  <data name="Nkm3SettingsPageMaintenanceControl_ButtonBackup.Content" xml:space="preserve">
+    <value>備份設定(B)…</value>
+  </data>
+  <data name="Nkm3SettingsPageMaintenanceControl_ButtonCheckRss.Content" xml:space="preserve">
+    <value>立即檢查最新資訊(A)</value>
+  </data>
+  <data name="Nkm3SettingsPageMaintenanceControl_ButtonRestore.Content" xml:space="preserve">
+    <value>還原設定(R)…</value>
+  </data>
+  <data name="Nkm3SettingsPageMaintenanceControl_TextBlockBackup.Text" xml:space="preserve">
+    <value>備份設定 (儲存至檔案)</value>
+  </data>
+  <data name="Nkm3SettingsPageMaintenanceControlViewModel_CheckBoxCheckRssContent" xml:space="preserve">
+    <value>自動檢查 {0} 的最新資訊(L)</value>
+  </data>
+  <data name="Nkm3SettingsPageMaintenanceControlViewModel_Confirm_CheckRss" xml:space="preserve">
+    <value>若停用最新資訊檢查，當 {0} 發布新版本時將不會顯示更新內容。
+
+確定要停用嗎？</value>
+  </data>
+  <data name="Nkm3SettingsPageMaintenanceControlViewModel_Error_Restore_UnableLoad" xml:space="preserve">
+    <value>無法讀取設定檔。</value>
+  </data>
+  <data name="Nkm3SettingsPageMaintenanceControlViewModel_Information_ButtonBackupClicked" xml:space="preserve">
+    <value>已備份設定。</value>
+  </data>
+  <data name="Nkm3SettingsPageMaintenanceControlViewModel_Information_ButtonRestoreClicked" xml:space="preserve">
+    <value>已還原設定。</value>
+  </data>
+  <data name="Nkm3SettingsPagePerformanceControl_CheckBoxUseMultiThread.Content" xml:space="preserve">
+    <value>以多執行緒算圖(M)</value>
+  </data>
+  <data name="Nkm3SettingsPagePerformanceControl_CheckBoxUseUseHardwareAdapter.Content" xml:space="preserve">
+    <value>使用硬體加速算圖(H)</value>
+  </data>
+  <data name="Nkm3SettingsPageReloadControl_CheckBoxReloadRunFontSelector.Content" xml:space="preserve">
+    <value>自動設定字型(F)</value>
+  </data>
+  <data name="Nkm3SettingsPageReloadControl_CheckBoxReloadRunLayoutSelector.Content" xml:space="preserve">
+    <value>自動設定版面配置(L)</value>
+  </data>
+  <data name="Nkm3SettingsPageReloadControl_CheckBoxReloadRunLineBreaker.Content" xml:space="preserve">
+    <value>自動設定分隔(B)</value>
+  </data>
+  <data name="Nkm3SettingsPageReloadControl_CheckBoxReloadRunShowTimeAdjuster.Content" xml:space="preserve">
+    <value>自動設定顯示開始與結束時間(T)</value>
+  </data>
+  <data name="Nkm3SettingsPageReloadControl_CheckBoxReloadRunSubtitleActionSelector.Content" xml:space="preserve">
+    <value>自動設定動作(A)</value>
+  </data>
+  <data name="Nkm3SettingsPageReloadControl_TextBlockDescription_1.Text" xml:space="preserve">
+    <value>當歌詞檔更新時，將執行下列設定。</value>
+  </data>
+  <data name="Nkm3SettingsPageReloadControl_TextBlockDescription_2.Text" xml:space="preserve">
+    <value>已啟用的項目會自動套用設定。</value>
+  </data>
+  <data name="Nkm3SettingsPageReloadControl_TextBlockDescription_3.Text" xml:space="preserve">
+    <value>未啟用的項目會盡可能保留更新前的設定。</value>
+  </data>
+  <data name="Nkm3SettingsPageToastControl_CheckBoxLyrics.Content" xml:space="preserve">
+    <value>更新歌詞(L)</value>
+  </data>
+  <data name="Nkm3SettingsPageToastControl_CheckBoxMisc.Content" xml:space="preserve">
+    <value>其他(M)</value>
+  </data>
+  <data name="Nkm3SettingsPageToastControl_CheckBoxProject.Content" xml:space="preserve">
+    <value>專案及其元素(P)</value>
+  </data>
+  <data name="Nkm3SettingsPageToastControl_CheckBoxTemplate.Content" xml:space="preserve">
+    <value>範本(T)</value>
+  </data>
+  <data name="Nkm3SettingsPageToastControl_TextBlockDescription_1.Text" xml:space="preserve">
+    <value>針對下列分類進行通知。</value>
+  </data>
+  <data name="Nkm3SettingsPageToastControl_TextBlockDescription_2.Text" xml:space="preserve">
+    <value>(註) 若在 OS 設定中關閉了通知，將不會發送通知。</value>
+  </data>
+  <data name="Nkm3SettingsPageViewModel_Confirm_ButtonDefaultClicked" xml:space="preserve">
+    <value>將所有偏好設定還原為預設值。
+確定要執行嗎？</value>
+  </data>
+  <data name="Nkm3SettingsWindow.Title" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>否</value>
+  </data>
+  <data name="NoAction_Description" xml:space="preserve">
+    <value>不進行動作</value>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>確定</value>
+  </data>
+  <data name="OutputPage_ButtonAbort.Content" xml:space="preserve">
+    <value>中止(A)</value>
+  </data>
+  <data name="OutputPage_ButtonNext.ToolTipService.ToolTip" xml:space="preserve">
+    <value>下一頁(N)</value>
+  </data>
+  <data name="OutputPage_ButtonPrev.ToolTipService.ToolTip" xml:space="preserve">
+    <value>上一頁(P)</value>
+  </data>
+  <data name="OutputPage_TextBlockLatestInfo.Text" xml:space="preserve">
+    <value>最新資訊</value>
+  </data>
+  <data name="OutputPageViewModel_Confirm_ButtonAbortClicked" xml:space="preserve">
+    <value>確定要中止輸出影片嗎？</value>
+  </data>
+  <data name="OutputPageViewModel_Error_FreeSpaceString" xml:space="preserve">
+    <value>無法取得可用空間。</value>
+  </data>
+  <data name="OutputPageViewModel_Error_Prepare" xml:space="preserve">
+    <value>無法準備影片輸出。</value>
+  </data>
+  <data name="OutputPageViewModel_FreeSpaceString" xml:space="preserve">
+    <value>可用空間：{0} GB</value>
+  </data>
+  <data name="OutputPageViewModel_Information_NoInfo" xml:space="preserve">
+    <value>(未取得最新資訊)</value>
+  </data>
+  <data name="OutputPageViewModel_Information_PageLoaded_Done" xml:space="preserve">
+    <value>影片輸出完成。
+
+耗時：{0}</value>
+  </data>
+  <data name="OutputPageViewModel_OutputStatus_0" xml:space="preserve">
+    <value>準備中…</value>
+  </data>
+  <data name="OutputPageViewModel_OutputStatus_1" xml:space="preserve">
+    <value>準備字幕資料中…</value>
+  </data>
+  <data name="OutputPageViewModel_OutputStatus_2" xml:space="preserve">
+    <value>輸出中…</value>
+  </data>
+  <data name="OutputPageViewModel_OutputStatus_3" xml:space="preserve">
+    <value>完成</value>
+  </data>
+  <data name="OutputPageViewModel_UpdateEstimate_Hour" xml:space="preserve">
+    <value>剩餘：{0} 小時 {1} 分鐘</value>
+  </data>
+  <data name="OutputPageViewModel_UpdateEstimate_Minute" xml:space="preserve">
+    <value>剩餘：{0} 分鐘</value>
+  </data>
+  <data name="OutputPageViewModel_UpdateEstimate_Second" xml:space="preserve">
+    <value>剩餘：{0} 秒</value>
+  </data>
+  <data name="OutputPageViewModel_UpdateEstimate_Soon" xml:space="preserve">
+    <value>即將完成…</value>
+  </data>
+  <data name="OutputPageViewModel_UpdateSettings_Delimiter" xml:space="preserve">
+    <value>、</value>
+  </data>
+  <data name="OutputPageViewModel_UpdateSettings_DestFormat" xml:space="preserve">
+    <value>輸出格式：{0}</value>
+  </data>
+  <data name="OutputPageViewModel_UpdateSettings_DoubleFrame" xml:space="preserve">
+    <value>(讓字幕刷色的平滑度提升 2 倍)</value>
+  </data>
+  <data name="OutputWindow.Title" xml:space="preserve">
+    <value>影片輸出</value>
+  </data>
+  <data name="PartFontSelector_Chorus" xml:space="preserve">
+    <value>合唱</value>
+  </data>
+  <data name="PartFontSelector_Description" xml:space="preserve">
+    <value>為主歌詞聲部和其他聲部 (如合唱等) 設定不同的字型。</value>
+  </data>
+  <data name="PartFontSelector_Name" xml:space="preserve">
+    <value>按聲部設定字型</value>
+  </data>
+  <data name="ProjectDataModel_CreateLyricsFont_SettingsName_0" xml:space="preserve">
+    <value>標準配色</value>
+  </data>
+  <data name="ProjectDataModel_CreateLyricsFont_SettingsName_1" xml:space="preserve">
+    <value>藍色配色</value>
+  </data>
+  <data name="ProjectDataModel_CreateLyricsFont_SettingsName_2" xml:space="preserve">
+    <value>綠色配色</value>
+  </data>
+  <data name="ProjectDataModel_CreateLyricsFont_SettingsName_3" xml:space="preserve">
+    <value>漸層配色</value>
+  </data>
+  <data name="ProjectDataModel_CreateLyricsFont_SettingsName_4" xml:space="preserve">
+    <value>合唱配色</value>
+  </data>
+  <data name="ProjectDataModel_CreateLyricsFont_SettingsName_5" xml:space="preserve">
+    <value>資訊 (小)</value>
+  </data>
+  <data name="ProjectDataModel_CreateLyricsFont_SettingsName_6" xml:space="preserve">
+    <value>資訊 (中)</value>
+  </data>
+  <data name="ProjectDataModel_CreateLyricsFont_SettingsName_7" xml:space="preserve">
+    <value>資訊 (大)</value>
+  </data>
+  <data name="ProjectDataModel_CreateLyricsLayout_SettingsName_0" xml:space="preserve">
+    <value>靠下 2 行</value>
+  </data>
+  <data name="ProjectDataModel_CreateLyricsLayout_SettingsName_1" xml:space="preserve">
+    <value>靠下 3 行</value>
+  </data>
+  <data name="ProjectDataModel_CreateLyricsLayout_SettingsName_2" xml:space="preserve">
+    <value>靠上 2 行</value>
+  </data>
+  <data name="ProjectDataModel_CreateLyricsLayout_SettingsName_3" xml:space="preserve">
+    <value>合唱</value>
+  </data>
+  <data name="ProjectDataModel_CreateLyricsLayout_SettingsName_4" xml:space="preserve">
+    <value>標題左上</value>
+  </data>
+  <data name="ProjectDataModel_CreateLyricsLayout_SettingsName_5" xml:space="preserve">
+    <value>標題置中</value>
+  </data>
+  <data name="ProjectDataModel_CreateTitleInfoModel_Title" xml:space="preserve">
+    <value>標題</value>
+  </data>
+  <data name="ProjectDataModel_DestFormat_Undo" xml:space="preserve">
+    <value>輸出格式</value>
+  </data>
+  <data name="ProjectDataModel_DestPath_Undo" xml:space="preserve">
+    <value>輸出檔名</value>
+  </data>
+  <data name="ProjectDataModel_DoubleFrame_Undo" xml:space="preserve">
+    <value>讓字幕刷色的平滑度提升 2 倍</value>
+  </data>
+  <data name="ProjectDataModel_ModelName" xml:space="preserve">
+    <value>專案</value>
+  </data>
+  <data name="ProjectDataModel_Mp4SettingsIndex_Undo" xml:space="preserve">
+    <value>MP4 設定</value>
+  </data>
+  <data name="ProjectDataModel_ProjectName_New" xml:space="preserve">
+    <value>新增專案</value>
+  </data>
+  <data name="ProjectDataModel_ProjectName_Old" xml:space="preserve">
+    <value>舊專案</value>
+  </data>
+  <data name="ProjectDataModel_SourceInfo_Undo" xml:space="preserve">
+    <value>素材資訊</value>
+  </data>
+  <data name="RenamePageViewModel_ButtonOkClicked_Error_NameDuplicate" xml:space="preserve">
+    <value>範本中已儲存相同名稱。
+請使用其他名稱。</value>
+  </data>
+  <data name="RenamePageViewModel_ButtonOkClicked_Error_NameEmpty" xml:space="preserve">
+    <value>請輸入名稱。</value>
+  </data>
+  <data name="RenameWindow.Title" xml:space="preserve">
+    <value>變更名稱</value>
+  </data>
+  <data name="SaveProjectTemplatePage_CheckBoxFont.Content" xml:space="preserve">
+    <value>字型設定</value>
+  </data>
+  <data name="SaveProjectTemplatePage_CheckBoxLayout.Content" xml:space="preserve">
+    <value>版面配置設定</value>
+  </data>
+  <data name="SaveProjectTemplatePage_CheckBoxOutput.Content" xml:space="preserve">
+    <value>影片輸出</value>
+  </data>
+  <data name="SaveProjectTemplatePage_CheckBoxSource.Content" xml:space="preserve">
+    <value>背景素材</value>
+  </data>
+  <data name="SaveProjectTemplatePage_CheckBoxSynchronizeAll.Content" xml:space="preserve">
+    <value>開啟所有字型設定與版面配置設定的同步</value>
+  </data>
+  <data name="SaveProjectTemplatePage_CheckBoxTitle.Content" xml:space="preserve">
+    <value>標題設定</value>
+  </data>
+  <data name="SaveProjectTemplatePage_TextBlockDescription.Text" xml:space="preserve">
+    <value>將目前專案儲存為範本。</value>
+  </data>
+  <data name="SaveProjectTemplatePage_TextBlockElements.Text" xml:space="preserve">
+    <value>請選擇要包含在範本中的元素。</value>
+  </data>
+  <data name="SaveProjectTemplatePage_TextBlockName.Text" xml:space="preserve">
+    <value>範本名稱：</value>
+  </data>
+  <data name="SaveProjectTemplatePage_TextBlockSynchronizeAll.Text" xml:space="preserve">
+    <value>若要在範本中包含字型設定及版面配置設定，</value>
+  </data>
+  <data name="SaveProjectTemplatePageViewModel_ButtonOkClicked_Error_DuplicateName" xml:space="preserve">
+    <value>已儲存了同名的範本。
+請變更範本名稱。</value>
+  </data>
+  <data name="SaveProjectTemplatePageViewModel_ButtonOkClicked_Error_EmptyElement" xml:space="preserve">
+    <value>請選擇要包含在範本中的元素。</value>
+  </data>
+  <data name="SaveProjectTemplatePageViewModel_ButtonOkClicked_Error_EmptyName" xml:space="preserve">
+    <value>請輸入範本名稱。</value>
+  </data>
+  <data name="SaveProjectTemplateWindow.Title" xml:space="preserve">
+    <value>將專案儲存為範本</value>
+  </data>
+  <data name="SelectTemplatePage_ButtonDelete.Content" xml:space="preserve">
+    <value>刪除(D)</value>
+  </data>
+  <data name="SelectTemplatePage_ButtonRename.Content" xml:space="preserve">
+    <value>變更名稱(R)</value>
+  </data>
+  <data name="SelectTemplatePage_TextBlockDescription.Text" xml:space="preserve">
+    <value>請選擇要使用的範本。</value>
+  </data>
+  <data name="SelectTemplatePageViewModel_UpdateStock_Default" xml:space="preserve">
+    <value>(標準)</value>
+  </data>
+  <data name="SelectTemplatePageViewModelT_ButtonDeleteClicked_Confirm" xml:space="preserve">
+    <value>將刪除「{0}」。
+確定要刪除嗎？
+
+(註)
+若開啟使用「{0}」的專案，該範本可能會被還原。</value>
+  </data>
+  <data name="SelectTemplatePageViewModelT_ButtonDeleteClicked_Error_NoSelect" xml:space="preserve">
+    <value>請選擇要刪除的範本。</value>
+  </data>
+  <data name="SelectTemplatePageViewModelT_ButtonRenameClicked_Error_NoSelect" xml:space="preserve">
+    <value>請選擇要變更名稱的範本。</value>
+  </data>
+  <data name="SelectTemplatePageViewModelT_ButtonRenameClicked_Error_UnableLoad" xml:space="preserve">
+    <value>無法讀取已儲存的範本。</value>
+  </data>
+  <data name="SelectTemplateWindow_TemplateKind_0" xml:space="preserve">
+    <value>標題</value>
+  </data>
+  <data name="SelectTemplateWindow_TemplateKind_1" xml:space="preserve">
+    <value>字型設定</value>
+  </data>
+  <data name="SelectTemplateWindow_TemplateKind_2" xml:space="preserve">
+    <value>版面配置設定</value>
+  </data>
+  <data name="SelectTemplateWindow_TemplateKind_3" xml:space="preserve">
+    <value>專案</value>
+  </data>
+  <data name="SelectTemplateWindow_Title_Misc" xml:space="preserve">
+    <value>使用{0}範本</value>
+  </data>
+  <data name="SelectTemplateWindow_Title_Project" xml:space="preserve">
+    <value>新增{0}</value>
+  </data>
+  <data name="SeqLinesBreaker_Description" xml:space="preserve">
+    <value>原則上會依據指定的行數設定換頁。
+若刷色時間點不連續，則會忽略行數設定，改以時間差判定段落分隔。</value>
+  </data>
+  <data name="SeqLinesBreaker_Name" xml:space="preserve">
+    <value>每隔一定行數設定換頁</value>
+  </data>
+  <data name="SeqLinesBreakerSettingsModel_SeqDescription" xml:space="preserve">
+    <value>各行 ({0}～{1})</value>
+  </data>
+  <data name="SettingsAddOnPage_ButtonDefault.Content" xml:space="preserve">
+    <value>還原為預設值(I)</value>
+  </data>
+  <data name="SettingsAddOnPage_CheckBoxRunFontSelector.Content" xml:space="preserve">
+    <value>自動設定字型(F)</value>
+  </data>
+  <data name="SettingsAddOnPage_CheckBoxRunLayoutSelector.Content" xml:space="preserve">
+    <value>自動設定版面配置(L)</value>
+  </data>
+  <data name="SettingsAddOnPage_CheckBoxRunShowTimeAdjuster.Content" xml:space="preserve">
+    <value>自動設定顯示開始與結束時間(T)</value>
+  </data>
+  <data name="SettingsAddOnPage_CheckBoxRunSubtitleActionSelector.Content" xml:space="preserve">
+    <value>自動設定動作(A)</value>
+  </data>
+  <data name="SettingsAddOnPage_TextBlockAddOnIndex.Text" xml:space="preserve">
+    <value>設定方式(H)：</value>
+  </data>
+  <data name="SettingsAddOnPage_TextBlockContinue.Text" xml:space="preserve">
+    <value>設定完成後，將自動執行以下設定。</value>
+  </data>
+  <data name="SettingsAddOnPage_TextBlockSettings.Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="SettingsAddOnPageCharFadeInFadeOutControl_CheckBoxDelayInlineGraphics.Content" xml:space="preserve">
+    <value>延遲內嵌圖形的淡出(D)</value>
+  </data>
+  <data name="SettingsAddOnPageCharFadeInFadeOutControl_CheckBoxDelayInlineGraphics.ToolTipService.ToolTip" xml:space="preserve">
+    <value>將內嵌圖形作為區分歌詞聲部的圖示使用時，
+開啟此選項會較容易看清楚</value>
+  </data>
+  <data name="SettingsAddOnPageCharFadeInFadeOutControl_CheckBoxWholeFadeOut.Content" xml:space="preserve">
+    <value>以顯示結束時間為基準淡出 (以類似淡入的方式淡出)(E)</value>
+  </data>
+  <data name="SettingsAddOnPageCharFadeInFadeOutControl_TextBlockIntroDelay.Text" xml:space="preserve">
+    <value>開頭與結尾的時間差(L)：</value>
+  </data>
+  <data name="SettingsAddOnPageCharFadeInFadeOutControl_TextBlockTailDelay.Text" xml:space="preserve">
+    <value>句尾文字開始消失前的延遲時間(T)：</value>
+  </data>
+  <data name="SettingsAddOnPageEmptyLineBreakerControl_TextBlockDescription.Text" xml:space="preserve">
+    <value>根據以下設定來判定段落分隔。</value>
+  </data>
+  <data name="SettingsAddOnPageLineFadeControl_TextBlockFadeInTime.Text" xml:space="preserve">
+    <value>淡入時間(N)：</value>
+  </data>
+  <data name="SettingsAddOnPageLineFadeControl_TextBlockFadeOutTime.Text" xml:space="preserve">
+    <value>淡出時間(U)：</value>
+  </data>
+  <data name="SettingsAddOnPageLinesLayoutSelectorControl_TextBlockBegin.Text" xml:space="preserve">
+    <value>要套用的版面配置範圍(L)：</value>
+  </data>
+  <data name="SettingsAddOnPageLinesLayoutSelectorControl_TextBlockDescription.Text" xml:space="preserve">
+    <value>將套用上述範圍內的版面配置。</value>
+  </data>
+  <data name="SettingsAddOnPageLinesLayoutSelectorControl_TextBlockEnd.Text" xml:space="preserve">
+    <value>～</value>
+  </data>
+  <data name="SettingsAddOnPageNoSettingsControl_TextBlockNoSettings.Text" xml:space="preserve">
+    <value>(無設定項目)</value>
+  </data>
+  <data name="SettingsAddOnPagePartFontSelectorControl_CheckBoxAutoChorus.Content" xml:space="preserve">
+    <value>自動區分歌詞合唱部分的顏色(C)</value>
+  </data>
+  <data name="SettingsAddOnPagePartFontSelectorControl_CheckBoxContinueLyricsCharToFont.Content" xml:space="preserve">
+    <value>換行後仍維持(G)</value>
+  </data>
+  <data name="SettingsAddOnPagePartFontSelectorControl_CheckBoxLyricsCharToFont.Content" xml:space="preserve">
+    <value>套用與歌詞文字相同名稱的字型設定(F)</value>
+  </data>
+  <data name="SettingsAddOnPagePartFontSelectorControl_HyperlinkButtonHelp.Content" xml:space="preserve">
+    <value>詳細資訊</value>
+  </data>
+  <data name="SettingsAddOnPagePartFontSelectorControl_TextBlockAutoChorusBeginChars.Text" xml:space="preserve">
+    <value>合唱開始字元(B)：</value>
+  </data>
+  <data name="SettingsAddOnPagePartFontSelectorControl_TextBlockAutoChorusEndChars.Text" xml:space="preserve">
+    <value>合唱結束字元(E)：</value>
+  </data>
+  <data name="SettingsAddOnPagePartFontSelectorControl_TextBlockChorusFont.Text" xml:space="preserve">
+    <value>合唱字型(F)：</value>
+  </data>
+  <data name="SettingsAddOnPageSeqLinesBreakerControl_TextBlockDescription.Text" xml:space="preserve">
+    <value>根據以下設定來判定段落分隔。</value>
+  </data>
+  <data name="SettingsAddOnPageSeqLinesBreakerControl_TextBlockSeq.Text" xml:space="preserve">
+    <value>設定換頁的行數(L)：</value>
+  </data>
+  <data name="SettingsAddOnPageSlideUpDownControl_CheckBoxFadeIn.Content" xml:space="preserve">
+    <value>淡入(N)</value>
+  </data>
+  <data name="SettingsAddOnPageSlideUpDownControl_CheckBoxFadeOut.Content" xml:space="preserve">
+    <value>淡出(U)</value>
+  </data>
+  <data name="SettingsAddOnPageSlideUpDownControl_TextBlockFadeDetail.Text" xml:space="preserve">
+    <value>淡入淡出詳細設定</value>
+  </data>
+  <data name="SettingsAddOnPageSlideUpDownControl_TextBlockSlideAmountDescription.Text" xml:space="preserve">
+    <value>(正數為向下滑動，負數為向上滑動)</value>
+  </data>
+  <data name="SettingsAddOnPageSlideUpDownControl_TextBlockSlideAmountSize.Text" xml:space="preserve">
+    <value>上下滑動量(S)：</value>
+  </data>
+  <data name="SettingsAddOnPageSlideUpDownControl_TextBlockSlideAmountUnit.Text" xml:space="preserve">
+    <value>px/秒</value>
+  </data>
+  <data name="SettingsAddOnPageTopShortAdjusterControl_CheckBoxManualProtectTime.Content" xml:space="preserve">
+    <value>限進階使用者：切換時間較短時手動設定顯示保護時間(M)</value>
+  </data>
+  <data name="SettingsAddOnPageTopShortAdjusterControl_TextBlockIntervalTime2.Text" xml:space="preserve">
+    <value>歌詞顯示間隔(4)：</value>
+  </data>
+  <data name="SettingsAddOnPageTopShortAdjusterControl_TextBlockManualProtectTime.Text" xml:space="preserve">
+    <value>顯示保護時間(3)：</value>
+  </data>
+  <data name="SettingsAddOnPageTopShortAdjusterControl_TextBlockPostTime2.Text" xml:space="preserve">
+    <value>刷色後的顯示時間(2)：</value>
+  </data>
+  <data name="SettingsAddOnPageTopShortAdjusterControl_TextBlockPreTime2.Text" xml:space="preserve">
+    <value>刷色前的顯示時間(1)：</value>
+  </data>
+  <data name="SettingsAddOnPageTopShortAdjusterControl_TextBoxManualProtectTime.ToolTipService.ToolTip" xml:space="preserve">
+    <value>設定值請勿超過刷色前與刷色後的顯示時間。</value>
+  </data>
+  <data name="SettingsAddOnPageTopShortAdjusterControl_TextBoxPostTime2.ToolTipService.ToolTip" xml:space="preserve">
+    <value>當動作為「烏托邦」時，將刷色後的顯示時間設定為 1000 [ms] 以上，句尾的特效會較流暢美觀。</value>
+  </data>
+  <data name="SettingsAddOnPageUnificationFontSelectorControl_TextBlockFont.Text" xml:space="preserve">
+    <value>使用的字型(F)：</value>
+  </data>
+  <data name="SettingsAddOnPageUnificationLayoutSelectorControl_TextBlockLayout.Text" xml:space="preserve">
+    <value>使用的版面配置(L)：</value>
+  </data>
+  <data name="SettingsAddOnPageUnificationSubtitleActionSelectorControl_ButtonEditAction.ToolTipService.ToolTip" xml:space="preserve">
+    <value>編輯字幕動作…</value>
+  </data>
+  <data name="SettingsAddOnPageUnificationSubtitleActionSelectorControl_TextBlockSubtitleAction.Text" xml:space="preserve">
+    <value>使用的字幕動作(U)：</value>
+  </data>
+  <data name="SettingsAddOnPageUtopiaControl_CheckBoxDelayInlineGraphics.Content" xml:space="preserve">
+    <value>延遲內嵌圖形的淡出(D)</value>
+  </data>
+  <data name="SettingsAddOnPageUtopiaControl_CheckBoxDelayInlineGraphics.ToolTipService.ToolTip" xml:space="preserve">
+    <value>將內嵌圖形作為區分歌詞聲部的圖示使用時，
+開啟此選項會較容易看清楚</value>
+  </data>
+  <data name="SettingsAddOnPageUtopiaControl_TextBlockTailDelay.Text" xml:space="preserve">
+    <value>句尾文字開始消失前的延遲時間(T)：</value>
+  </data>
+  <data name="SettingsAddOnPageViewModel_ButtonDefaultClicked_Confirm" xml:space="preserve">
+    <value>將所有設定還原為預設值。
+確定要執行嗎？</value>
+  </data>
+  <data name="SettingsNameModel_AdjustSettingName_New" xml:space="preserve">
+    <value>新增</value>
+  </data>
+  <data name="SettingsNameModel_SettingsName_Undo" xml:space="preserve">
+    <value>{0}設定 {1} 的名稱</value>
+  </data>
+  <data name="SettingsNameModel_SettingsNameLabel" xml:space="preserve">
+    <value>{0}設定 {1} 的名稱(N)：</value>
+  </data>
+  <data name="ShowTimeAdjusterPageViewModel_PageDescription" xml:space="preserve">
+    <value>自動設定所有行的顯示開始時間與顯示結束時間。</value>
+  </data>
+  <data name="ShowTimeAdjusterPageViewModel_Title" xml:space="preserve">
+    <value>自動設定顯示開始與結束時間</value>
+  </data>
+  <data name="SlideUpDown_Description" xml:space="preserve">
+    <value>將整行向上或向下滑動</value>
+  </data>
+  <data name="SlideUpDown_Name" xml:space="preserve">
+    <value>上下滑動</value>
+  </data>
+  <data name="SourceInfoModel_BackgroundColor_Undo" xml:space="preserve">
+    <value>背景色</value>
+  </data>
+  <data name="SourceInfoModel_BackgroundHeight_Undo" xml:space="preserve">
+    <value>解析度 (垂直)</value>
+  </data>
+  <data name="SourceInfoModel_BackgroundWidth_Undo" xml:space="preserve">
+    <value>解析度 (水平)</value>
+  </data>
+  <data name="SourceInfoModel_Fps_Undo" xml:space="preserve">
+    <value>影格率</value>
+  </data>
+  <data name="SourceInfoModel_ImagePath_Undo" xml:space="preserve">
+    <value>圖片檔名</value>
+  </data>
+  <data name="SourceInfoModel_MoviePath_Undo" xml:space="preserve">
+    <value>作為原曲的影片檔名</value>
+  </data>
+  <data name="SourceInfoModel_MoviePlusSound_Undo" xml:space="preserve">
+    <value>使用其他檔案的音訊</value>
+  </data>
+  <data name="SourceInfoModel_SoundTrackList_Undo" xml:space="preserve">
+    <value>音訊檔</value>
+  </data>
+  <data name="SourceInfoModel_SourceKind_Undo" xml:space="preserve">
+    <value>背景素材類型</value>
+  </data>
+  <data name="SpinFlip_Description" xml:space="preserve">
+    <value>每個字元會同時旋轉與翻轉</value>
+  </data>
+  <data name="SpinFlip_Name" xml:space="preserve">
+    <value>旋轉翻轉 (Spin Flip)</value>
+  </data>
+  <data name="SplashPage_TextBlockAppName.Text" xml:space="preserve">
+    <value>NicoKaraMaker 3</value>
+  </data>
+  <data name="SplashPage_TextBlockStarting.Text" xml:space="preserve">
+    <value>正在啟動…</value>
+  </data>
+  <data name="SubtitleActionSelectorPageViewModel_PageDescription" xml:space="preserve">
+    <value>自動設定所有行的動作。</value>
+  </data>
+  <data name="SubtitleActionSelectorPageViewModel_Title" xml:space="preserve">
+    <value>自動設定動作</value>
+  </data>
+  <data name="TitleInfoControl_ButtonEditShowTime.ToolTipService.ToolTip" xml:space="preserve">
+    <value>編輯顯示時間(S)…</value>
+  </data>
+  <data name="TitleInfoControl_TableViewColumnFont.Header" xml:space="preserve">
+    <value>字型</value>
+  </data>
+  <data name="TitleInfoControl_TableViewColumnSubtitleAction.Header" xml:space="preserve">
+    <value>動作</value>
+  </data>
+  <data name="TitleInfoControl_TableViewColumnTitle.Header" xml:space="preserve">
+    <value>標題</value>
+  </data>
+  <data name="TitleInfoControl_TextBlockLayout.Text" xml:space="preserve">
+    <value>版面配置(L)：</value>
+  </data>
+  <data name="TitleInfoControl_TextBlockShowTime.Text" xml:space="preserve">
+    <value>顯示時間(S)：</value>
+  </data>
+  <data name="TitleInfoModel_ModelName" xml:space="preserve">
+    <value>標題</value>
+  </data>
+  <data name="ToastHistoryPage_TextBlockDescription.Text" xml:space="preserve">
+    <value>包含因偏好設定或 OS 設定而關閉通知的歷史記錄也會顯示於此。</value>
+  </data>
+  <data name="ToastHistoryWindow_Title" xml:space="preserve">
+    <value>通知記錄</value>
+  </data>
+  <data name="TopLongAdjuster_Description" xml:space="preserve">
+    <value>為了讓與下行歌詞的銜接更自然，上行歌詞會盡量顯示久一點。
+中段的時間點將隨版面配置的垂直位置而改變。
+這是與初代 NicoKaraMaker 的顯示時間相同的標準設定方式。</value>
+  </data>
+  <data name="TopLongAdjuster_Name" xml:space="preserve">
+    <value>較長時間顯示上行歌詞</value>
+  </data>
+  <data name="TopShortAdjuster_Description" xml:space="preserve">
+    <value>為了不干擾背景影片，上行歌詞會在刷色後儘快消失。</value>
+  </data>
+  <data name="TopShortAdjuster_Name" xml:space="preserve">
+    <value>讓上行歌詞儘快消失</value>
+  </data>
+  <data name="UndoManager_UpdateCanUndoAndRedo_Error_CannotRedo" xml:space="preserve">
+    <value>無法重做</value>
+  </data>
+  <data name="UndoManager_UpdateCanUndoAndRedo_Error_CannotUndo" xml:space="preserve">
+    <value>無法復原</value>
+  </data>
+  <data name="UndoManager_UpdateCanUndoAndRedo_Information_Redo" xml:space="preserve">
+    <value>重做(R) - {0}</value>
+  </data>
+  <data name="UndoManager_UpdateCanUndoAndRedo_Information_Undo" xml:space="preserve">
+    <value>復原(U) - {0}</value>
+  </data>
+  <data name="UnificationFontSelector_Description" xml:space="preserve">
+    <value>全部統一為相同的字型。</value>
+  </data>
+  <data name="UnificationFontSelector_Name" xml:space="preserve">
+    <value>全部設定為相同的字型</value>
+  </data>
+  <data name="UnificationLayoutSelector_Description" xml:space="preserve">
+    <value>全部統一為相同的版面配置。</value>
+  </data>
+  <data name="UnificationLayoutSelector_Name" xml:space="preserve">
+    <value>全部設定為相同的版面配置</value>
+  </data>
+  <data name="UnificationSubtitleActionSelector_Description" xml:space="preserve">
+    <value>全部統一為相同的字幕動作。</value>
+  </data>
+  <data name="UnificationSubtitleActionSelector_Name" xml:space="preserve">
+    <value>全部設定為相同的字幕動作</value>
+  </data>
+  <data name="Utopia_Description" xml:space="preserve">
+    <value>刷色後的文字一邊扭轉一邊消失</value>
+  </data>
+  <data name="Utopia_Name" xml:space="preserve">
+    <value>烏托邦 (Utopia)</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>警告</value>
+  </data>
+  <data name="WarningsPage_ToggleButtonInformations.ToolTipService.ToolTip" xml:space="preserve">
+    <value>顯示資訊(I)</value>
+  </data>
+  <data name="WarningsPage_ToggleButtonWarnings.ToolTipService.ToolTip" xml:space="preserve">
+    <value>顯示警告(W)</value>
+  </data>
+  <data name="WarningsWindow_Title" xml:space="preserve">
+    <value>警告與資訊清單</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>是</value>
+  </data>
+</root>
