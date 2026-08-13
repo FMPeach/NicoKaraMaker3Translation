@@ -12,11 +12,11 @@
     
     Example:
     
-    … ado.net/XML headers & schema …
+    ... ado.net/XML headers & schema ...
     <resheader name="resmimetype">text/microsoft-resx</resheader>
     <resheader name="version">2.0</resheader>
-    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, …</resheader>
-    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, …</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
     <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
     <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
     <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
@@ -212,107 +212,6 @@
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>取消</value>
-  </data>
-  <data name="Cfm2SettingsNavigationMaintenancePage_ButtonBackup.Content" xml:space="preserve">
-    <value>備份設定(B)</value>
-  </data>
-  <data name="Cfm2SettingsNavigationMaintenancePage_ButtonCheckRss.Content" xml:space="preserve">
-    <value>立即檢查最新資訊(A)</value>
-  </data>
-  <data name="Cfm2SettingsNavigationMaintenancePage_ButtonRestore.Content" xml:space="preserve">
-    <value>還原設定(R)</value>
-  </data>
-  <data name="Cfm2SettingsNavigationMaintenancePage_CheckBoxCheckRss_Content" xml:space="preserve">
-    <value>自動檢查 {0} 的最新資訊(L)</value>
-  </data>
-  <data name="Cfm2SettingsNavigationMaintenancePage_TextBlockBackup.Text" xml:space="preserve">
-    <value>備份設定 (儲存至檔案)</value>
-  </data>
-  <data name="Cfm2SettingsNavigationMaintenancePageViewModel_Confirm_CheckRss" xml:space="preserve">
-    <value>若停用最新資訊檢查，當 {0} 發布新版本時將不會顯示更新內容。
-確定要停用嗎？</value>
-  </data>
-  <data name="Cfm2SettingsNavigationMaintenancePageViewModel_Confirm_LoadSettingsArchiveAsync" xml:space="preserve">
-    <value>正在嘗試還原不同版本的設定。
-可能無法正常還原，確定要還原嗎？</value>
-  </data>
-  <data name="Cfm2SettingsNavigationMaintenancePageViewModel_Done_ButtonBackupClicked" xml:space="preserve">
-    <value>已備份設定。</value>
-  </data>
-  <data name="Cfm2SettingsNavigationMaintenancePageViewModel_Done_ButtonRestoreClicked" xml:space="preserve">
-    <value>已還原設定。</value>
-  </data>
-  <data name="Cfm2SettingsNavigationMaintenancePageViewModel_Error_ButtonBackupClicked" xml:space="preserve">
-    <value>按一下備份設定按鈕時發生錯誤：</value>
-  </data>
-  <data name="Cfm2SettingsNavigationMaintenancePageViewModel_Error_ButtonCheckRssClicked" xml:space="preserve">
-    <value>立即檢查最新資訊時發生錯誤：</value>
-  </data>
-  <data name="Cfm2SettingsNavigationMaintenancePageViewModel_Error_ButtonRestoreClicked" xml:space="preserve">
-    <value>按一下還原設定按鈕時發生錯誤：</value>
-  </data>
-  <data name="Cfm2SettingsNavigationMaintenancePageViewModel_Error_LoadSettingsArchiveAsync_CannotLoad" xml:space="preserve">
-    <value>無法讀取設定檔。</value>
-  </data>
-  <data name="Cfm2SettingsNavigationMaintenancePageViewModel_Error_LoadSettingsArchiveAsync_CannotLoad2" xml:space="preserve">
-    <value>無法讀取設定檔中的設定。</value>
-  </data>
-  <data name="Cfm2SettingsNavigationSettingsPage_AnchorHint.Text" xml:space="preserve">
-    <value>(註) GenerateAnchorFiles 標籤的指定將優先套用。</value>
-  </data>
-  <data name="Cfm2SettingsNavigationSettingsPage_CheckBoxOverwriteAnchorFiles.Content" xml:space="preserve">
-    <value>覆寫現有的錨點檔(V)</value>
-  </data>
-  <data name="Cfm2SettingsNavigationSettingsPage_TextBlockAnchor_ToolTip.Content" xml:space="preserve">
-    <value>設定當指定 GenerateAnchorFiles 標籤時，要為哪個標題建立錨點檔。</value>
-  </data>
-  <data name="Cfm2SettingsNavigationSettingsPage_TextBlockAnchor.Text" xml:space="preserve">
-    <value>要建立錨點檔的標題</value>
-  </data>
-  <data name="Cfm2SettingsNavigationSettingsPage_TextBlockToc_ToolTip.Content" xml:space="preserve">
-    <value>設定當指定 Toc 標籤時，要為哪個標題建立目錄。</value>
-  </data>
-  <data name="Cfm2SettingsNavigationSettingsPage_TextBlockToc.Text" xml:space="preserve">
-    <value>要建立目錄的標題</value>
-  </data>
-  <data name="Cfm2SettingsNavigationSettingsPage_TextBlockTocHint.Text" xml:space="preserve">
-    <value>(註) Toc 標籤的指定將優先套用。</value>
-  </data>
-  <data name="Cfm2SettingsNavigationSettingsPageViewModel_Error_CheckProperties_AnchorFile" xml:space="preserve">
-    <value>請選擇至少 1 個要建立錨點檔的標題。
-(註) 若不想建立錨點檔，只要不使用 GenerateAnchorFiles 標籤即不會建立。</value>
-  </data>
-  <data name="Cfm2SettingsNavigationSettingsPageViewModel_Error_CheckProperties_Toc" xml:space="preserve">
-    <value>請選擇至少 1 個要建立目錄的標題。
-(註) 若不想插入目錄，只要不使用 Toc 標籤即不會插入。</value>
-  </data>
-  <data name="Cfm2SettingsPage_ButtonDefault.Content" xml:space="preserve">
-    <value>還原為預設值(I)</value>
-  </data>
-  <data name="Cfm2SettingsPage_NavigationViewItemMaintenance.Content" xml:space="preserve">
-    <value>維護</value>
-  </data>
-  <data name="Cfm2SettingsPage_NavigationViewItemSettings.Content" xml:space="preserve">
-    <value>設定</value>
-  </data>
-  <data name="Cfm2SettingsPageViewModel_Confirm_Default" xml:space="preserve">
-    <value>將所有設定還原為預設值。
-確定要執行嗎？</value>
-  </data>
-  <data name="Cfm2SettingsPageViewModel_Error_ButtonCancelClicked" xml:space="preserve">
-    <value>按一下取消按鈕時發生錯誤：</value>
-  </data>
-  <data name="Cfm2SettingsPageViewModel_Error_ButtonDefaultClicked" xml:space="preserve">
-    <value>按一下還原為預設值按鈕時發生錯誤：</value>
-  </data>
-  <data name="Cfm2SettingsPageViewModel_Error_ButtonOkClicked" xml:space="preserve">
-    <value>按一下確定按鈕時發生錯誤：</value>
-  </data>
-  <data name="Cfm2SettingsPageViewModel_Error_NavigationViewSelectionChanged" xml:space="preserve">
-    <value>選擇導覽時發生錯誤：</value>
-  </data>
-  <data name="Cfm2SettingsWindow_Title" xml:space="preserve">
-    <value>設定</value>
   </data>
   <data name="CharFadeInFadeOut_Description" xml:space="preserve">
     <value>錯開每個字元的淡入及淡出時間點</value>
