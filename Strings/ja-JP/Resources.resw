@@ -175,7 +175,7 @@
     <value>zip 版</value>
   </data>
   <data name="AudioPlayer_AudioPlayer_Error_BadAudio" xml:space="preserve">
-    <value>オーディオ再生環境に異常があります。</value>
+    <value>再生時に音が出ない場合は、オーディオ再生環境に異常があります。</value>
   </data>
   <data name="BrushInfoModel_Description_Bitmap" xml:space="preserve">
     <value>画像を貼り付けます。</value>
