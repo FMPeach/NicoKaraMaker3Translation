@@ -175,7 +175,7 @@
     <value>zip 版</value>
   </data>
   <data name="AudioPlayer_AudioPlayer_Error_BadAudio" xml:space="preserve">
-    <value>オーディオ再生環境に異常があります。</value>
+    <value>再生時に音が出ない場合は、オーディオ再生環境に異常があります。</value>
   </data>
   <data name="BrushInfoModel_Description_Bitmap" xml:space="preserve">
     <value>画像を貼り付けます。</value>
@@ -212,107 +212,6 @@
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>キャンセル</value>
-  </data>
-  <data name="Cfm2SettingsNavigationMaintenancePage_ButtonBackup.Content" xml:space="preserve">
-    <value>設定のバックアップ(B)</value>
-  </data>
-  <data name="Cfm2SettingsNavigationMaintenancePage_ButtonCheckRss.Content" xml:space="preserve">
-    <value>今すぐ最新情報を確認(A)</value>
-  </data>
-  <data name="Cfm2SettingsNavigationMaintenancePage_ButtonRestore.Content" xml:space="preserve">
-    <value>設定の復元(R)</value>
-  </data>
-  <data name="Cfm2SettingsNavigationMaintenancePage_CheckBoxCheckRss_Content" xml:space="preserve">
-    <value>{0} の最新情報を自動的に確認する(L)</value>
-  </data>
-  <data name="Cfm2SettingsNavigationMaintenancePage_TextBlockBackup.Text" xml:space="preserve">
-    <value>設定のバックアップ（ファイルに保存）</value>
-  </data>
-  <data name="Cfm2SettingsNavigationMaintenancePageViewModel_Confirm_CheckRss" xml:space="preserve">
-    <value>最新情報の確認を無効にすると、{0} の新版がリリースされた際の更新内容などが表示されません。
-本当に無効にしてもよろしいですか？</value>
-  </data>
-  <data name="Cfm2SettingsNavigationMaintenancePageViewModel_Confirm_LoadSettingsArchiveAsync" xml:space="preserve">
-    <value>異なるバージョンの設定を復元しようとしています。
-正常に復元できない可能性がありますが、復元しますか？</value>
-  </data>
-  <data name="Cfm2SettingsNavigationMaintenancePageViewModel_Done_ButtonBackupClicked" xml:space="preserve">
-    <value>設定のバックアップが完了しました。</value>
-  </data>
-  <data name="Cfm2SettingsNavigationMaintenancePageViewModel_Done_ButtonRestoreClicked" xml:space="preserve">
-    <value>設定を復元しました。</value>
-  </data>
-  <data name="Cfm2SettingsNavigationMaintenancePageViewModel_Error_ButtonBackupClicked" xml:space="preserve">
-    <value>設定のバックアップボタンクリック時エラー：</value>
-  </data>
-  <data name="Cfm2SettingsNavigationMaintenancePageViewModel_Error_ButtonCheckRssClicked" xml:space="preserve">
-    <value>今すぐ最新情報を確認時エラー：</value>
-  </data>
-  <data name="Cfm2SettingsNavigationMaintenancePageViewModel_Error_ButtonRestoreClicked" xml:space="preserve">
-    <value>設定の復元ボタンクリック時エラー：</value>
-  </data>
-  <data name="Cfm2SettingsNavigationMaintenancePageViewModel_Error_LoadSettingsArchiveAsync_CannotLoad" xml:space="preserve">
-    <value>設定ファイルを読み込めません。</value>
-  </data>
-  <data name="Cfm2SettingsNavigationMaintenancePageViewModel_Error_LoadSettingsArchiveAsync_CannotLoad2" xml:space="preserve">
-    <value>設定ファイル内の設定を読み込めません。</value>
-  </data>
-  <data name="Cfm2SettingsNavigationSettingsPage_AnchorHint.Text" xml:space="preserve">
-    <value>※GenerateAnchorFiles タグでの指定が優先されます。</value>
-  </data>
-  <data name="Cfm2SettingsNavigationSettingsPage_CheckBoxOverwriteAnchorFiles.Content" xml:space="preserve">
-    <value>既存のアンカーファイルを上書きする(V)</value>
-  </data>
-  <data name="Cfm2SettingsNavigationSettingsPage_TextBlockAnchor_ToolTip.Content" xml:space="preserve">
-    <value>GenerateAnchorFiles タグが指定された際、どの見出しに対するアンカーファイルを作成するか、を設定します。</value>
-  </data>
-  <data name="Cfm2SettingsNavigationSettingsPage_TextBlockAnchor.Text" xml:space="preserve">
-    <value>アンカーファイル作成対象</value>
-  </data>
-  <data name="Cfm2SettingsNavigationSettingsPage_TextBlockToc_ToolTip.Content" xml:space="preserve">
-    <value>Toc タグが指定された際、どの見出しに対する目次を作成するか、を設定します。</value>
-  </data>
-  <data name="Cfm2SettingsNavigationSettingsPage_TextBlockToc.Text" xml:space="preserve">
-    <value>目次対象</value>
-  </data>
-  <data name="Cfm2SettingsNavigationSettingsPage_TextBlockTocHint.Text" xml:space="preserve">
-    <value>※Toc タグでの指定が優先されます。</value>
-  </data>
-  <data name="Cfm2SettingsNavigationSettingsPageViewModel_Error_CheckProperties_AnchorFile" xml:space="preserve">
-    <value>アンカーファイル作成対象を 1 つ以上選択してください。
-※アンカーファイルを作成したくない場合は、GenerateAnchorFiles タグを使わなければ作成されません。</value>
-  </data>
-  <data name="Cfm2SettingsNavigationSettingsPageViewModel_Error_CheckProperties_Toc" xml:space="preserve">
-    <value>目次対象を 1 つ以上選択してください。
-※目次を挿入したくない場合は、Toc タグを使わなければ挿入されません。</value>
-  </data>
-  <data name="Cfm2SettingsPage_ButtonDefault.Content" xml:space="preserve">
-    <value>初期化(I)</value>
-  </data>
-  <data name="Cfm2SettingsPage_NavigationViewItemMaintenance.Content" xml:space="preserve">
-    <value>メンテナンス</value>
-  </data>
-  <data name="Cfm2SettingsPage_NavigationViewItemSettings.Content" xml:space="preserve">
-    <value>設定</value>
-  </data>
-  <data name="Cfm2SettingsPageViewModel_Confirm_Default" xml:space="preserve">
-    <value>環境設定をすべて初期設定に戻します。
-よろしいですか？</value>
-  </data>
-  <data name="Cfm2SettingsPageViewModel_Error_ButtonCancelClicked" xml:space="preserve">
-    <value>キャンセルボタンクリック時エラー：</value>
-  </data>
-  <data name="Cfm2SettingsPageViewModel_Error_ButtonDefaultClicked" xml:space="preserve">
-    <value>初期化ボタンクリック時エラー：</value>
-  </data>
-  <data name="Cfm2SettingsPageViewModel_Error_ButtonOkClicked" xml:space="preserve">
-    <value>OK ボタンクリック時エラー：</value>
-  </data>
-  <data name="Cfm2SettingsPageViewModel_Error_NavigationViewSelectionChanged" xml:space="preserve">
-    <value>ナビゲーション選択時エラー：</value>
-  </data>
-  <data name="Cfm2SettingsWindow_Title" xml:space="preserve">
-    <value>環境設定</value>
   </data>
   <data name="CharFadeInFadeOut_Description" xml:space="preserve">
     <value>文字ごとにフェードインおよびフェードアウトのタイミングをずらす</value>
