@@ -175,7 +175,7 @@
     <value>ZIP 版</value>
   </data>
   <data name="AudioPlayer_AudioPlayer_Error_BadAudio" xml:space="preserve">
-    <value>音频播放环境存在问题。</value>
+    <value>如果播放时没有声音，则音频播放环境存在问题。</value>
   </data>
   <data name="BrushInfoModel_Description_Bitmap" xml:space="preserve">
     <value>粘贴指定的图像。</value>
