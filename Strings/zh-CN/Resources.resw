@@ -175,7 +175,7 @@
     <value>ZIP 版</value>
   </data>
   <data name="AudioPlayer_AudioPlayer_Error_BadAudio" xml:space="preserve">
-    <value>音频播放环境存在问题。</value>
+    <value>如果播放时没有声音，则音频播放环境存在问题。</value>
   </data>
   <data name="BrushInfoModel_Description_Bitmap" xml:space="preserve">
     <value>粘贴指定的图像。</value>
@@ -678,11 +678,11 @@
     <value>字号：</value>
   </data>
   <data name="LyricsFontFaceControl_TextBlockCharSizeSizeNote_0.Text" xml:space="preserve">
-    <value>（如果为 0 ，将设置为：</value>
+    <value>（如果为 0 ，将使用</value>
     <comment>It seems that trailing spaces are not being recognized, so I'm putting a colon instead.</comment>
   </data>
   <data name="LyricsFontFaceControl_TextBlockCharSizeSizeNote_1.Text" xml:space="preserve">
-    <value>）</value>
+    <value>的值）</value>
   </data>
   <data name="LyricsFontFaceControl_TextBlockDetail.Text" xml:space="preserve">
     <value>详情：</value>
@@ -691,43 +691,43 @@
     <value>描边 2 宽度：</value>
   </data>
   <data name="LyricsFontFaceControl_TextBlockEdgeSize2SizeNote_0.Text" xml:space="preserve">
-    <value>（如果为 0 ，将设置为：</value>
+    <value>（如果为 0 ，将使用</value>
   </data>
   <data name="LyricsFontFaceControl_TextBlockEdgeSize2SizeNote_1.Text" xml:space="preserve">
-    <value>）</value>
+    <value>的值）</value>
   </data>
   <data name="LyricsFontFaceControl_TextBlockEdgeSizeSize.Text" xml:space="preserve">
     <value>描边宽度：</value>
   </data>
   <data name="LyricsFontFaceControl_TextBlockEdgeSizeSizeNote_0.Text" xml:space="preserve">
-    <value>（如果为 0 ，将设置为：</value>
+    <value>（如果为 0 ，将使用</value>
   </data>
   <data name="LyricsFontFaceControl_TextBlockEdgeSizeSizeNote_1.Text" xml:space="preserve">
-    <value>）</value>
+    <value>的值）</value>
   </data>
   <data name="LyricsFontFaceControl_TextBlockFontName.Text" xml:space="preserve">
     <value>字体：</value>
   </data>
   <data name="LyricsFontFaceControl_TextBlockFontNameNote_0.Text" xml:space="preserve">
-    <value>（如果留空，将设置为：</value>
+    <value>（如果留空，将使用</value>
   </data>
   <data name="LyricsFontFaceControl_TextBlockFontNameNote_1.Text" xml:space="preserve">
-    <value>）</value>
+    <value>的值）</value>
   </data>
   <data name="LyricsFontFaceControl_TextBlockUseEdge2Note_0.Text" xml:space="preserve">
-    <value>（如果为 -，则设置为：</value>
+    <value>（如果为 -，将使用</value>
   </data>
   <data name="LyricsFontFaceControl_TextBlockUseEdge2Note_1.Text" xml:space="preserve">
-    <value>）</value>
+    <value>的值）</value>
   </data>
   <data name="LyricsFontFaceControl_TextBlockXScale.Text" xml:space="preserve">
     <value>长宽比例：</value>
   </data>
   <data name="LyricsFontFaceControl_TextBlockXScaleNote_0.Text" xml:space="preserve">
-    <value>（如果为 0 ，将设置为：</value>
+    <value>（如果为 0 ，将使用</value>
   </data>
   <data name="LyricsFontFaceControl_TextBlockXScaleNote_1.Text" xml:space="preserve">
-    <value>）</value>
+    <value>的值）</value>
   </data>
   <data name="LyricsFontModel_BrushInfoModel_SettingsName_0" xml:space="preserve">
     <value>走字后 / 文字颜色</value>
